@@ -1,0 +1,7 @@
+utils\Helpers.class
+page\loginPage2.class
+BaseConfig\SetUp.class
+page\ObjectRepository.class
+BaseConfig\Base.class
+page\loginPage.class
+test\loginTest.class
