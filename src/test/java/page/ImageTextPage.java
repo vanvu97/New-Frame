@@ -63,7 +63,7 @@ public class ImageTextPage {
         File imageFile = new File(fileName);
         String ExtractedTextFromImage = ImageTextPage.getText(imageFile);
         System.out.println("The Text is: \n" + ExtractedTextFromImage.trim().replace("[,|)]", ""));
-        File output = new File("src/OutPut/x.txt");
+        File output = new File("OutPut/x.txt");
         FileWriter writer = new FileWriter(output);
         writer.write(ExtractedTextFromImage);
         writer.flush();
