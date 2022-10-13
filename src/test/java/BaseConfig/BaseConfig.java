@@ -14,6 +14,8 @@ import org.openqa.selenium.opera.OperaOptions;
 import org.testng.annotations.*;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BaseConfig {
     protected static WebDriver driver;
@@ -86,6 +88,9 @@ public class BaseConfig {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         js = (JavascriptExecutor) driver;
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("download.prompt_for_download", false);
+        options.setExperimentalOption("prefs", prefs);
         return driver;
     }
     private static WebDriver chromeBrowser(){
@@ -97,6 +102,9 @@ public class BaseConfig {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(35));
         js = (JavascriptExecutor) driver;
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("download.prompt_for_download", false);
+        options.setExperimentalOption("prefs", prefs);
         return driver;
     }
     private static WebDriver firefoxBrowser(){

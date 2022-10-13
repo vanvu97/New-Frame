@@ -10,4 +10,9 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RealProject" options="--add-exports jdk.httpserver/sun.net.httpserver.simpleserver=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

@@ -3,33 +3,47 @@ package test;
 import BaseConfig.BaseConfig;
 import management.CaptureManager;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import page.ImageTextPage;
 import page.LoginPage;
+import utils.GrayImage;
 
 import java.io.IOException;
 
-public class CaptureTest {
+import static page.ImageTextPage.imgIn;
+import static page.ImageTextPage.imgPath;
+import static utils.GrayImage.setA;
+import static utils.GrayImage.setB;
+
+public class grayImgTest {
+
     private WebDriver driver;
     private LoginPage login;
     private final String userName = "Admin";
     private final String passWord = "admin123";
+    private ImageTextPage imgPage;
+
+    public grayImgTest() {
+    }
 
     @BeforeClass
     public void setUp() {
         driver = new BaseConfig().setupBrowser("firefox");
+        imgPage = new ImageTextPage(driver);
     }
 
     @Test
     public void readData() throws IOException, InterruptedException {
-        login = new LoginPage(driver);
-        driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
-        login.login(userName, passWord);
-        Assert.assertEquals(driver.getTitle(), "Test");
+
+        imgPage.grayImage();
+        setA(imgIn);
+        setB(imgPath);
+//        setC(new int[]{24, 16, 8});
+        GrayImage.main();
 
     }
 
@@ -45,9 +59,11 @@ public class CaptureTest {
         }
 
     }
+
     @AfterClass
     public void tearDown() {
         System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
+
 }
