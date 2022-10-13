@@ -69,8 +69,7 @@ public class OrangeTest{
     }
     @AfterMethod
     public void takeScreenShoot(ITestResult result) throws InterruptedException {
-        Thread.sleep(1000);
-
+//        Thread.sleep(1000);
         if(ITestResult.FAILURE == result.getStatus()){
             try{
                 CaptureManager.getCapture(driver, result.getName());
@@ -78,7 +77,6 @@ public class OrangeTest{
                 System.out.println("Exception while taking screenshot: " + e.getMessage());
             }
         }
-
     }
 
 }
