@@ -1,9 +1,12 @@
 package test;
 
 import BaseConfig.BaseConfig;
+import management.CaptureManager;
 import management.ExcelManager;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import page.AdminPage;
@@ -64,7 +67,18 @@ public class OrangeTest{
         System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
+    @AfterMethod
+    public void takeScreenShoot(ITestResult result) throws InterruptedException {
+        Thread.sleep(1000);
 
+        if(ITestResult.FAILURE == result.getStatus()){
+            try{
+                CaptureManager.getCapture(driver, result.getName());
+            }catch (Exception e){
+                System.out.println("Exception while taking screenshot: " + e.getMessage());
+            }
+        }
 
+    }
 
 }
