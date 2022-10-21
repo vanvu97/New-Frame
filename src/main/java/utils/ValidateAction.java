@@ -17,7 +17,7 @@ public class ValidateAction {
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor js;
-    private final int timeOut = 5;
+    private final int timeOut = 15;
 
     public ValidateAction(WebDriver driver) {
         this.driver = driver;

@@ -1,14 +1,18 @@
 package test;
 
 import BaseConfig.BaseConfig;
+import BaseConfig.TestListenors;
 import management.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.LoginPage;
 
 import java.io.IOException;
 
+
+@Listeners(TestListenors.class)
 public class ReadExcelData {
 
     private WebDriver driver;

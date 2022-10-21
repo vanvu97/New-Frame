@@ -7,9 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
-import java.net.URL;
 import java.time.Duration;
 
 public class Base {
@@ -74,7 +75,6 @@ public class Base {
 
     @AfterClass
     public void tearDown() {
-        System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
 }

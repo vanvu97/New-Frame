@@ -1,18 +1,19 @@
 package test;
 
 import BaseConfig.BaseConfig;
-import management.CaptureManager;
+import BaseConfig.TestListenors;
+import management.Log;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.LoginPage;
 
 import java.io.IOException;
 
+
+@Listeners(TestListenors.class)
 public class CaptureTest {
     private WebDriver driver;
     private LoginPage login;
@@ -26,28 +27,15 @@ public class CaptureTest {
 
     @Test
     public void readData() throws IOException, InterruptedException {
+        Log.info("Test");
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
-        login.login(userName, passWord);
-        Assert.assertEquals(driver.getTitle(), "Test");
-
-    }
-
-    @AfterMethod
-    public void takeScreenShoot(ITestResult result) throws InterruptedException {
-        Thread.sleep(1000);
-        if (ITestResult.FAILURE == result.getStatus()) {
-            try {
-                CaptureManager.getCapture(driver, result.getName());
-            } catch (Exception e) {
-                System.out.println("Exception while taking screenshot: " + e.getMessage());
-            }
-        }
+//        login.login(userName, passWord);
+//        Assert.assertEquals(driver.getTitle(), "Test");
 
     }
     @AfterClass
     public void tearDown() {
-        System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
 }

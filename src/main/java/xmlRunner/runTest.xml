@@ -3,6 +3,11 @@
 <suite name="Orange by Vu Van Suite">
     <parameter name="browserType" value="edge"/>
     <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"/>
+
+    <listeners>
+        <listener class-name="BaseConfig.TestListenors"></listener>
+    </listeners>
+
     <test thread-count="5" name="RealProject">
         <classes>
             <class name="test.RunXML">

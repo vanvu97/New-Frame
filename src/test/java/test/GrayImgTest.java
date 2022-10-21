@@ -19,7 +19,7 @@ import static page.ImageTextPage.imgPath;
 import static utils.GrayImage.setA;
 import static utils.GrayImage.setB;
 
-public class grayImgTest {
+public class GrayImgTest {
 
     private WebDriver driver;
     private LoginPage login;
@@ -27,18 +27,17 @@ public class grayImgTest {
     private final String passWord = "admin123";
     private ImageTextPage imgPage;
 
-    public grayImgTest() {
+    public GrayImgTest() {
     }
 
     @BeforeClass
     public void setUp() {
-        driver = new BaseConfig().setupBrowser("firefox");
+        driver = new BaseConfig().setupBrowser("edge");
         imgPage = new ImageTextPage(driver);
     }
 
     @Test
     public void readData() throws IOException, InterruptedException {
-
         imgPage.grayImage();
         setA(imgIn);
         setB(imgPath);

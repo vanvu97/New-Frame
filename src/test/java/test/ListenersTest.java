@@ -2,14 +2,12 @@ package test;
 
 import BaseConfig.BaseConfig;
 import BaseConfig.TestListenors;
-import management.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.LoginPage;
-import management.PropertiesManager;
 
 import java.io.IOException;
 
@@ -35,7 +33,6 @@ public class ListenersTest {
 
     @AfterClass
     public void tearDown() {
-        System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
 }

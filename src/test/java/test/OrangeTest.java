@@ -1,21 +1,22 @@
 package test;
 
 import BaseConfig.BaseConfig;
-import management.CaptureManager;
 import management.ExcelManager;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.AdminPage;
 import page.LoginPage;
 import page.PIMPage;
+import management.Log;
 import utils.ValidateAction;
+import BaseConfig.TestListenors;
 
 import java.io.IOException;
 
+@Listeners(TestListenors.class)
 public class OrangeTest{
     private WebDriver driver;
     private LoginPage login;
@@ -35,21 +36,20 @@ public class OrangeTest{
 
     @BeforeClass
     public void setUp(){
-
-        driver = new BaseConfig().setupBrowser("firefox");
+        driver = new BaseConfig().setupBrowser("edge");
         excel = new ExcelManager();
-        //Run extends Base then use the following code
-//        WebDriver driver = getDriver();
     }
 
     @Test (priority = 1)
     public void login() throws InterruptedException, IOException {
+        Log.info("1. Running Login");
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         pim = login.login(userName, passWord);
     }
     @Test(priority = 3)
     public void adminPage() throws InterruptedException {
+        Log.info("3. Running adminPage");
         adminPage = new AdminPage(driver);
         adminPage.setFirstName(firstName);
         adminPage.addUser();
@@ -57,6 +57,7 @@ public class OrangeTest{
     }
     @Test(priority = 2)
     public void pimPage() throws InterruptedException {
+        Log.info("2. Running pimPage");
         pim.setFirstName(firstName);
         pim.setLastName(lastName);
         adminPage = pim.addNewEmployees();
@@ -64,23 +65,7 @@ public class OrangeTest{
 
     @AfterClass
     public void tearDown() {
-        System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
-
-    @AfterMethod
-    public void takeScreenShoot(ITestResult result) throws InterruptedException {
-        Thread.sleep(1000);
-
-        if(ITestResult.FAILURE == result.getStatus()){
-            try{
-                CaptureManager.getCapture(driver, result.getName());
-            }catch (Exception e){
-                System.out.println("Exception while taking screenshot: " + e.getMessage());
-            }
-        }
-
-    }
-
 
 }

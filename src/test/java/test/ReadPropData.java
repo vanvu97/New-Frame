@@ -11,6 +11,7 @@ import management.PropertiesManager;
 
 import java.io.IOException;
 
+
 public class ReadPropData {
     private WebDriver driver;
     private LoginPage login;
@@ -39,7 +40,6 @@ public class ReadPropData {
 
     @AfterClass
     public void tearDown() {
-        System.out.println("Run Test Completed! Closing Browser...");
         driver.quit();
     }
 }

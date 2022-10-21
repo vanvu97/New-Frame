@@ -35,10 +35,11 @@ public class ImageTextPage {
     private static ITesseract instance;
 
     private static String f = "2";
-    public static String imgPath = "C:/Users/mozil/Desktop/img test/New folder/bx" + f + ".png";
-    public static String imgIn = "C:/Users/mozil/Desktop/img test/bx" + f + ".jpg";
+    public static String imgPath = System.getProperty("user.dir") + "/img/bx" + f + ".png";
+    public static String imgIn = "C:\\Users\\mozil\\Desktop\\img test/bx" + f + ".jpg";
     private static String tessDataPath = "C:/Users/mozil/Desktop/tessdata";
-    private static String fileName = imgPath;
+
+    private static String imgPathCheck = System.getProperty("user.dir") + "./img/";
 
     public static ITesseract getInstance() {
         if (instance == null) {
@@ -60,8 +61,13 @@ public class ImageTextPage {
 
     public void grayImage() throws IOException, InterruptedException {
 
-        File imageFile = new File(fileName);
-        String ExtractedTextFromImage = ImageTextPage.getText(imageFile);
+
+
+        File imageFile = new File(imgPathCheck);
+        if(!imageFile.exists()){
+            imageFile.mkdirs();
+        }
+        String ExtractedTextFromImage = ImageTextPage.getText(new File(imgPath));
         System.out.println("The Text is: \n" + ExtractedTextFromImage.trim().replace("[,|)]", ""));
         File output = new File("OutPut/x.txt");
         FileWriter writer = new FileWriter(output);
