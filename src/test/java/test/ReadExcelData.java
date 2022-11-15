@@ -32,7 +32,7 @@ public class ReadExcelData {
     @Test
     public void readData() throws IOException, InterruptedException {
 
-        excel.setExcelFile("src/test/dataFile/Boo.xlsx", "Sheet1");
+        excel.setExcelFile("src/Test/dataFile/Boo.xlsx", "Sheet1");
 
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");

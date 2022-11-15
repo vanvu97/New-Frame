@@ -2,8 +2,8 @@ package test;
 
 import BaseConfig.BaseConfig;
 import BaseConfig.TestListenors;
-import management.Log;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -27,11 +27,10 @@ public class CaptureTest {
 
     @Test
     public void readData() throws IOException, InterruptedException {
-        Log.info("Test");
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
-//        login.login(userName, passWord);
-//        Assert.assertEquals(driver.getTitle(), "Test");
+        login.login(userName, passWord);
+        Assert.assertEquals(driver.getTitle(), "Test");
 
     }
     @AfterClass

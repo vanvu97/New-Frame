@@ -36,7 +36,7 @@ public class ImageTextPage {
 
     private static String f = "2";
     public static String imgPath = System.getProperty("user.dir") + "/img/bx" + f + ".png";
-    public static String imgIn = "C:\\Users\\mozil\\Desktop\\img test/bx" + f + ".jpg";
+    public static String imgIn = "C:\\Users\\mozil\\Desktop\\img Test/bx" + f + ".jpg";
     private static String tessDataPath = "C:/Users/mozil/Desktop/tessdata";
 
     private static String imgPathCheck = System.getProperty("user.dir") + "./img/";

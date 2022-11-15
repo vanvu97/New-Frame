@@ -65,7 +65,7 @@ public class OrangeTest{
 
     @AfterClass
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
     }
 
 }

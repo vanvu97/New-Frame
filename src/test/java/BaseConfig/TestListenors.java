@@ -13,7 +13,7 @@ public class TestListenors implements ITestListener {
 
     @Override
     public void onStart(ITestContext result) {
-        System.out.println("Starting automation test!");
+        System.out.println("Starting automation Test!");
     }
 
     @Override
