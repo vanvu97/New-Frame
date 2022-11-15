@@ -71,8 +71,6 @@ public class Base {
         }
 
     }
-
-
     @AfterClass
     public void tearDown() {
         driver.quit();
