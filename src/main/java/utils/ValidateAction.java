@@ -32,7 +32,7 @@ public class ValidateAction {
         driver.findElement(element).click();
     }
 
-    public void clickWebelement(WebElement element) {
+    public void clickWebElement(WebElement element) {
         waitForPageLoad();
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();

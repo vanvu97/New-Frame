@@ -59,7 +59,7 @@ public class PIMPage { WebElement e;
         ACTIONs.clickElement(addUserButton);
         ACTIONs.setText(firstNames, getFirstName());
         ACTIONs.setText(lastNames, getLastName());
-        ACTIONs.clickWebelement(saveBtn);
+        ACTIONs.clickWebElement(saveBtn);
         ACTIONs.verifyPageHeader(header, "Personal Details");
 
         return new AdminPage(driver);

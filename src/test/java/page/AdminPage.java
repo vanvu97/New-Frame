@@ -1,5 +1,6 @@
 package page;
 
+import BaseConfig.Interface;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,7 @@ import utils.ValidateAction;
 import java.time.Duration;
 import java.util.List;
 
-public class AdminPage {
+public class AdminPage extends Interface {
     String FirstName;
 
     public String getFirstName() {
@@ -23,7 +24,7 @@ public class AdminPage {
         FirstName = firstName;
     }
 
-    By addUserButton = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
+    By addUserButton = By.xpath("//div[@class='orangehrm-header-container']/button[normalize-space()='Add']");
     By dropDownRole = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div");
     By dropDownStt = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div");
     By passwordField = By.xpath("//input[@type='password']");
@@ -45,10 +46,6 @@ public class AdminPage {
     @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button") WebElement addUserBtn;
 
     By listUser = By.xpath("//div[@role = 'rowgroup']/div");
-
-    WebDriver driver;
-    WebDriverWait wait;
-    ValidateAction ACTIONs;
 
     private final String status = "Enabled";
     private final String role = "ESS";

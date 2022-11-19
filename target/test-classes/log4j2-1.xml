@@ -4,7 +4,7 @@
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="[%-5level] %d{dd-MM-yyyy HH:mm:ss} [%t] %c{1} - %msg%n"/>
         </Console>
-        <File name="LogToFile" fileName="Output/log.txt">
+        <File name="LogToFile" fileName="OutPut/log.txt">
             <PatternLayout pattern="[%-5level] %d{dd-MM-yyyy HH:mm:ss} [%t] %c{1} - %msg%n"/>
         </File>
     </Appenders>

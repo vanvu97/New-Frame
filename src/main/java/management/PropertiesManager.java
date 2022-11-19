@@ -1,7 +1,6 @@
 package management;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Properties;
 
@@ -12,7 +11,7 @@ public class PropertiesManager {
     private static FileOutputStream fos;
 
     static String projectPath = System.getProperty("user.dir") + "/";
-    private static final String propertiesFilePatchRoot = "src/test/dataFile/config.properties";
+    private static final String propertiesFilePatchRoot = "src/test/resources/config.properties";
 
     public static void setPropertiesFile() {
         properties = new Properties();

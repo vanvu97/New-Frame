@@ -1,7 +1,7 @@
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\page\loginPage.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\utils\Helpers.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\page\loginPage2.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\test\loginTest.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\BaseConfig\Base.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\BaseConfig\SetUp.java
-C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\page\ObjectRepository.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\management\Log.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\utils\ValidateAction.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\utils\Waiter.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\management\CaptureManager.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\management\ExcelManager.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\management\PropertiesManager.java
+C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject\src\main\java\utils\GrayImage.java
