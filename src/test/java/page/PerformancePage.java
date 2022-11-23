@@ -25,7 +25,7 @@ public class PerformancePage extends Interface {
     public void selectFromDate() throws InterruptedException {
         ACTIONs.clickWebElement(fromDate);
         ACTIONs.clickWebElement(clearCalendar);
-        ACTIONs.setWebElementText(fromDate, "2022-11-19");
+        ACTIONs.setTextWeb(fromDate, "2022-11-19");
         Thread.sleep(3000);
     }
 

@@ -1,17 +1,22 @@
 package BaseConfig;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Elements {
     //    =================================================PIM Page===========================================================
-    protected By PIM = By.xpath("//span[normalize-space()='PIM']");
-    protected By addUserButton = By.xpath("//button[normalize-space()='Add']");
-    protected By firstNames = By.name("firstName");
-    protected By lastNames = By.name("lastName");
+    @FindBy(xpath = "//span[normalize-space()='PIM']")
+    protected WebElement PIM;
+    @FindBy(xpath = "//button[normalize-space()='Add']")
+    protected WebElement addUserButton;
+    @FindBy(xpath = "firstName")
+    protected WebElement firstNames;
+    @FindBy(xpath = "lastName")
+    protected WebElement lastNames;
     @FindBy(xpath = "//button[@type='submit']")
     protected WebElement saveBtn;
+    @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+    protected WebElement header;
 
     //    =========================================LoginPage===================================================================
     protected final String title = "User Management";

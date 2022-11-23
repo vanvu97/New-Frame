@@ -68,7 +68,7 @@ public class ValidateAction {
 
     }
 
-    public void setWebElementText(WebElement element, String text) {
+    public void setTextWeb(WebElement element, String text) {
         waitForPageLoad();
         wait.until(ExpectedConditions.visibilityOf(element));
         wait.until(ExpectedConditions.elementToBeClickable(element));

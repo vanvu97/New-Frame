@@ -22,8 +22,8 @@ public class LoginPage extends Interface {
     public PIMPage login(String username, String password) throws InterruptedException {
         ACTIONs.waitForPageLoad();
         ACTIONs.verifyPageURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        ACTIONs.setWebElementText(userNames, username);
-        ACTIONs.setWebElementText(this.password, password);
+        ACTIONs.setTextWeb(userNames, username);
+        ACTIONs.setTextWeb(this.password, password);
         ACTIONs.clickWebElement(loginBtn);
         Assert.assertTrue(ACTIONs.verifyPageTitle("OrangeHRM"), "Incorrect Page Title!");
         return new PIMPage(driver);

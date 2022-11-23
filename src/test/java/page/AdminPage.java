@@ -74,7 +74,7 @@ public class AdminPage extends Interface {
         ACTIONs.clickWebElement(addUserButton);
         ACTIONs.selectOptionWeb(clickRole, selectRole);
         ACTIONs.selectOptionWeb(clickStatus, selectStatus);
-        ACTIONs.setWebElementText(userName, this.username);
+        ACTIONs.setTextWeb(userName, this.username);
         ACTIONs.sendKeyThenSelectOption(employeeseName, getFirstName(), getFirstName());
         ACTIONs.intputRepeatFieldText(passwordField, "SD#Dsa2e3AS#$@%\n");
         ACTIONs.getErrorMessages(errorField, errorMessages);
