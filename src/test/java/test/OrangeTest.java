@@ -37,15 +37,6 @@ public class OrangeTest extends StartBrowse {
         Assert.assertEquals(driver.getTitle(), "Test");
     }
 
-    @Test(priority = 3, testName = "Test Case 3")
-    public void adminPage() throws InterruptedException {
-        Log.info("3. Running adminPage");
-        adminPage = new AdminPage(driver);
-        adminPage.setFirstName(firstName);
-        adminPage.addUser();
-
-    }
-
     @Test(priority = 2, testName = "Test Case 2")
     public void pimPage() throws InterruptedException {
         Log.info("2. Running pimPage");
@@ -54,15 +45,20 @@ public class OrangeTest extends StartBrowse {
         adminPage = pim.addNewEmployees();
     }
 
-    @Test
+    @Test(priority = 3, testName = "Test Case 3")
+    public void adminPage() throws InterruptedException {
+        Log.info("3. Running adminPage");
+        adminPage = new AdminPage(driver);
+        adminPage.setFirstName(firstName);
+        performancePage = adminPage.addUser();
+    }
+
+    @Test(priority = 4, testName = "Test Case 4")
     public void performancePage() throws InterruptedException {
         performancePage = new PerformancePage(driver);
         login = new LoginPage(driver);
         Log.info("4. Checking Performance");
-        driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
-        login.login(userName, passWord);
         performancePage.selectPerformance();
         performancePage.selectFromDate();
     }
-
 }

@@ -4,10 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ValidateAction;
 
-public class Interface {
+public class Interface extends Elements {
 
     protected WebDriver driver;
-
     protected WebDriverWait wait;
 
     protected ValidateAction ACTIONs;
@@ -17,5 +16,6 @@ public class Interface {
     protected final int seconds_30s = 30;
 
     protected final int seconds_60s = 60;
+
 
 }

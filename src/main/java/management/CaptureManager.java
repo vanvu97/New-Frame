@@ -3,12 +3,12 @@ package management;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.Reporter;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import org.openqa.selenium.io.FileHandler;
 
 public class CaptureManager {
     static String projectPath = System.getProperty("user.dir") + "/";
@@ -36,7 +36,7 @@ public class CaptureManager {
 
             FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName+ " " + dateFormat.format(new Date()) + ".png"));
 
-            System.out.println("Screenshot taken: " + screeName);
+            Log.info("Screenshot taken: " + screeName);
 
             Reporter.log("Screenshot taken current URL: " + driver.getCurrentUrl(), true);
 

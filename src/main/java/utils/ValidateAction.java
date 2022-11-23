@@ -51,6 +51,13 @@ public class ValidateAction {
         driver.findElement(By.xpath("//div[@role='option']/span[contains(text(), '" + value + "')]")).click();
 
     }
+    public void selectOptionWeb(WebElement e1, WebElement e2){
+        waitForPageLoad();
+        wait.until(ExpectedConditions.elementToBeClickable(e1));
+        e1.click();
+        e2.click();
+
+    }
 
     public void sendKeyThenSelectOption(WebElement element, String text, String value) {
         waitForPageLoad();
@@ -106,7 +113,7 @@ public class ValidateAction {
             for (int i = 0; i < setElementSize; i++) {
                 String allError = listError.get(i).getText();
                 String allFieldErorr = listErrorFields.get(i).getText();
-                System.out.println("Field: " + allFieldErorr + " is " + allError);
+                System.out.println(allFieldErorr + ": " + allError);
             }
         } catch (Exception e) {
             System.out.println("No error messages found!");

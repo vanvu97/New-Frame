@@ -1,6 +1,6 @@
 package page;
 
-import org.openqa.selenium.By;
+import BaseConfig.Interface;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,10 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import utils.ValidateAction;
 
-public class PIMPage { WebElement e;
+public class PIMPage extends Interface {
+    WebElement e;
 
     String FirstName;
     String LastName;
+
     public String getLastName() {
         return LastName;
     }
@@ -19,6 +21,7 @@ public class PIMPage { WebElement e;
     public void setLastName(String lastName) {
         LastName = lastName;
     }
+
     public String getFirstName() {
         return FirstName;
     }
@@ -27,27 +30,22 @@ public class PIMPage { WebElement e;
         FirstName = firstName;
     }
 
+    @FindBy(xpath = "")
+    WebElement addUserBtn;
+    @FindBy(name = "firstName")
+    WebElement firstName;
+    @FindBy(name = "lastName")
+    WebElement lastName;
 
-    By PIM = By.xpath("//span[normalize-space()='PIM']");
-    By addUserButton = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
+    @FindBy(name = "middleName")
+    WebElement middleName;
 
-    By firstNames = By.name("firstName");
+    @FindBy(xpath = "//h6[contains(text(), 'Personal Details')]")
+    WebElement headerPage;
+    @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
+    WebElement header;
 
-    By lastNames = By.name("lastName");
-
-    @FindBy (xpath = "") WebElement addUserBtn;
-    @FindBy (name = "firstName") WebElement firstName;
-    @FindBy (name = "lastName") WebElement lastName;
-
-    @FindBy (name = "middleName") WebElement middleName;
-    @FindBy (xpath = "//button[@type='submit']") WebElement saveBtn;
-
-    @FindBy (xpath = "//h6[contains(text(), 'Personal Details')]") WebElement headerPage;
-
-    @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/h6") WebElement header;
-    WebDriver driver;
-    ValidateAction ACTIONs;
-    public PIMPage(WebDriver driver){
+    public PIMPage(WebDriver driver) {
         this.driver = driver;
         ACTIONs = new ValidateAction(driver);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
