@@ -1,6 +1,7 @@
 package page;
 
 import BaseConfig.Interface;
+import management.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
@@ -17,6 +18,7 @@ public class PIMPage extends Interface {
     public void setLastName(String lastName) {
         LastName = lastName;
     }
+
     public String getFirstName() {
         return FirstName;
     }
@@ -31,13 +33,18 @@ public class PIMPage extends Interface {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
     }
 
-    public AdminPage addNewEmployees() {
+    public AdminPage addNewEmployees() throws InterruptedException {
         ACTIONs.waitForPageLoad();
-        ACTIONs.clickWebElement(PIM);
-        ACTIONs.clickWebElement(addUserButton);
+        Log.info(" - Clicking to PIM");
+        ACTIONs.clickElementWeb(PIM);
+        Log.info(" - Clicking to Add New User");
+        ACTIONs.clickElementWeb(addUserButton);
+        Log.info(" - Adding New User");
         ACTIONs.setTextWeb(firstNames, getFirstName());
         ACTIONs.setTextWeb(lastNames, getLastName());
-        ACTIONs.clickWebElement(saveBtn);
+        Log.info(" - Click Save button!");
+        ACTIONs.clickElementJS(saveBtn);
+//        ACTIONs.clickElementWeb(saveBtn);
         ACTIONs.verifyPageHeader(header, "Personal Details");
 
         return new AdminPage(driver);

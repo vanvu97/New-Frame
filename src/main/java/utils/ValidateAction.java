@@ -17,7 +17,7 @@ public class ValidateAction {
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor js;
-    private final int timeOut = 15;
+    private final int timeOut = 30;
 
     public ValidateAction(WebDriver driver) {
         this.driver = driver;
@@ -32,13 +32,14 @@ public class ValidateAction {
         driver.findElement(element).click();
     }
 
-    public void clickWebElement(WebElement element) {
+    public void clickElementWeb(WebElement element) {
         waitForPageLoad();
+        wait.until(ExpectedConditions.visibilityOf(element));
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
 
-    public void clickElementJS(By element) {
+    public void clickElementJS(WebElement element) {
         waitForPageLoad();
         wait.until(ExpectedConditions.elementToBeClickable(element));
         js.executeScript("arguments[0].click();", element);
@@ -135,7 +136,7 @@ public class ValidateAction {
 
     public boolean verifyPageHeader(WebElement el, String pageHeader) {
         waitForPageLoad();
-        String header = ("Current Page Header: " + el.getText());
+        String header = (" - Current Page Header: " + el.getText());
         System.out.println(header);
         return header.equals(pageHeader);
     }

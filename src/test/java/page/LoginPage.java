@@ -24,7 +24,7 @@ public class LoginPage extends Interface {
         ACTIONs.verifyPageURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         ACTIONs.setTextWeb(userNames, username);
         ACTIONs.setTextWeb(this.password, password);
-        ACTIONs.clickWebElement(loginBtn);
+        ACTIONs.clickElementWeb(loginBtn);
         Assert.assertTrue(ACTIONs.verifyPageTitle("OrangeHRM"), "Incorrect Page Title!");
         return new PIMPage(driver);
     }

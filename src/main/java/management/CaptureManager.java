@@ -36,13 +36,13 @@ public class CaptureManager {
 
             FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName+ " " + dateFormat.format(new Date()) + ".png"));
 
-            Log.info("Screenshot taken: " + screeName);
+            Log.info("  Screenshot taken: " + screeName);
 
-            Reporter.log("Screenshot taken current URL: " + driver.getCurrentUrl(), true);
+            Reporter.log("  Screenshot taken current URL: " + driver.getCurrentUrl(), true);
 
         } catch (Exception e) {
 
-            System.out.println("Exception while taking screenshot: " + e.getMessage());
+            System.out.println("  Exception while taking screenshot: " + e.getMessage());
 
         }
 

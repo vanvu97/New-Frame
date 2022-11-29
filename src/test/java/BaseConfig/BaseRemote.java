@@ -17,13 +17,23 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BaseConfig {
+public class BaseRemote {
     protected static WebDriver driver;
     protected static JavascriptExecutor js;
 
     public WebDriver getDriver(){
         return driver;
     }
+
+
+    //Remote
+    //cd C:\Program Files\Google\Chrome\Application
+    //chrome.exe --remote-debugging-port=9222 --user-data-dir=D:\chromedriver_\Remote
+
+
+    //Edge
+    //cd C:\Program Files (x86)\Microsoft\Edge\Application
+    //msedge.exe --remote-debugging-port=9222 --user-data-dir=D:\edge
 
     public WebDriver setupBrowser(String browserType){
         switch (browserType.trim().toLowerCase()){
@@ -70,6 +80,7 @@ public class BaseConfig {
 
     private static WebDriver edgeBrowser(){
         EdgeOptions options = new EdgeOptions();
+        options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver(options);
         driver.manage().deleteAllCookies();
@@ -95,10 +106,11 @@ public class BaseConfig {
     }
     private static WebDriver chromeBrowser(){
         ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
-        driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
+//        driver.manage().deleteAllCookies();
+//        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         js = (JavascriptExecutor) driver;

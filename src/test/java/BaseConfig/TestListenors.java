@@ -15,7 +15,7 @@ public class TestListenors implements ITestListener {
 
     @Override
     public void onStart(ITestContext result) {
-        Log.info("Starting automation Test!");
+        Log.info("################### Starting automation Test! ###################");
     }
 
     @Override

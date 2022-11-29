@@ -26,7 +26,9 @@ public class OrangeTest extends StartBrowse {
     private final String firstName = "Corgi";
     private final String lastName = "Dog";
 
+
     private ExcelManager excel;
+
 
     @Test(priority = 1, testName = "Test Case 1")
     public void login() throws InterruptedException, IOException {
@@ -42,22 +44,24 @@ public class OrangeTest extends StartBrowse {
         Log.info("2. Running pimPage");
         pim.setFirstName(firstName);
         pim.setLastName(lastName);
+        Log.info("3. Adding New Employee!");
         adminPage = pim.addNewEmployees();
     }
 
     @Test(priority = 3, testName = "Test Case 3")
     public void adminPage() throws InterruptedException {
-        Log.info("3. Running adminPage");
-        adminPage = new AdminPage(driver);
+        Log.info("4. Running adminPage");
         adminPage.setFirstName(firstName);
-        performancePage = adminPage.addUser();
+        Log.info("5. Adding New User!");
+        adminPage.addUser();
+        performancePage = adminPage.getListUser();
     }
 
     @Test(priority = 4, testName = "Test Case 4")
     public void performancePage() throws InterruptedException {
         performancePage = new PerformancePage(driver);
         login = new LoginPage(driver);
-        Log.info("4. Checking Performance");
+        Log.info("5. Checking Performance");
         performancePage.selectPerformance();
         performancePage.selectFromDate();
     }
