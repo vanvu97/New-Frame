@@ -17,6 +17,7 @@ public class ValidateAction {
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor js;
+    private String s;
     private final int timeOut = 30;
 
     public ValidateAction(WebDriver driver) {
@@ -114,7 +115,7 @@ public class ValidateAction {
             for (int i = 0; i < setElementSize; i++) {
                 String allError = listError.get(i).getText();
                 String allFieldErorr = listErrorFields.get(i).getText();
-                System.out.println(allFieldErorr + ": " + allError);
+                System.out.println(" - " + allFieldErorr + ": " + allError);
             }
         } catch (Exception e) {
             System.out.println("No error messages found!");
@@ -130,7 +131,7 @@ public class ValidateAction {
 
     public boolean verifyPageTitle(String pageTitle) {
         waitForPageLoad();
-        System.out.println("Current Page title: " + driver.getTitle());
+        System.out.println(" - Current Page title: " + driver.getTitle());
         return getPageTitle().equals(pageTitle);
     }
 
@@ -139,6 +140,20 @@ public class ValidateAction {
         String header = (" - Current Page Header: " + el.getText());
         System.out.println(header);
         return header.equals(pageHeader);
+    }
+
+    public boolean verifyUserInTable(String e, List<WebElement> e2){
+        waitForPageLoad();
+        List<WebElement> c = e2;
+        try{
+            for(WebElement w: c){
+                s = w.getText();
+                System.out.println(s);
+            }
+        }catch (Exception e1){
+            System.out.println(" - The User:" + this.s + "is not available!");
+        }
+        return e.equals(this.s);
     }
 
     public void waitForPageLoad() {

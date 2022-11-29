@@ -20,7 +20,7 @@ public class TestListenors implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        Log.info("  Testcase is failed: " + result.getName());
+        Log.info("#######  Testcase is failed: " + result.getName() + " #######");
         if (ITestResult.FAILURE == result.getStatus()) {
             try {
                 CaptureManager.getCapture(new BaseConfig().getDriver(), result.getName());
@@ -32,12 +32,12 @@ public class TestListenors implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        Log.info("  Testcase is skipped: " + result.getName());
+        Log.info("#######  Testcase is skipped: " + result.getName() + " #######");
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        Log.info("  Testcase is passed: " + result.getName());
+        Log.info("#######  Testcase is passed: " + result.getName() + " #######");
     }
 
 }

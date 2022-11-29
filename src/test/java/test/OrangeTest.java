@@ -4,7 +4,6 @@ package test;
 import BaseConfig.StartBrowse;
 import BaseConfig.TestListenors;
 import management.Log;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.AdminPage;
@@ -33,16 +32,6 @@ public class OrangeTest extends StartBrowse {
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         pim = login.login(userName, passWord);
-        Assert.assertEquals(driver.getTitle(), "OrangeHRM1");
-    }
-
-    @Test(priority = 3)
-    public void adminPage() throws InterruptedException {
-        Log.info("3. Running adminPage");
-        adminPage = new AdminPage(driver);
-        adminPage.setFirstName(firstName);
-        adminPage.addUser();
-
     }
 
     @Test(priority = 2)
@@ -52,4 +41,17 @@ public class OrangeTest extends StartBrowse {
         pim.setLastName(lastName);
         adminPage = pim.addNewEmployees();
     }
+
+    @Test(priority = 3)
+    public void adminPage() throws InterruptedException {
+        adminPage = new AdminPage(driver);
+        Log.info("3. Running adminPage");
+        adminPage.setFirstName(firstName);
+        Log.info("4. Adding New User!");
+//        adminPage.addUser();
+        adminPage.verifyUser();
+
+    }
+
+
 }

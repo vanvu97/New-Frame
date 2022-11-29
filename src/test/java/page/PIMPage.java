@@ -44,7 +44,6 @@ public class PIMPage extends Interface {
         ACTIONs.setTextWeb(lastNames, getLastName());
         Log.info(" - Click Save button!");
         ACTIONs.clickElementJS(saveBtn);
-//        ACTIONs.clickElementWeb(saveBtn);
         ACTIONs.verifyPageHeader(header, "Personal Details");
 
         return new AdminPage(driver);

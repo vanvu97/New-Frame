@@ -10,19 +10,13 @@ public class Elements {
     //    =================================================Admin Page===========================================================
     protected final String status = "Enabled";
     protected final String role = "Admin";
-    protected final String username = "Test@DS543fd@RDF";
-
+    protected final String username = "Test@DS543fd@RD23";
     protected final String EmployeeName = "";
 
-    @FindBy(xpath = "//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']/ancestor::div[@class='oxd-input-group oxd-input-field-bottom-space']/div[@class='oxd-input-group__label-wrapper']/following-sibling::div")
-    protected WebElement editErrorField;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']/div")
-    protected List<WebElement> listTotal;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '" + EmployeeName + "')]/preceding::div[@class='oxd-table-cell oxd-padding-cell']/div[contains(text(), '"+username+"')]")
-    protected List<WebElement> verifyUserTable;
-    @FindBy(xpath = "//div[@class='oxd-table-body']/div//div[2]")
+    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '" + EmployeeName + "')]/preceding::div[@class='oxd-table-cell oxd-padding-cell']/div[contains(text(), '" + username + "')]")
     protected List<WebElement> listUserName;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[3]")
+
+    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '"+username+"')]")
     protected List<WebElement> listRole;
     @FindBy(xpath = "//label[normalize-space()='User Role']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div")
     protected WebElement clickRole;

@@ -728,3 +728,126 @@
 [INFO ] 2022-11-29 09:48:34 [main] Log - 
 [INFO ] 2022-11-29 09:48:34 [main] Log - ################### Running Completed! ###################
 >>>>>>> b35c4638db9b0491929b7b45d5ad7998316e460b
+[INFO ] 2022-11-29 10:09:47 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:09:48 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 10:10:48 [main] Log -   Testcase is failed: login
+[INFO ] 2022-11-29 10:10:48 [main] Log -   Screenshot taken: login
+[INFO ] 2022-11-29 10:10:48 [main] Log - 
+[INFO ] 2022-11-29 10:10:48 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:11:19 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:11:21 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 10:12:21 [main] Log -   Testcase is failed: login
+[INFO ] 2022-11-29 10:12:21 [main] Log -   Screenshot taken: login
+[INFO ] 2022-11-29 10:12:21 [main] Log - 
+[INFO ] 2022-11-29 10:12:21 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:14:10 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:14:11 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 10:15:11 [main] Log -   Testcase is failed: login
+[INFO ] 2022-11-29 10:15:11 [main] Log -   Screenshot taken: login
+[INFO ] 2022-11-29 10:15:12 [main] Log - 
+[INFO ] 2022-11-29 10:15:12 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:19:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:19:45 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 10:19:57 [main] Log -   Testcase is passed: login
+[INFO ] 2022-11-29 10:19:57 [main] Log - 
+[INFO ] 2022-11-29 10:19:57 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:21:21 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:21:22 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 10:21:32 [main] Log -   Testcase is passed: login
+[INFO ] 2022-11-29 10:21:32 [main] Log - 
+[INFO ] 2022-11-29 10:21:32 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:24:15 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:24:16 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-29 10:24:16 [main] Log -   Testcase is failed: pimPage
+[INFO ] 2022-11-29 10:24:16 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-29 10:24:16 [main] Log - 
+[INFO ] 2022-11-29 10:24:16 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:24:37 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:24:39 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-29 10:24:40 [main] Log -  - Clicking to PIM
+[INFO ] 2022-11-29 10:24:43 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-11-29 10:24:44 [main] Log -  - Adding New User
+[INFO ] 2022-11-29 10:24:47 [main] Log -  - Click Save button!
+[INFO ] 2022-11-29 10:24:58 [main] Log -   Testcase is passed: pimPage
+[INFO ] 2022-11-29 10:24:58 [main] Log - 
+[INFO ] 2022-11-29 10:24:58 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:26:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:26:34 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:26:35 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 10:26:37 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-11-29 10:26:39 [main] Log -  - Adding User Button!
+[INFO ] 2022-11-29 10:26:48 [main] Log -  - Clicking Save Button!
+[INFO ] 2022-11-29 10:26:50 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 10:26:50 [main] Log - 
+[INFO ] 2022-11-29 10:26:50 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:29:14 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:29:15 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:29:15 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:29:16 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 10:29:19 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-11-29 10:29:21 [main] Log -  - Adding User Button!
+[INFO ] 2022-11-29 10:29:31 [main] Log -  - Clicking Save Button!
+[INFO ] 2022-11-29 10:29:41 [main] Log -   Testcase is failed: adminPage
+[INFO ] 2022-11-29 10:29:41 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-29 10:29:41 [main] Log - 
+[INFO ] 2022-11-29 10:29:41 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:41:09 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:41:09 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:41:09 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:41:10 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 10:41:17 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-11-29 10:41:19 [main] Log -  - Adding User Button!
+[INFO ] 2022-11-29 10:41:29 [main] Log -  - Clicking Save Button!
+[INFO ] 2022-11-29 10:41:40 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 10:41:40 [main] Log - 
+[INFO ] 2022-11-29 10:41:40 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:44:38 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:44:39 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:44:39 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:44:40 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 10:44:42 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-11-29 10:44:43 [main] Log -  - Adding User Button!
+[INFO ] 2022-11-29 10:45:16 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:45:17 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:45:17 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:45:18 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 10:46:13 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-11-29 10:46:25 [main] Log -  - Adding User Button!
+[INFO ] 2022-11-29 10:46:36 [main] Log -  - Clicking Save Button!
+[INFO ] 2022-11-29 10:48:08 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-11-29 10:48:08 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-29 10:48:08 [main] Log - 
+[INFO ] 2022-11-29 10:48:08 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:50:45 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:50:45 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:50:45 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:50:47 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 10:50:47 [main] Log - 
+[INFO ] 2022-11-29 10:50:47 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:51:29 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:51:29 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:51:29 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:51:31 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 10:51:31 [main] Log - 
+[INFO ] 2022-11-29 10:51:31 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 10:51:55 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:51:56 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:51:56 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:55:06 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 10:55:06 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 10:55:06 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 10:56:38 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 10:56:38 [main] Log - 
+[INFO ] 2022-11-29 10:56:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 11:03:49 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 11:03:50 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 11:03:50 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 11:05:22 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 11:05:22 [main] Log - 
+[INFO ] 2022-11-29 11:05:22 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 11:06:03 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 11:06:03 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 11:06:03 [main] Log - 4. Adding New User!
+[INFO ] 2022-11-29 11:07:35 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-11-29 11:07:35 [main] Log - 
+[INFO ] 2022-11-29 11:07:35 [main] Log - ################### Running Completed! ###################

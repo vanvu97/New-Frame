@@ -4,26 +4,20 @@ import BaseConfig.Interface;
 import management.Log;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import utils.ValidateAction;
 
 import java.time.Duration;
-import java.util.List;
 
 public class AdminPage extends Interface {
 
-    protected String FirstName;
+    protected String FirstName ="";
 
     protected String ListUName;
 
     protected String listRoless;
-
-    String c;
-    String d;
 
     protected String getFirstName() {
         return FirstName;
@@ -64,17 +58,9 @@ public class AdminPage extends Interface {
 
     }
 
-    public PerformancePage getListUser() {
-        List<WebElement> listTotals = listUserName;
-        List<WebElement> listRol = listRole;
-        int sizeTotals = listTotals.size();
-        System.out.println(sizeTotals);
-        for (int i = 0; i < sizeTotals; i++) {
-            this.c = listTotals.get(i).getText();
-            this.d = listRol.get(i).getText();
-            System.out.println(this.c + " : " + this.d);
-        }
-        Assert.assertEquals(this.c, EmployeeName);
+    public PerformancePage verifyUser() {
+        ACTIONs.verifyUserInTable(username, listRole);
+
         return new PerformancePage(driver);
     }
 

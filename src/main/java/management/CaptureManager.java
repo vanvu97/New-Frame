@@ -26,15 +26,16 @@ public class CaptureManager {
 
             File source = ts.getScreenshotAs(OutputType.FILE);
 
-            File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
+//            File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
 
+            File theDir = new File("ExportData/Images");
             if (!theDir.exists()) {
 
                 theDir.mkdirs();
 
             }
 
-            FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName+ " " + dateFormat.format(new Date()) + ".png"));
+            FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName + " " + dateFormat.format(new Date()) + ".png"));
 
             Log.info("  Screenshot taken: " + screeName);
 
