@@ -42,9 +42,9 @@ public class OrangeTest extends StartBrowse {
     @Test(priority = 2, testName = "Test Case 2")
     public void pimPage() throws InterruptedException {
         Log.info("2. Running pimPage");
+        Log.info("3. Adding New Employee!");
         pim.setFirstName(firstName);
         pim.setLastName(lastName);
-        Log.info("3. Adding New Employee!");
         adminPage = pim.addNewEmployees();
     }
 

@@ -22,9 +22,9 @@ public class CaptureManager {
 
             Reporter.log("Driver for Screenshot " + driver);
 
-            TakesScreenshot ts = (TakesScreenshot) driver;
+            TakesScreenshot ta = (TakesScreenshot) driver;
 
-            File source = ts.getScreenshotAs(OutputType.FILE);
+            File source = ta.getScreenshotAs(OutputType.FILE);
 
             File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
 
