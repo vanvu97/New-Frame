@@ -22,9 +22,9 @@ public class CaptureManager {
 
             Reporter.log("Driver for Screenshot " + driver);
 
-            TakesScreenshot ta = (TakesScreenshot) driver;
+            TakesScreenshot ts = (TakesScreenshot) driver;
 
-            File source = ta.getScreenshotAs(OutputType.FILE);
+            File source = ts.getScreenshotAs(OutputType.FILE);
 
             File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
 
@@ -42,7 +42,7 @@ public class CaptureManager {
 
         } catch (Exception e) {
 
-            System.out.println("  Exception while taking screenshot: " + e.getMessage());
+            Log.info("  Exception while taking screenshot: " + e.getMessage());
 
         }
 

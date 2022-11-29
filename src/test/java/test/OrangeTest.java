@@ -2,7 +2,6 @@ package test;
 
 import BaseConfig.StartBrowse;
 import BaseConfig.TestListenors;
-import management.ExcelManager;
 import management.Log;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -16,7 +15,6 @@ import java.io.IOException;
 
 @Listeners(TestListenors.class)
 public class OrangeTest extends StartBrowse {
-
     private LoginPage login;
     private PIMPage pim;
     private AdminPage adminPage;
@@ -27,8 +25,6 @@ public class OrangeTest extends StartBrowse {
     private final String lastName = "Dog";
 
 
-    private ExcelManager excel;
-
 
     @Test(priority = 1, testName = "Test Case 1")
     public void login() throws InterruptedException, IOException {
@@ -36,7 +32,7 @@ public class OrangeTest extends StartBrowse {
         login = new LoginPage(driver);
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         pim = login.login(userName, passWord);
-        Assert.assertEquals(driver.getTitle(), "Test");
+        Assert.assertEquals(driver.getTitle(), "OrangeHRM1");
     }
 
     @Test(priority = 2, testName = "Test Case 2")
