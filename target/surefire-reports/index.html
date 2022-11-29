@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 8 failed,  1 skipped,  3 passed</span>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -113,12 +113,17 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test.RepeatTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="test.OrangeTest" class="method navigator-link" hash-for-method="pimPage">pimPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="test.GrayImgTest" class="method navigator-link" hash-for-method="readData">readData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="test.CaptureTest" class="method navigator-link" hash-for-method="readData">readData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,44 +148,6 @@
                       <br/>
                     </div> <!-- method-list-content failed suite-Command_line_suite -->
                   </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Command_line_suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="test.CaptureTest" class="method navigator-link" hash-for-method="readData">readData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Command_line_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="test.RepeatTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="test.logTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="test.ListenersTest" class="method navigator-link" hash-for-method="readData">readData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Command_line_suite -->
-                  </li>
                 </ul>
               </div> <!-- suite-section-content -->
             </div> <!-- result-section -->
@@ -194,6 +161,26 @@
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">test.CaptureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readData">
+                  </a> <!-- readData -->
+                  <span class="method-name">readData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Test] but found [OrangeHRM]
+	at test.CaptureTest.readData(CaptureTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">test.OrangeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -202,13 +189,17 @@
                   <a name="adminPage">
                   </a> <!-- adminPage -->
                   <span class="method-name">adminPage</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.AdminPage.&lt;init&gt;(AdminPage.java:59)
-	at test.OrangeTest.adminPage(OrangeTest.java:47)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()=&apos;Admin&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.ValidateAction.clickElement(ValidateAction.java:31)
+	at page.AdminPage.addUser(AdminPage.java:46)
+	at test.OrangeTest.adminPage(OrangeTest.java:55)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -219,15 +210,26 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.LoginPage.&lt;init&gt;(LoginPage.java:35)
-	at test.OrangeTest.login(OrangeTest.java:39)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)
+	at test.OrangeTest.login(OrangeTest.java:47)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -237,28 +239,7 @@
                   </a> <!-- pimPage -->
                   <span class="method-name">pimPage</span>
                   <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;page.PIMPage.setFirstName(String)&quot; because &quot;this.pim&quot; is null
-	at test.OrangeTest.pimPage(OrangeTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">test.GrayImgTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readData">
-                  </a> <!-- readData -->
-                  <span class="method-name">readData</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.trim()&quot; because &quot;ExtractedTextFromImage&quot; is null
-	at page.ImageTextPage.grayImage(ImageTextPage.java:71)
-	at test.GrayImgTest.readData(GrayImgTest.java:41)
+	at test.OrangeTest.pimPage(OrangeTest.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -274,6 +255,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.AssertionError: Timeout! Page still loading...
+	at utils.ValidateAction.waitForPageLoad(ValidateAction.java:160)
+	at page.LoginPage.login(LoginPage.java:23)
+	at test.RepeatTest.login(RepeatTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="repeatTest">
                   </a> <!-- repeatTest -->
                   <span class="method-name">repeatTest</span>
@@ -322,88 +317,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.CaptureTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readData">
-                  </a> <!-- readData -->
-                  <span class="method-name">readData</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:198)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-	at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-	at test.CaptureTest.setUp(CaptureTest.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.ListenersTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readData">
-                  </a> <!-- readData -->
-                  <span class="method-name">readData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.logTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.RepeatTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
         </div> <!-- panel Command_line_suite -->
         <div panel-name="test-xml-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -417,9 +330,6 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
     &lt;classes&gt;
       &lt;class name=&quot;BaseConfig.TestListenors&quot;/&gt;
       &lt;class name=&quot;test.CaptureTest&quot;/&gt;
-      &lt;class name=&quot;test.GrayImgTest&quot;/&gt;
-      &lt;class name=&quot;test.ListenersTest&quot;/&gt;
-      &lt;class name=&quot;test.logTest&quot;/&gt;
       &lt;class name=&quot;test.OrangeTest&quot;/&gt;
       &lt;class name=&quot;test.RepeatTest&quot;/&gt;
       &lt;class name=&quot;test.Test&quot;/&gt;
@@ -436,7 +346,7 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (8 classes)</span>
+                <span class="test-name">Command line test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -462,34 +372,34 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'readData')
-data.setCell(0, 2, 'test.ListenersTest')
-data.setCell(0, 3, 12873);
+data.setCell(0, 2, 'test.CaptureTest')
+data.setCell(0, 3, 35179);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'test.RepeatTest')
-data.setCell(1, 3, 12512);
+data.setCell(1, 1, 'adminPage')
+data.setCell(1, 2, 'test.OrangeTest')
+data.setCell(1, 3, 32063);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
-data.setCell(2, 2, 'test.logTest')
-data.setCell(2, 3, 1162);
+data.setCell(2, 2, 'test.OrangeTest')
+data.setCell(2, 3, 30010);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'readData')
-data.setCell(3, 2, 'test.GrayImgTest')
-data.setCell(3, 3, 69);
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'test.RepeatTest')
+data.setCell(3, 3, 1552);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'repeatTest')
-data.setCell(4, 2, 'test.RepeatTest')
-data.setCell(4, 3, 4);
+data.setCell(4, 1, 'pimPage')
+data.setCell(4, 2, 'test.OrangeTest')
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'adminPage')
-data.setCell(5, 2, 'test.OrangeTest')
+data.setCell(5, 1, 'repeatTest')
+data.setCell(5, 2, 'test.RepeatTest')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
-data.setCell(6, 2, 'test.OrangeTest')
+data.setCell(6, 1, 'repeatTest')
+data.setCell(6, 2, 'test.RepeatTest')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'repeatTest')
@@ -499,23 +409,11 @@ data.setCell(8, 0, 8)
 data.setCell(8, 1, 'repeatTest')
 data.setCell(8, 2, 'test.RepeatTest')
 data.setCell(8, 3, 0);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'repeatTest')
-data.setCell(9, 2, 'test.RepeatTest')
-data.setCell(9, 3, 0);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'pimPage')
-data.setCell(10, 2, 'test.OrangeTest')
-data.setCell(10, 3, 0);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'readData')
-data.setCell(11, 2, 'test.CaptureTest')
-data.setCell(11, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -527,59 +425,61 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: data:,</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">repeatTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readData</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: data:,</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">repeatTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">repeatTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">repeatTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</span>
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">pimPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: data:,</span>
+                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)</span>
+                <span class="reporter-method-output">  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)</span>
+                <span class="reporter-method-output">  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (f3c174a9-2eda-48cb-8180-3d0ece815358)</span>
+                <span class="reporter-method-output">  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">repeatTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">repeatTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">repeatTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">adminPage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)</span>
-                <span class="reporter-method-output">Screenshot taken current URL: data:,</span>
+                <span class="reporter-method-output">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)</span>
+                <span class="reporter-method-output">  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -599,133 +499,84 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.CaptureTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">readData</span>
-                <span class="method-start">1742 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">1743 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.GrayImgTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">1744 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">readData</span>
-                <span class="method-start">4331 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShoot([TestResult name=readData status=FAILURE method=GrayImgTest.readData()[pri:0, instance:test.GrayImgT...)</span>
-                <span class="method-start">4511 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">5611 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.ListenersTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">5763 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">readData</span>
-                <span class="method-start">8210 ms</span>
+                <span class="method-start">4649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21084 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.logTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">21575 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">24008 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">25170 ms</span>
+                <span class="method-start">39899 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.OrangeTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25300 ms</span>
+                <span class="method-start">40357 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login</span>
-                <span class="method-start">27699 ms</span>
+                <span class="method-start">42886 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">pimPage</span>
-                <span class="method-start">27788 ms</span>
+                <span class="method-start">72999 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">adminPage</span>
-                <span class="method-start">27876 ms</span>
+                <span class="method-start">73080 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27962 ms</span>
+                <span class="method-start">105235 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.RepeatTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28103 ms</span>
+                <span class="method-start">105236 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">33913 ms</span>
+                <span class="method-start">131596 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">repeatTest</span>
-                <span class="method-start">46426 ms</span>
+                <span class="method-start">133151 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">repeatTest</span>
-                <span class="method-start">46463 ms</span>
+                <span class="method-start">133154 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">repeatTest</span>
-                <span class="method-start">46492 ms</span>
+                <span class="method-start">133156 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">repeatTest</span>
-                <span class="method-start">46521 ms</span>
+                <span class="method-start">133159 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

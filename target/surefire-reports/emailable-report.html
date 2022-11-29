@@ -9,98 +9,72 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">8</td><td class="num">46,564</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">9</td><td class="num">133,481</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.CaptureTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1668824100242</td><td rowspan="1">1734</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.GrayImgTest</td><td><a href="#m1">readData</a></td><td rowspan="1">1668824104573</td><td rowspan="1">69</td></tr><tr class="failedodd"><td rowspan="3">test.OrangeTest</td><td><a href="#m2">adminPage</a></td><td rowspan="1">1668824128118</td><td rowspan="1">1</td></tr><tr class="failedodd"><td><a href="#m3">login</a></td><td rowspan="1">1668824127941</td><td rowspan="1">0</td></tr><tr class="failedodd"><td><a href="#m4">pimPage</a></td><td rowspan="1">1668824128030</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="4">test.RepeatTest</td><td><a href="#m5">repeatTest</a></td><td rowspan="4">1668824146668</td><td rowspan="4">4</td></tr><tr class="failedeven"><td><a href="#m6">repeatTest</a></td></tr><tr class="failedeven"><td><a href="#m7">repeatTest</a></td></tr><tr class="failedeven"><td><a href="#m8">repeatTest</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">test.CaptureTest</td><td><a href="#m9">tearDown</a></td><td rowspan="1">1668824101985</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.CaptureTest</td><td><a href="#m10">readData</a></td><td rowspan="1">1668824101984</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.ListenersTest</td><td><a href="#m11">readData</a></td><td rowspan="1">1668824108452</td><td rowspan="1">12873</td></tr><tr class="passedodd"><td rowspan="1">test.RepeatTest</td><td><a href="#m12">login</a></td><td rowspan="1">1668824134155</td><td rowspan="1">12512</td></tr><tr class="passedeven"><td rowspan="1">test.logTest</td><td><a href="#m13">login</a></td><td rowspan="1">1668824124250</td><td rowspan="1">1162</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.CaptureTest</td><td><a href="#m0">readData</a></td><td rowspan="1">1669689986406</td><td rowspan="1">35179</td></tr><tr class="failedodd"><td rowspan="3">test.OrangeTest</td><td><a href="#m1">adminPage</a></td><td rowspan="1">1669690054837</td><td rowspan="1">32063</td></tr><tr class="failedodd"><td><a href="#m2">login</a></td><td rowspan="1">1669690024643</td><td rowspan="1">30010</td></tr><tr class="failedodd"><td><a href="#m3">pimPage</a></td><td rowspan="1">1669690054756</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="5">test.RepeatTest</td><td><a href="#m4">login</a></td><td rowspan="1">1669690113353</td><td rowspan="1">1552</td></tr><tr class="failedeven"><td><a href="#m5">repeatTest</a></td><td rowspan="4">1669690114911</td><td rowspan="4">0</td></tr><tr class="failedeven"><td><a href="#m6">repeatTest</a></td></tr><tr class="failedeven"><td><a href="#m7">repeatTest</a></td></tr><tr class="failedeven"><td><a href="#m8">repeatTest</a></td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">test.CaptureTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
+<h2>Command line test</h2><h3 id="m0">test.CaptureTest#readData</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (f3c174a9-2eda-48cb-8180-3d0ece815358)<br/>  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Test] but found [OrangeHRM]
+	at test.CaptureTest.readData(CaptureTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.OrangeTest#adminPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)<br/>  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()=&apos;Admin&apos;] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.ValidateAction.clickElement(ValidateAction.java:31)
+	at page.AdminPage.addUser(AdminPage.java:46)
+	at test.OrangeTest.adminPage(OrangeTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.OrangeTest#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)<br/>  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:198)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-	at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-	at test.CaptureTest.setUp(CaptureTest.java:25)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)
+	at test.OrangeTest.login(OrangeTest.java:47)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.GrayImgTest#readData</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)<br/>Screenshot taken current URL: data:,</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.trim()&quot; because &quot;ExtractedTextFromImage&quot; is null
-	at page.ImageTextPage.grayImage(ImageTextPage.java:71)
-	at test.GrayImgTest.readData(GrayImgTest.java:41)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.OrangeTest#pimPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)<br/>  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;page.PIMPage.setFirstName(String)&quot; because &quot;this.pim&quot; is null
+	at test.OrangeTest.pimPage(OrangeTest.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.OrangeTest#adminPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)<br/>Screenshot taken current URL: data:,</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.AdminPage.&lt;init&gt;(AdminPage.java:59)
-	at test.OrangeTest.adminPage(OrangeTest.java:47)
+<h3 id="m4">test.RepeatTest#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Timeout! Page still loading...
+	at utils.ValidateAction.waitForPageLoad(ValidateAction.java:160)
+	at page.LoginPage.login(LoginPage.java:23)
+	at test.RepeatTest.login(RepeatTest.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">test.OrangeTest#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)<br/>Screenshot taken current URL: data:,</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.LoginPage.&lt;init&gt;(LoginPage.java:35)
-	at test.OrangeTest.login(OrangeTest.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.OrangeTest#pimPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)<br/>Screenshot taken current URL: data:,</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;page.PIMPage.setFirstName(String)&quot; because &quot;this.pim&quot; is null
-	at test.OrangeTest.pimPage(OrangeTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)<br/>Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)<br/>Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h3 id="m6">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)<br/>Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h3 id="m7">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)<br/>Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h3 id="m8">test.RepeatTest#repeatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">test.CaptureTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">test.CaptureTest#readData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:198)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-	at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-	at test.CaptureTest.setUp(CaptureTest.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">test.ListenersTest#readData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">test.RepeatTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">test.logTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
