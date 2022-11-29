@@ -645,3 +645,23 @@
 [INFO ] 2022-11-29 08:28:49 [main] Log -   Testcase is failed: performancePage
 [INFO ] 2022-11-29 08:28:49 [main] Log - 
 [INFO ] 2022-11-29 08:28:49 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-29 09:46:21 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-29 09:47:01 [main] Log -   Testcase is failed: readData
+[INFO ] 2022-11-29 09:47:01 [main] Log -   Screenshot taken: readData
+[INFO ] 2022-11-29 09:47:04 [main] Log - 1. Running Login
+[INFO ] 2022-11-29 09:47:34 [main] Log -   Testcase is failed: login
+[INFO ] 2022-11-29 09:47:34 [main] Log -   Screenshot taken: login
+[INFO ] 2022-11-29 09:47:34 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-29 09:47:34 [main] Log -   Testcase is failed: pimPage
+[INFO ] 2022-11-29 09:47:34 [main] Log -   Screenshot taken: pimPage
+[INFO ] 2022-11-29 09:47:34 [main] Log - 3. Running adminPage
+[INFO ] 2022-11-29 09:47:35 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-11-29 09:48:06 [main] Log -   Testcase is failed: adminPage
+[INFO ] 2022-11-29 09:48:06 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-11-29 09:48:34 [main] Log -   Testcase is failed: login
+[INFO ] 2022-11-29 09:48:34 [main] Log -   Testcase is failed: repeatTest
+[INFO ] 2022-11-29 09:48:34 [main] Log -   Testcase is failed: repeatTest
+[INFO ] 2022-11-29 09:48:34 [main] Log -   Testcase is failed: repeatTest
+[INFO ] 2022-11-29 09:48:34 [main] Log -   Testcase is failed: repeatTest
+[INFO ] 2022-11-29 09:48:34 [main] Log - 
+[INFO ] 2022-11-29 09:48:34 [main] Log - ################### Running Completed! ###################

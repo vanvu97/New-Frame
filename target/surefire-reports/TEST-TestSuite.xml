@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="9" name="TestSuite" time="28.62" errors="0" skipped="2">
+<testsuite tests="9" failures="9" name="TestSuite" time="98.813" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="18.0.2+9-61"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\New-Frame"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\mozil\Downloads\AutomationFrameworkSelenium-1.8.0\RealProject"/>
+    <property name="user.dir" value="D:\Automation\New-Frame"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="18.0.2+9-61"/>
     <property name="os.arch" value="amd64"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="18"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -U install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,221 +61,405 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.CaptureTest" name="setUp" time="1.966">
-    <failure message="Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:198)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-	at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-	at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-	at test.CaptureTest.setUp(CaptureTest.java:25)
+  <testcase classname="test.CaptureTest" name="readData" time="35.181">
+    <failure message="expected [Test] but found [OrangeHRM]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Test] but found [OrangeHRM]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at test.CaptureTest.readData(CaptureTest.java:33)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6fd02e5
-Starting automation Test!
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@25bbe1b6
+################### Starting automation Test! ###################
+Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Current Page title: OrangeHRM
 </system-out>
     <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - No proper driver found for geckodriver (latest version) ... seeking another version
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - No proper driver found for geckodriver (latest version) ... seeking another version
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\mozil\.cache\selenium\geckodriver\win64\0.32.0-win\geckodriver.exe
-1668824101624	geckodriver	INFO	Listening on 127.0.0.1:56307
-1668824101785	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;59486&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\mozil\\AppData\\Local\\Temp\\rust_mozprofilecmxTFi&quot;
+1669689983991	geckodriver	INFO	Listening on 127.0.0.1:60459
+1669689984186	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;64933&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\mozil\\AppData\\Local\\Temp\\rust_mozprofilew9eLPo&quot;
+1669689984613	Marionette	INFO	Marionette enabled
+1669689984618	Marionette	INFO	Listening on port 52323
+WebDriver BiDi listening on ws://127.0.0.1:64933
+Read port: 52323
+1669689984793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\mozil\\AppData\\Local\\Temp\\rust_mozprofilew9eLPo\\search.json.mozlz4&quot;, (void 0)))
+DevTools listening on ws://127.0.0.1:64933/devtools/browser/a0f89c86-18ff-444a-a2cd-d17c582bb87a
+Nov 29, 2022 9:46:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: &quot;Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com.&quot;
+console.warn: LoginRecipes: &quot;Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com.&quot;
 </system-err>
   </testcase>
-  <testcase classname="test.CaptureTest" name="readData" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="test.CaptureTest" name="tearDown" time="0.001">
-    <skipped/>
-    <system-out>Testcase is skipped: readData
-</system-out>
-  </testcase>
-  <testcase classname="test.GrayImgTest" name="readData" time="0.096">
-    <failure message="Cannot invoke &quot;String.trim()&quot; because &quot;ExtractedTextFromImage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.trim()&quot; because &quot;ExtractedTextFromImage&quot; is null
-	at page.ImageTextPage.grayImage(ImageTextPage.java:71)
-	at test.GrayImgTest.readData(GrayImgTest.java:41)
+  <testcase classname="test.OrangeTest" name="login" time="30.012">
+    <failure message="timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)
+	at test.OrangeTest.login(OrangeTest.java:47)
 </failure>
-    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 104.0.1293.91 (resolved driver for Edge 104)
+    <system-out>  Testcase is failed: readData
+ExportData/Images
+ExportData/Images
+  Screenshot taken: readData
+  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+1. Running Login
+</system-out>
+    <system-err>1669690021659	Marionette	INFO	Stopped listening on port 52323
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:954:31
+shutdown/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:1024:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1072:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:931:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:735:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 104.0.1293.91 (resolved driver for Edge 104)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\mozil\.cache\selenium\msedgedriver\win64\104.0.1293.91\msedgedriver.exe
-Starting Microsoft Edge WebDriver 104.0.1293.91 (c5cb7597076bab65c8db20ce41701ac67ac372d8) on port 63199
+Starting Microsoft Edge WebDriver 104.0.1293.91 (c5cb7597076bab65c8db20ce41701ac67ac372d8) on port 55323
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Nov 19, 2022 9:15:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 29, 2022 9:47:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Nov 19, 2022 9:15:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 29, 2022 9:47:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
-Nov 19, 2022 9:15:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 29, 2022 9:47:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 104.
-Nov 19, 2022 9:15:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Nov 29, 2022 9:47:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-[main] ERROR net.sourceforge.tess4j.Tesseract - No input source set!
-java.lang.IllegalStateException: No input source set!
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.getNumImages(PNGImageReader.java:1547)
-	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:221)
-	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:195)
-	at page.ImageTextPage.getText(ImageTextPage.java:55)
-	at page.ImageTextPage.grayImage(ImageTextPage.java:70)
-	at test.GrayImgTest.readData(GrayImgTest.java:41)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-net.sourceforge.tess4j.TesseractException: java.lang.IllegalStateException: No input source set!
-	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:246)
-	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:195)
-	at page.ImageTextPage.getText(ImageTextPage.java:55)
-	at page.ImageTextPage.grayImage(ImageTextPage.java:70)
-	at test.GrayImgTest.readData(GrayImgTest.java:41)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.lang.IllegalStateException: No input source set!
-	at java.desktop/com.sun.imageio.plugins.png.PNGImageReader.getNumImages(PNGImageReader.java:1547)
-	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:221)
-	... 38 more
+[1669690026.213][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690026.470][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690026.729][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690026.980][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690034.057][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690034.315][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690034.588][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690034.835][SEVERE]: handshake failed; returned -1, SSL error code 1, net_error -101
+[1669690054.647][SEVERE]: Timed out receiving message from renderer: 28.683
+[1669690054.648][SEVERE]: Timed out receiving message from renderer: 28.683
 </system-err>
   </testcase>
-  <testcase classname="test.ListenersTest" name="readData" time="12.874"/>
-  <testcase classname="test.logTest" name="login" time="1.162"/>
-  <testcase classname="test.OrangeTest" name="login" time="0.001">
-    <failure message="Input must be set" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.LoginPage.&lt;init&gt;(LoginPage.java:35)
-	at test.OrangeTest.login(OrangeTest.java:39)
-</failure>
-    <system-out>Testcase is passed: login
-</system-out>
-    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 104.0.1293.91 (resolved driver for Edge 104)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\mozil\.cache\selenium\msedgedriver\win64\104.0.1293.91\msedgedriver.exe
-Starting Microsoft Edge WebDriver 104.0.1293.91 (c5cb7597076bab65c8db20ce41701ac67ac372d8) on port 62782
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-Nov 19, 2022 9:15:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Nov 19, 2022 9:15:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
-Nov 19, 2022 9:15:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 104.
-Nov 19, 2022 9:15:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
-  </testcase>
-  <testcase classname="test.OrangeTest" name="pimPage" time="0">
+  <testcase classname="test.OrangeTest" name="pimPage" time="0.001">
     <failure message="Cannot invoke &quot;page.PIMPage.setFirstName(String)&quot; because &quot;this.pim&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;page.PIMPage.setFirstName(String)&quot; because &quot;this.pim&quot; is null
-	at test.OrangeTest.pimPage(OrangeTest.java:55)
+	at test.OrangeTest.pimPage(OrangeTest.java:61)
 </failure>
-    <system-out>Testcase is failed: login
+    <system-out>  Testcase is failed: login
 ExportData/Images
 ExportData/Images
-Screenshot taken: login
-Screenshot taken current URL: data:,
+  Screenshot taken: login
+  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. Running pimPage
 </system-out>
   </testcase>
-  <testcase classname="test.OrangeTest" name="adminPage" time="0.001">
-    <failure message="Input must be set" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:128)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:61)
-	at page.AdminPage.&lt;init&gt;(AdminPage.java:59)
-	at test.OrangeTest.adminPage(OrangeTest.java:47)
+  <testcase classname="test.OrangeTest" name="adminPage" time="32.064">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()=&apos;Admin&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()=&apos;Admin&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.ValidateAction.clickElement(ValidateAction.java:31)
+	at page.AdminPage.addUser(AdminPage.java:46)
+	at test.OrangeTest.adminPage(OrangeTest.java:55)
 </failure>
-    <system-out>Testcase is failed: pimPage
+    <system-out>  Testcase is failed: pimPage
 ExportData/Images
 ExportData/Images
-Screenshot taken: pimPage
-Screenshot taken current URL: data:,
+  Screenshot taken: pimPage
+  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+3. Running adminPage
+ - Navigate to Admin Page!
 </system-out>
   </testcase>
-  <testcase classname="test.RepeatTest" name="login" time="12.512"/>
-  <testcase classname="test.RepeatTest" name="repeatTest" time="0.005">
+  <testcase classname="test.RepeatTest" name="login" time="1.553">
+    <failure message="Timeout! Page still loading..." type="java.lang.AssertionError">java.lang.AssertionError: Timeout! Page still loading...
+	at org.testng.Assert.fail(Assert.java:110)
+	at utils.ValidateAction.waitForPageLoad(ValidateAction.java:160)
+	at page.LoginPage.login(LoginPage.java:23)
+	at test.RepeatTest.login(RepeatTest.java:32)
+</failure>
+    <system-out>  Testcase is failed: adminPage
+ExportData/Images
+ExportData/Images
+  Screenshot taken: adminPage
+  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Admin
+admin123
+</system-out>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - No proper driver found for geckodriver (latest version) ... seeking another version
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - No proper driver found for geckodriver (latest version) ... seeking another version
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\mozil\.cache\selenium\geckodriver\win64\0.32.0-win\geckodriver.exe
+1669690104746	geckodriver	INFO	Listening on 127.0.0.1:60642
+1669690104777	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Firefox Developer Edition\\firefox.exe&quot; &quot;--marionette&quot; &quot;--remote-debugging-port&quot; &quot;59392&quot; &quot;--remote-allow-hosts&quot; &quot;localhost&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\mozil\\AppData\\Local\\Temp\\rust_mozprofileovzWRc&quot;
+1669690105057	Marionette	INFO	Marionette enabled
+1669690105061	Marionette	INFO	Listening on port 52565
+Read port: 52565
+WebDriver BiDi listening on ws://127.0.0.1:59392
+1669690105146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\mozil\\AppData\\Local\\Temp\\rust_mozprofileovzWRc\\search.json.mozlz4&quot;, (void 0)))
+DevTools listening on ws://127.0.0.1:59392/devtools/browser/f2d036ef-921a-4acf-a1ef-25d2a8fa8812
+Nov 29, 2022 9:48:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1669690113879	Marionette	INFO	Stopped listening on port 52565
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:954:31
+shutdown/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:1024:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:554:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:642:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:973:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot; at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1072:38
+setupTelemetry/&lt;@resource://gre/modules/TelemetryControllerParent.jsm:931:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise&lt;@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:735:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/&lt;@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase &quot;profile-before-change&quot; is finished, it is too late to register completion condition &quot;OS.File: flush I/O queued before profileBeforeChange&quot;
+</system-err>
+  </testcase>
+  <testcase classname="test.RepeatTest" name="repeatTest" time="0.001">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -283,7 +467,14 @@ Screenshot taken current URL: data:,
 	at org.testng.Assert.assertTrue(Assert.java:66)
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 </failure>
-    <system-out>Testcase is passed: login
+    <system-out>  Testcase is failed: login
+  Exception while taking screenshot: Tried to run command without establishing a connection
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78c324cc-f75d-4a85-b7ab-f5128605a590, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221114145411, moz:debuggerAddress: 127.0.0.1:59392, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4664, moz:profile: C:\Users\mozil\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:59392/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78c324cc-f75d-4a85-b7ab-f5128605a590
 Time run: 1
 </system-out>
   </testcase>
@@ -295,11 +486,14 @@ Time run: 1
 	at org.testng.Assert.assertTrue(Assert.java:66)
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 </failure>
-    <system-out>Testcase is failed: repeatTest
-ExportData/Images
-ExportData/Images
-Screenshot taken: repeatTest
-Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+    <system-out>  Testcase is failed: repeatTest
+  Exception while taking screenshot: Tried to run command without establishing a connection
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78c324cc-f75d-4a85-b7ab-f5128605a590, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221114145411, moz:debuggerAddress: 127.0.0.1:59392, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4664, moz:profile: C:\Users\mozil\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:59392/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78c324cc-f75d-4a85-b7ab-f5128605a590
 Time run: 2
 </system-out>
   </testcase>
@@ -311,15 +505,18 @@ Time run: 2
 	at org.testng.Assert.assertTrue(Assert.java:66)
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 </failure>
-    <system-out>Testcase is failed: repeatTest
-ExportData/Images
-ExportData/Images
-Screenshot taken: repeatTest
-Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+    <system-out>  Testcase is failed: repeatTest
+  Exception while taking screenshot: Tried to run command without establishing a connection
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78c324cc-f75d-4a85-b7ab-f5128605a590, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221114145411, moz:debuggerAddress: 127.0.0.1:59392, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4664, moz:profile: C:\Users\mozil\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:59392/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78c324cc-f75d-4a85-b7ab-f5128605a590
 Time run: 3
 </system-out>
   </testcase>
-  <testcase classname="test.RepeatTest" name="repeatTest" time="0.001">
+  <testcase classname="test.RepeatTest" name="repeatTest" time="0">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -327,11 +524,14 @@ Time run: 3
 	at org.testng.Assert.assertTrue(Assert.java:66)
 	at test.RepeatTest.repeatTest(RepeatTest.java:42)
 </failure>
-    <system-out>Testcase is failed: repeatTest
-ExportData/Images
-ExportData/Images
-Screenshot taken: repeatTest
-Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+    <system-out>  Testcase is failed: repeatTest
+  Exception while taking screenshot: Tried to run command without establishing a connection
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ANONYMOUS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78c324cc-f75d-4a85-b7ab-f5128605a590, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221114145411, moz:debuggerAddress: 127.0.0.1:59392, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4664, moz:profile: C:\Users\mozil\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:59392/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78c324cc-f75d-4a85-b7ab-f5128605a590
 Time run: 4
 </system-out>
   </testcase>

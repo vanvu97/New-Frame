@@ -1,83 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="3" failed="8" skipped="1">
+<testng-results ignored="0" total="9" passed="0" failed="9" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (f3c174a9-2eda-48cb-8180-3d0ece815358)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: data:,]]>
+      <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)]]>
+      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: data:,]]>
+      <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: data:,]]>
+      <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: data:,]]>
+      <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: data:,]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
     </line>
     <line>
-      <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
-    </line>
-    <line>
-      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
-    </line>
-    <line>
-      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+      <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-11-19T09:15:00 ICT" name="Command line suite" finished-at="2022-11-19T09:15:46 ICT" duration-ms="46564">
+  <suite started-at="2022-11-29T09:46:21 ICT" name="Command line suite" finished-at="2022-11-29T09:48:34 ICT" duration-ms="133481">
     <groups>
     </groups>
-    <test started-at="2022-11-19T09:15:00 ICT" name="Command line test" finished-at="2022-11-19T09:15:46 ICT" duration-ms="46564">
+    <test started-at="2022-11-29T09:46:21 ICT" name="Command line test" finished-at="2022-11-29T09:48:34 ICT" duration-ms="133481">
       <class name="test.OrangeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OrangeTest@4b14c583]" started-at="2022-11-19T09:15:25 ICT" name="setUp" finished-at="2022-11-19T09:15:27 ICT" duration-ms="2398" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OrangeTest@460d0a57]" started-at="2022-11-29T09:47:02 ICT" name="setUp" finished-at="2022-11-29T09:47:04 ICT" duration-ms="2529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:test.OrangeTest@4b14c583]" started-at="2022-11-19T09:15:27 ICT" name="login" finished-at="2022-11-19T09:15:27 ICT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="login()[pri:1, instance:test.OrangeTest@460d0a57]" started-at="2022-11-29T09:47:04 ICT" name="login" finished-at="2022-11-29T09:47:34 ICT" duration-ms="30010" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Input must be set]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:97)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:128)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:61)
-at page.LoginPage.<init>(LoginPage.java:35)
-at test.OrangeTest.login(OrangeTest.java:39)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.683
+  (Session info: MicrosoftEdge=104.0.1293.63)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ecf6e8320a8ba2dc14293e89f634fde, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)
+at test.OrangeTest.login(OrangeTest.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -114,24 +120,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
             </line>
             <line>
-              <![CDATA[Screenshot taken current URL: data:,]]>
+              <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="pimPage()[pri:2, instance:test.OrangeTest@4b14c583]" started-at="2022-11-19T09:15:28 ICT" name="pimPage" finished-at="2022-11-19T09:15:28 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="pimPage()[pri:2, instance:test.OrangeTest@460d0a57]" started-at="2022-11-29T09:47:34 ICT" name="pimPage" finished-at="2022-11-29T09:47:34 ICT" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "page.PIMPage.setFirstName(String)" because "this.pim" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "page.PIMPage.setFirstName(String)" because "this.pim" is null
-at test.OrangeTest.pimPage(OrangeTest.java:55)
+at test.OrangeTest.pimPage(OrangeTest.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -171,26 +177,35 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
             </line>
             <line>
-              <![CDATA[Screenshot taken current URL: data:,]]>
+              <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
             </line>
           </reporter-output>
         </test-method> <!-- pimPage -->
-        <test-method signature="adminPage()[pri:3, instance:test.OrangeTest@4b14c583]" started-at="2022-11-19T09:15:28 ICT" name="adminPage" finished-at="2022-11-19T09:15:28 ICT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="adminPage()[pri:3, instance:test.OrangeTest@460d0a57]" started-at="2022-11-29T09:47:34 ICT" name="adminPage" finished-at="2022-11-29T09:48:06 ICT" duration-ms="32063" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Input must be set]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:56)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:97)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:128)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:61)
-at page.AdminPage.<init>(AdminPage.java:59)
-at test.OrangeTest.adminPage(OrangeTest.java:47)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52388}, msedge: {msedgedriverVersion: 104.0.1293.91 (c5cb7597076b..., userDataDir: C:\Users\mozil\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e8320a8ba2dc14293e89f634fde
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at utils.ValidateAction.clickElement(ValidateAction.java:31)
+at page.AdminPage.addUser(AdminPage.java:46)
+at test.OrangeTest.adminPage(OrangeTest.java:55)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -227,31 +242,81 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (ad61b14241a197457aca893b771e7065)]]>
+              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (4ecf6e8320a8ba2dc14293e89f634fde)]]>
             </line>
             <line>
-              <![CDATA[Screenshot taken current URL: data:,]]>
+              <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
             </line>
           </reporter-output>
         </test-method> <!-- adminPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeTest@4b14c583]" started-at="2022-11-19T09:15:28 ICT" name="tearDown" finished-at="2022-11-19T09:15:28 ICT" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeTest@460d0a57]" started-at="2022-11-29T09:48:06 ICT" name="tearDown" finished-at="2022-11-29T09:48:06 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.OrangeTest -->
       <class name="test.RepeatTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:28 ICT" name="setUp" finished-at="2022-11-19T09:15:34 ICT" duration-ms="5810" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:06 ICT" name="setUp" finished-at="2022-11-29T09:48:33 ICT" duration-ms="26359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:34 ICT" name="login" finished-at="2022-11-19T09:15:46 ICT" duration-ms="12512" status="PASS">
+        <test-method signature="login()[pri:1, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:33 ICT" name="login" finished-at="2022-11-29T09:48:34 ICT" duration-ms="1552" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Timeout! Page still loading...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Timeout! Page still loading...
+at org.testng.Assert.fail(Assert.java:110)
+at utils.ValidateAction.waitForPageLoad(ValidateAction.java:160)
+at page.LoginPage.login(LoginPage.java:23)
+at test.RepeatTest.login(RepeatTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:46 ICT" name="repeatTest" finished-at="2022-11-19T09:15:46 ICT" duration-ms="4" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:34 ICT" name="repeatTest" finished-at="2022-11-29T09:48:34 ICT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -302,14 +367,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:46 ICT" name="repeatTest" finished-at="2022-11-19T09:15:46 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:34 ICT" name="repeatTest" finished-at="2022-11-29T09:48:34 ICT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -360,14 +422,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:46 ICT" name="repeatTest" finished-at="2022-11-19T09:15:46 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:34 ICT" name="repeatTest" finished-at="2022-11-29T09:48:34 ICT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -418,14 +477,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@65466a6a]" started-at="2022-11-19T09:15:46 ICT" name="repeatTest" finished-at="2022-11-19T09:15:46 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@47d90b9e]" started-at="2022-11-29T09:48:34 ICT" name="repeatTest" finished-at="2022-11-29T09:48:34 ICT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -476,42 +532,30 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (54210796-c6bb-4a65-a50c-0b356c4e2a50)]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (78c324cc-f75d-4a85-b7ab-f5128605a590)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
       </class> <!-- test.RepeatTest -->
-      <class name="test.logTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.logTest@5c909414]" started-at="2022-11-19T09:15:21 ICT" name="setUp" finished-at="2022-11-19T09:15:24 ICT" duration-ms="2432" status="PASS">
+      <class name="test.CaptureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaptureTest@78e117e3]" started-at="2022-11-29T09:46:21 ICT" name="setUp" finished-at="2022-11-29T09:46:26 ICT" duration-ms="4643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:test.logTest@5c909414]" started-at="2022-11-19T09:15:24 ICT" name="login" finished-at="2022-11-19T09:15:25 ICT" duration-ms="1162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.logTest@5c909414]" started-at="2022-11-19T09:15:25 ICT" name="tearDown" finished-at="2022-11-19T09:15:25 ICT" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.logTest -->
-      <class name="test.GrayImgTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GrayImgTest@5cee5251]" started-at="2022-11-19T09:15:01 ICT" name="setUp" finished-at="2022-11-19T09:15:04 ICT" duration-ms="2587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="readData()[pri:0, instance:test.GrayImgTest@5cee5251]" started-at="2022-11-19T09:15:04 ICT" name="readData" finished-at="2022-11-19T09:15:04 ICT" duration-ms="69" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="readData()[pri:0, instance:test.CaptureTest@78e117e3]" started-at="2022-11-29T09:46:26 ICT" name="readData" finished-at="2022-11-29T09:47:01 ICT" duration-ms="35179" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "String.trim()" because "ExtractedTextFromImage" is null]]>
+              <![CDATA[expected [Test] but found [OrangeHRM]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.trim()" because "ExtractedTextFromImage" is null
-at page.ImageTextPage.grayImage(ImageTextPage.java:71)
-at test.GrayImgTest.readData(GrayImgTest.java:41)
+              <![CDATA[java.lang.AssertionError: expected [Test] but found [OrangeHRM]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at test.CaptureTest.readData(CaptureTest.java:33)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -548,188 +592,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)]]>
+              <![CDATA[Driver for Screenshot FirefoxDriver: firefox on WINDOWS (f3c174a9-2eda-48cb-8180-3d0ece815358)]]>
             </line>
             <line>
-              <![CDATA[Screenshot taken current URL: data:,]]>
+              <![CDATA[  Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]>
             </line>
           </reporter-output>
         </test-method> <!-- readData -->
-        <test-method is-config="true" signature="takeScreenShoot(org.testng.ITestResult)[pri:0, instance:test.GrayImgTest@5cee5251]" started-at="2022-11-19T09:15:04 ICT" name="takeScreenShoot" finished-at="2022-11-19T09:15:05 ICT" duration-ms="1099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=readData status=FAILURE method=GrayImgTest.readData()[pri:0, instance:test.GrayImgTest@5cee5251] output=Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Driver for Screenshot EdgeDriver: msedge on WINDOWS (134ef2124b4a54113788afe711fb3a3c)]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot taken current URL: data:,]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- takeScreenShoot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GrayImgTest@5cee5251]" started-at="2022-11-19T09:15:05 ICT" name="tearDown" finished-at="2022-11-19T09:15:06 ICT" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.GrayImgTest -->
-      <class name="test.ListenersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ListenersTest@433d61fb]" started-at="2022-11-19T09:15:06 ICT" name="setUp" finished-at="2022-11-19T09:15:08 ICT" duration-ms="2447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="readData()[pri:0, instance:test.ListenersTest@433d61fb]" started-at="2022-11-19T09:15:08 ICT" name="readData" finished-at="2022-11-19T09:15:21 ICT" duration-ms="12873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ListenersTest@433d61fb]" started-at="2022-11-19T09:15:21 ICT" name="tearDown" finished-at="2022-11-19T09:15:21 ICT" duration-ms="491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.ListenersTest -->
-      <class name="test.CaptureTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaptureTest@4b5a5ed1]" started-at="2022-11-19T09:15:00 ICT" name="setUp" finished-at="2022-11-19T09:15:01 ICT" duration-ms="1734" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:198)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
-at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-at test.CaptureTest.setUp(CaptureTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="readData()[pri:0, instance:test.CaptureTest@4b5a5ed1]" started-at="2022-11-19T09:15:01 ICT" name="readData" finished-at="2022-11-19T09:15:01 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:198)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
-at BaseConfig.BaseConfig.firefoxBrowser(BaseConfig.java:113)
-at BaseConfig.BaseConfig.setupBrowser(BaseConfig.java:37)
-at test.CaptureTest.setUp(CaptureTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CaptureTest@4b5a5ed1]" started-at="2022-11-19T09:15:01 ICT" name="tearDown" finished-at="2022-11-19T09:15:01 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CaptureTest@78e117e3]" started-at="2022-11-29T09:47:01 ICT" name="tearDown" finished-at="2022-11-29T09:47:02 ICT" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
