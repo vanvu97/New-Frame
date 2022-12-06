@@ -1,6 +1,7 @@
 package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,11 +21,7 @@ public class BaseRemote {
     private static WebDriver driver;
     private static WebDriverWait wait;
     protected static JavascriptExecutor js;
-
-
-
     private static WebElement element;
-
     private static int seconds = 60;
 
     public static WebDriverWait getWait() {
@@ -40,7 +37,7 @@ public class BaseRemote {
                 driver = edgeBrowser();
                 driver.navigate().to(URL);
                 break;
-            case "chrome":
+            case "remote":
                 driver = chromeBrowser();
                 driver.navigate().to(URL);
                 break;
@@ -48,7 +45,7 @@ public class BaseRemote {
                 driver = firefoxBrowser();
                 driver.navigate().to(URL);
                 break;
-            case "chrome2":
+            case "chrome":
                 driver = chromeBrowser2();
                 driver.navigate().to(URL);
                 break;
@@ -59,6 +56,23 @@ public class BaseRemote {
         return driver;
     }
 
+    public WebElement xpath(String a) {
+        return driver.findElement(By.xpath(a));
+    }
+
+    public WebElement id(String a) {
+        return driver.findElement(By.id(a));
+    }
+
+    public WebElement name(String a) {
+        return driver.findElement(By.name(a));
+    }
+    public WebElement cssSelector(String a) {
+        return driver.findElement(By.cssSelector(a));
+    }
+    public WebElement className(String a) {
+        return driver.findElement(By.className(a));
+    }
 
     private static WebDriver edgeBrowser() {
         EdgeOptions options = new EdgeOptions();

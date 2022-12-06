@@ -13,13 +13,13 @@ public class StartUp {
 
     @BeforeClass
     public void setUp() {
-        driver = new BaseRemote().setupBrowser("chrome2", URL);
+        driver = new BaseRemote().setupBrowser("remote", URL);
 
     }
 
     @AfterClass
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
     }
 
     //Remote

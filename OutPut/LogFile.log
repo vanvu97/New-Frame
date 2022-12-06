@@ -1093,3 +1093,45 @@
 [INFO ] 2022-12-06 08:56:31 [main] Log -   Screenshot taken: Test
 [INFO ] 2022-12-06 08:56:32 [main] Log - 
 [INFO ] 2022-12-06 08:56:32 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 09:19:17 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:19:27 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 09:19:27 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 09:19:27 [main] Log - 
+[INFO ] 2022-12-06 09:19:27 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 09:19:59 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:21:00 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:21:08 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 09:21:08 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 09:21:08 [main] Log - 
+[INFO ] 2022-12-06 09:21:08 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 09:28:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:28:35 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 09:28:35 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 09:28:35 [main] Log - 
+[INFO ] 2022-12-06 09:28:35 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 09:53:38 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:54:53 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:54:55 [main] Log - Input Username and Password
+[INFO ] 2022-12-06 09:54:57 [main] Log - Click Login button
+[INFO ] 2022-12-06 09:55:59 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 09:55:59 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 09:55:59 [main] Log - 
+[INFO ] 2022-12-06 09:55:59 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 09:58:25 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 09:58:27 [main] Log - Input Username and Password
+[INFO ] 2022-12-06 09:58:29 [main] Log - Click Login button
+[INFO ] 2022-12-06 09:59:30 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 09:59:30 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 09:59:30 [main] Log - 
+[INFO ] 2022-12-06 09:59:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 10:00:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 10:00:47 [main] Log - Input Username and Password
+[INFO ] 2022-12-06 10:00:50 [main] Log - Click Login button
+[INFO ] 2022-12-06 10:01:47 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 10:01:49 [main] Log - Input Username and Password
+[INFO ] 2022-12-06 10:01:52 [main] Log - Click Login button
+[INFO ] 2022-12-06 10:01:53 [main] Log - Assert Title!
+[INFO ] 2022-12-06 10:01:54 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 10:01:54 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 10:01:54 [main] Log - 
+[INFO ] 2022-12-06 10:01:54 [main] Log - ################### Running Completed! ###################

@@ -55,11 +55,4 @@ public class PIMPage extends Interface {
 
         return new AdminPage(driver);
     }
-    public void test() {
-        btn.sendKeys(usernames, "Admin");
-        btn.sendKeys(passwords, "admin123");
-        btn.click(loginBtn);
-    }
-
-
 }
