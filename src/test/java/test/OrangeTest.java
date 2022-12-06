@@ -25,17 +25,16 @@ public class OrangeTest extends StartBrowse {
     private final String firstName = "Corgi";
     private final String lastName = "Dog";
 
-
     @Test(priority = 1)
     public void login() throws InterruptedException, IOException {
         Log.info("1. Running Login");
         login = new LoginPage(driver);
-        driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         pim = login.login(userName, passWord);
     }
 
     @Test(priority = 2)
     public void pimPage() throws InterruptedException {
+        pim = new PIMPage(driver);
         Log.info("2. Running pimPage");
         pim.setFirstName(firstName);
         pim.setLastName(lastName);
@@ -50,8 +49,8 @@ public class OrangeTest extends StartBrowse {
         Log.info("4. Adding New User!");
 //        adminPage.addUser();
         adminPage.verifyUser();
-
     }
+
 
 
 }

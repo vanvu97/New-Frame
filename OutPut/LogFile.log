@@ -851,3 +851,245 @@
 [INFO ] 2022-11-29 11:07:35 [main] Log - #######  Testcase is passed: adminPage #######
 [INFO ] 2022-11-29 11:07:35 [main] Log - 
 [INFO ] 2022-11-29 11:07:35 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:35:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 10:35:37 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 10:35:47 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-11-30 10:35:47 [main] Log - 
+[INFO ] 2022-11-30 10:35:47 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:47:04 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 10:47:05 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 10:47:47 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2022-11-30 10:47:47 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-30 10:47:47 [main] Log - 
+[INFO ] 2022-11-30 10:47:47 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:48:39 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 10:48:39 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 10:48:52 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-11-30 10:48:52 [main] Log - 
+[INFO ] 2022-11-30 10:48:52 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:50:29 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 10:50:30 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 10:50:39 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-11-30 10:50:39 [main] Log - 
+[INFO ] 2022-11-30 10:50:39 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:51:01 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 10:51:02 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 10:51:15 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2022-11-30 10:51:15 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-30 10:51:15 [main] Log - 
+[INFO ] 2022-11-30 10:51:15 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 10:59:42 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 11:00:40 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 11:00:40 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-30 11:00:41 [main] Log -  - Clicking to PIM
+[INFO ] 2022-11-30 11:00:45 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-11-30 11:00:46 [main] Log -  - Adding New User
+[INFO ] 2022-11-30 11:01:18 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 11:01:19 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-30 11:01:20 [main] Log -  - Clicking to PIM
+[INFO ] 2022-11-30 11:01:23 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-11-30 11:01:24 [main] Log -  - Adding New User
+[INFO ] 2022-11-30 11:04:25 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-11-30 11:04:25 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-30 11:04:25 [main] Log - 
+[INFO ] 2022-11-30 11:04:25 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 11:09:10 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 11:09:11 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-30 11:09:12 [main] Log -  - Clicking to PIM
+[INFO ] 2022-11-30 11:09:13 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-11-30 11:12:15 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-11-30 11:12:15 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-30 11:12:15 [main] Log - 
+[INFO ] 2022-11-30 11:12:15 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 11:21:27 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 11:21:28 [main] Log - 2. Running pimPage
+[INFO ] 2022-11-30 11:21:29 [main] Log -  - Clicking to PIM
+[INFO ] 2022-11-30 11:21:32 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-11-30 11:21:34 [main] Log -  - Adding New User
+[INFO ] 2022-11-30 11:21:36 [main] Log -  - Click Save button!
+[INFO ] 2022-11-30 11:21:39 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-11-30 11:21:39 [main] Log - 
+[INFO ] 2022-11-30 11:21:39 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 13:16:23 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 13:16:25 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 13:17:02 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2022-11-30 13:17:02 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-11-30 13:17:02 [main] Log - 
+[INFO ] 2022-11-30 13:17:02 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-11-30 13:17:16 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-11-30 13:17:16 [main] Log - 1. Running Login
+[INFO ] 2022-11-30 13:17:25 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-11-30 13:17:25 [main] Log - 
+[INFO ] 2022-11-30 13:17:25 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:52:38 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:52:38 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2022-12-02 16:52:38 [main] Log - 
+[INFO ] 2022-12-02 16:52:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:55:24 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:55:24 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2022-12-02 16:55:24 [main] Log - 
+[INFO ] 2022-12-02 16:55:24 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:55:37 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:55:37 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2022-12-02 16:55:37 [main] Log - 
+[INFO ] 2022-12-02 16:55:37 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:55:41 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:55:41 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2022-12-02 16:55:41 [main] Log - 
+[INFO ] 2022-12-02 16:55:41 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:55:59 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:56:00 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-02 16:56:01 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-02 16:56:04 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-02 16:56:06 [main] Log -  - Adding New User
+[INFO ] 2022-12-02 16:56:08 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-02 16:56:11 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-12-02 16:56:11 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-02 16:56:12 [main] Log - 
+[INFO ] 2022-12-02 16:56:12 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-02 16:56:27 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-02 16:56:28 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-02 16:56:29 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-02 16:56:31 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-02 16:56:33 [main] Log -  - Adding New User
+[INFO ] 2022-12-02 16:56:35 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-02 16:56:38 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-12-02 16:56:38 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-02 16:56:38 [main] Log - 
+[INFO ] 2022-12-02 16:56:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 10:32:28 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 10:47:10 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 10:47:41 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 10:47:41 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 10:47:41 [main] Log - 
+[INFO ] 2022-12-05 10:47:41 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 10:54:17 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 10:54:26 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 10:54:26 [main] Log - 
+[INFO ] 2022-12-05 10:54:26 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:11:36 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:11:51 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:11:51 [main] Log - 
+[INFO ] 2022-12-05 11:11:51 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:12:45 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:12:54 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 11:12:54 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 11:12:54 [main] Log - 
+[INFO ] 2022-12-05 11:12:54 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:14:12 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:14:30 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:14:30 [main] Log - 
+[INFO ] 2022-12-05 11:14:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:15:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:15:41 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:15:41 [main] Log - 
+[INFO ] 2022-12-05 11:15:41 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:23:05 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:23:13 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 11:23:13 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 11:23:13 [main] Log - 
+[INFO ] 2022-12-05 11:23:13 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:24:06 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:24:19 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:24:20 [main] Log - 
+[INFO ] 2022-12-05 11:24:20 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:28:03 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:28:28 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:28:28 [main] Log - 
+[INFO ] 2022-12-05 11:28:28 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:28:48 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:29:13 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:29:13 [main] Log - 
+[INFO ] 2022-12-05 11:29:13 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:29:42 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:29:49 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:29:50 [main] Log - 
+[INFO ] 2022-12-05 11:29:50 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:31:28 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:31:36 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:31:36 [main] Log - 
+[INFO ] 2022-12-05 11:31:36 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:32:09 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:32:19 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-05 11:32:19 [main] Log - 
+[INFO ] 2022-12-05 11:32:19 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 11:33:06 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 11:33:17 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 11:33:17 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 11:33:17 [main] Log - 
+[INFO ] 2022-12-05 11:33:17 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 13:24:12 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 13:24:40 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 13:24:40 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-05 13:24:40 [main] Log - 
+[INFO ] 2022-12-05 13:24:40 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:04:34 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:05:10 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:05:10 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:05:10 [main] Log - 
+[INFO ] 2022-12-05 16:05:10 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:07:32 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:08:04 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:08:04 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:08:04 [main] Log - 
+[INFO ] 2022-12-05 16:08:04 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:08:46 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:09:18 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:09:18 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:09:18 [main] Log - 
+[INFO ] 2022-12-05 16:09:18 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:10:28 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:10:59 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:10:59 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:10:59 [main] Log - 
+[INFO ] 2022-12-05 16:10:59 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:11:58 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:12:29 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:12:29 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-05 16:12:30 [main] Log - 
+[INFO ] 2022-12-05 16:12:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:17:18 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:17:23 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:19:41 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:19:42 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:19:42 [main] Log - 
+[INFO ] 2022-12-05 16:19:42 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:20:03 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:22:30 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:22:30 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:22:30 [main] Log - 
+[INFO ] 2022-12-05 16:22:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:22:47 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:23:48 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:23:48 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:23:48 [main] Log - 
+[INFO ] 2022-12-05 16:23:48 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:28:28 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:29:29 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:29:29 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:29:29 [main] Log - 
+[INFO ] 2022-12-05 16:29:29 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-05 16:51:57 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-05 16:52:52 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-05 16:52:52 [main] Log -   Exception while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[INFO ] 2022-12-05 16:52:52 [main] Log - 
+[INFO ] 2022-12-05 16:52:52 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 08:47:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 08:48:07 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 08:48:07 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 08:48:07 [main] Log - 
+[INFO ] 2022-12-06 08:48:07 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 08:52:31 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 08:53:16 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 08:54:17 [main] Log - #######  Testcase is skipped: Test #######
+[INFO ] 2022-12-06 08:54:17 [main] Log - 
+[INFO ] 2022-12-06 08:54:17 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 08:54:30 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 08:55:31 [main] Log - #######  Testcase is skipped: Test #######
+[INFO ] 2022-12-06 08:55:31 [main] Log - 
+[INFO ] 2022-12-06 08:55:31 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-06 08:56:17 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-06 08:56:31 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-06 08:56:31 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-06 08:56:32 [main] Log - 
+[INFO ] 2022-12-06 08:56:32 [main] Log - ################### Running Completed! ###################

@@ -1,12 +1,14 @@
 package BaseConfig;
 
+import core.BaseRemote;
 import management.CaptureManager;
 import management.Log;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class TestListenors implements ITestListener {
+public class TestListenors implements ITestListener{
+
     @Override
     public void onFinish(ITestContext result) {
         Log.info("");
@@ -23,7 +25,7 @@ public class TestListenors implements ITestListener {
         Log.info("#######  Testcase is failed: " + result.getName() + " #######");
         if (ITestResult.FAILURE == result.getStatus()) {
             try {
-                CaptureManager.getCapture(new BaseConfig().getDriver(), result.getName());
+                CaptureManager.getCapture(new BaseRemote().getDriver(), result.getName());
             } catch (Exception e) {
                 Log.info("Exception while taking screenshot: " + e.getMessage());
             }

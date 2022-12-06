@@ -25,7 +25,7 @@ public class LoginPage extends Interface {
         ACTIONs.setTextWeb(userNames, username);
         ACTIONs.setTextWeb(this.password, password);
         ACTIONs.clickElementWeb(loginBtn);
-        Assert.assertTrue(ACTIONs.verifyPageTitle("OrangeHRM"), "Incorrect Page Title!");
+        Assert.assertTrue(ACTIONs.verifyPageTitle("Dashboard"), "Incorrect Page Title!");
         return new PIMPage(driver);
     }
 
