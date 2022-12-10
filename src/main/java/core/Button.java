@@ -1,15 +1,22 @@
 package core;
 
-public class Button extends Editor {
+public class Button extends Handler {
 
-    public void clickBtn (String a) {
-       click(a);
-    }
-    public void sendKey(String a, String q) {
-       sendKeys(a, q);
+    public void clickButton(String a) {
+        click(a);
     }
 
+    public void sendKey(String a, String b) {
+        sendKeys(a, b);
+    }
 
+    public void selectOptions(String a, String b) {
+        selectOption(a, b);
+    }
+
+    public void checkBoxs(String a) {
+        checkBox(a);
+    }
 
 
 }

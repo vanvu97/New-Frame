@@ -38,16 +38,19 @@ public class BaseRemote {
                 driver.navigate().to(URL);
                 break;
             case "remote":
-                driver = chromeBrowser();
-                driver.navigate().to(URL);
+                driver = chromeRemote();
+//                driver.navigate().to(URL);
                 break;
             case "firefox":
                 driver = firefoxBrowser();
                 driver.navigate().to(URL);
                 break;
             case "chrome":
-                driver = chromeBrowser2();
+                driver = chromeBrowser();
                 driver.navigate().to(URL);
+                break;
+            case "remoteNoURL":
+                driver = chromeBrowser();
                 break;
             default:
                 System.out.println("Browser: " + browserType + " is not config, starting default Browser...!");
@@ -88,7 +91,7 @@ public class BaseRemote {
         return driver;
     }
 
-    private static WebDriver chromeBrowser2() {
+    private static WebDriver chromeBrowser() {
         ChromeOptions options = new ChromeOptions();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
@@ -104,7 +107,7 @@ public class BaseRemote {
         return driver;
     }
 
-    private static WebDriver chromeBrowser() {
+    private static WebDriver chromeRemote() {
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         WebDriverManager.chromedriver().setup();
