@@ -5,7 +5,7 @@
     <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"/>
 
     <listeners>
-        <listener class-name="BaseConfig.TestListenors"></listener>
+        <listener class-name="utils.TestListenors"></listener>
     </listeners>
 
     <test thread-count="5" name="RealProject">

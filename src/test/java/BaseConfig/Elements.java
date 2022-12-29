@@ -65,7 +65,7 @@ public class Elements{
     @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title' and normalize-space()='Personal Details']")
     protected WebElement header;
 
-    //    =========================================LoginPage===================================================================
+    //    =========================================TC1_CheckLogin===================================================================
     protected final String title = "User Management";
     @FindBy(name = "username")
     protected WebElement userNames;

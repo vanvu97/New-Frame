@@ -1,6 +1,6 @@
 package BaseConfig;
 
-import core.BaseRemote;
+import core.BaseConfig;
 import management.Log;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -10,12 +10,12 @@ public class StartUp {
 
     protected WebDriver driver;
 
-    private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7";
+    private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers";
 
     @BeforeClass
     public void setUp() {
         Log.info("Start Browser");
-        driver = new BaseRemote().setupBrowser("remote", URL);
+        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 

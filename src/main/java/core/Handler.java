@@ -10,13 +10,12 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class Handler extends BaseRemote {
+public class Handler extends BaseConfig {
 
     private String c;
     private String d;
     private String q;
     private String w;
-
 
     protected WebDriver click(String a) {
         c = a.substring(0, a.indexOf("//"));
@@ -157,7 +156,7 @@ public class Handler extends BaseRemote {
         return getDriver();
     }
 
-    protected WebDriver checkBox(String a) {
+    protected WebDriver checkBoxs(String a) {
         c = a.substring(0, a.indexOf("//"));
         d = a.substring(a.indexOf("//") + 2);
         waitForPageLoad();
@@ -214,6 +213,105 @@ public class Handler extends BaseRemote {
                 break;
         }
 
+        return getDriver();
+    }
+
+    protected WebDriver sendKeyAndSelect(String a, String s, String k) {
+        c = a.substring(0, a.indexOf("//"));
+        d = a.substring(a.indexOf("//") + 2);
+
+        q = s.substring(0, s.indexOf("//"));
+        w = s.substring(s.indexOf("//") + 2);
+        waitForPageLoad();
+        switch (c.trim().toLowerCase()) {
+            case "xpath":
+                getWait().until(ExpectedConditions.visibilityOf(xpath("//" + d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(xpath("//" + d)));
+                xpath("//" + d).sendKeys(k);
+                break;
+            case "id":
+                getWait().until(ExpectedConditions.visibilityOf(id(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(id(d)));
+                id(d).sendKeys(k);
+                break;
+            case "name":
+                getWait().until(ExpectedConditions.visibilityOf(name(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(name(d)));
+                name(d).sendKeys(k);
+                break;
+            case "cssselector":
+                getWait().until(ExpectedConditions.visibilityOf(cssSelector(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(cssSelector(d)));
+                cssSelector(d).sendKeys(k);
+                break;
+            case "classname":
+                getWait().until(ExpectedConditions.visibilityOf(className(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(className(d)));
+                className(d).sendKeys(k);
+                break;
+        }
+
+
+        switch (q.trim().toLowerCase()) {
+            case "xpath":
+                getWait().until(ExpectedConditions.visibilityOf(xpath("//" + w)));
+                getWait().until(ExpectedConditions.elementToBeClickable(xpath("//" + w)));
+                xpath("//" + w).click();
+                break;
+            case "id":
+                getWait().until(ExpectedConditions.visibilityOf(id(w)));
+                getWait().until(ExpectedConditions.elementToBeClickable(id(w)));
+                id(w).click();
+                break;
+            case "name":
+                getWait().until(ExpectedConditions.visibilityOf(name(w)));
+                getWait().until(ExpectedConditions.elementToBeClickable(name(w)));
+                name(w).click();
+                break;
+            case "cssselector":
+                getWait().until(ExpectedConditions.visibilityOf(cssSelector(w)));
+                getWait().until(ExpectedConditions.elementToBeClickable(cssSelector(w)));
+                cssSelector(w).click();
+                break;
+            case "classname":
+                getWait().until(ExpectedConditions.visibilityOf(className(w)));
+                getWait().until(ExpectedConditions.elementToBeClickable(className(w)));
+                className(w).click();
+                break;
+        }
+        return getDriver();
+    }
+    protected WebDriver getText(String a) {
+        c = a.substring(0, a.indexOf("//"));
+        d = a.substring(a.indexOf("//") + 2);
+        waitForPageLoad();
+        switch (c.trim().toLowerCase()) {
+            case "xpath":
+                getWait().until(ExpectedConditions.visibilityOf(xpath("//" + d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(xpath("//" + d)));
+                xpath("//" + d).getText();
+                break;
+            case "id":
+                getWait().until(ExpectedConditions.visibilityOf(id(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(id(d)));
+                id(d).getText();
+                break;
+            case "name":
+                getWait().until(ExpectedConditions.visibilityOf(name(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(name(d)));
+                name(d).getText();
+                break;
+            case "cssselector":
+                getWait().until(ExpectedConditions.visibilityOf(cssSelector(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(cssSelector(d)));
+                cssSelector(d).getText();
+                break;
+            case "classname":
+                getWait().until(ExpectedConditions.visibilityOf(className(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(className(d)));
+                className(d).getText();
+                break;
+        }
         return getDriver();
     }
 

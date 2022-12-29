@@ -1,14 +1,14 @@
 package test;
 
 import BaseConfig.BaseConfig;
-import BaseConfig.TestListenors;
+import page.TC1_LoginPage;
+import utils.TestListenors;
 import management.PropertiesManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import page.LoginPage;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ public class RepeatTest {
 
     int count = 0;
     private WebDriver driver;
-    private LoginPage login;
+    private TC1_LoginPage login;
 
     @BeforeClass
     public void setUp(){
@@ -27,7 +27,7 @@ public class RepeatTest {
 
     @Test (priority = 1)
     public void login() throws InterruptedException, IOException {
-        login = new LoginPage(driver);
+        login = new TC1_LoginPage();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         login.login(PropertiesManager.getPropValue("email"), PropertiesManager.getPropValue("password"));
     }

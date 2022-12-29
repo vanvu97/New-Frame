@@ -1495,3 +1495,419 @@
 [INFO ] 2022-12-10 12:40:49 [main] Log -   Screenshot taken: Test
 [INFO ] 2022-12-10 12:40:49 [main] Log - 
 [INFO ] 2022-12-10 12:40:49 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 12:43:38 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 12:43:38 [main] Log - Start Browser
+[INFO ] 2022-12-10 12:43:40 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 12:43:41 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 12:43:42 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 12:43:45 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 12:43:45 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 12:43:45 [main] Log - 
+[INFO ] 2022-12-10 12:43:45 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 12:44:17 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 12:44:17 [main] Log - Start Browser
+[INFO ] 2022-12-10 12:45:20 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 12:45:20 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 12:45:20 [main] Log - 
+[INFO ] 2022-12-10 12:45:20 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 12:50:16 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 12:50:16 [main] Log - Start Browser
+[INFO ] 2022-12-10 12:50:18 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 12:50:19 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 12:50:20 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 12:50:20 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 12:50:20 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 12:50:20 [main] Log - 
+[INFO ] 2022-12-10 12:50:20 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 12:52:53 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 12:52:53 [main] Log - Start Browser
+[INFO ] 2022-12-10 12:52:56 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 12:52:57 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 12:52:58 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 12:52:58 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 12:52:58 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 12:52:58 [main] Log - 
+[INFO ] 2022-12-10 12:52:58 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 12:53:30 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 12:53:30 [main] Log - Start Browser
+[INFO ] 2022-12-10 12:53:32 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 12:53:33 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 12:53:34 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 12:53:34 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 12:53:34 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 12:53:34 [main] Log - 
+[INFO ] 2022-12-10 12:53:34 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:00:52 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:00:52 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:00:55 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:00:56 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:00:57 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:00:59 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:00:59 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:01:00 [main] Log - 
+[INFO ] 2022-12-10 13:01:00 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:02:31 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:02:31 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:02:32 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:02:33 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:02:35 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:02:37 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:03:38 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:03:38 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:03:38 [main] Log - 
+[INFO ] 2022-12-10 13:03:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:04:55 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:04:55 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:04:57 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:05:15 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:05:16 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:05:18 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:06:34 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:06:34 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:06:34 [main] Log - 
+[INFO ] 2022-12-10 13:06:34 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:07:10 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:07:10 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:07:13 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:07:19 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:07:20 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:07:23 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:07:26 [main] Log -  Checking the Checkbox
+[INFO ] 2022-12-10 13:07:27 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:07:27 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:07:27 [main] Log - 
+[INFO ] 2022-12-10 13:07:27 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:10:35 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:10:35 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:11:38 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:11:39 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:11:39 [main] Log - 
+[INFO ] 2022-12-10 13:11:39 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:16:43 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:16:43 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:17:47 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:17:47 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:17:47 [main] Log - 
+[INFO ] 2022-12-10 13:17:47 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:18:32 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:18:32 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:19:34 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:19:34 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:19:34 [main] Log - 
+[INFO ] 2022-12-10 13:19:34 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:20:55 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:20:55 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:21:58 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:21:58 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:21:58 [main] Log - 
+[INFO ] 2022-12-10 13:21:58 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:23:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:23:44 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:24:46 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:24:46 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:24:46 [main] Log - 
+[INFO ] 2022-12-10 13:24:46 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:26:14 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:26:14 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:27:27 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:27:27 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:27:27 [main] Log - 
+[INFO ] 2022-12-10 13:27:27 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:28:27 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:28:27 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:28:32 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:28:33 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:28:34 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:28:37 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:29:38 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:29:39 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:29:39 [main] Log - 
+[INFO ] 2022-12-10 13:29:39 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:31:06 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:31:06 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:31:13 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:31:14 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:31:15 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:31:18 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:31:18 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:31:19 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:31:19 [main] Log - 
+[INFO ] 2022-12-10 13:31:19 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:33:48 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:33:48 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:33:55 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:33:56 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:33:57 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:34:00 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:34:02 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:34:02 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:34:02 [main] Log - 
+[INFO ] 2022-12-10 13:34:02 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:40:54 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:40:54 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:41:01 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:41:03 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:41:04 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:41:06 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:41:07 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:41:07 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:41:07 [main] Log - 
+[INFO ] 2022-12-10 13:41:07 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:41:22 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:41:22 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:41:27 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:41:28 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:41:29 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:41:31 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:42:32 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:42:32 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:42:33 [main] Log - 
+[INFO ] 2022-12-10 13:42:33 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:46:11 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:46:11 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:46:20 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:46:21 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:46:22 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:46:25 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:47:26 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-10 13:47:26 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-10 13:47:26 [main] Log - 
+[INFO ] 2022-12-10 13:47:26 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-10 13:51:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-10 13:51:44 [main] Log - Start Browser
+[INFO ] 2022-12-10 13:51:50 [main] Log - 1. Nhập username
+[INFO ] 2022-12-10 13:51:51 [main] Log - 2. Nhập password
+[INFO ] 2022-12-10 13:51:52 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-10 13:51:55 [main] Log - 4. Login thành công
+[INFO ] 2022-12-10 13:51:56 [main] Log - 5. Clicking checkbox
+[INFO ] 2022-12-10 13:51:56 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-10 13:51:56 [main] Log - 
+[INFO ] 2022-12-10 13:51:56 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 19:08:34 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 19:08:34 [main] Log - Start Browser
+[INFO ] 2022-12-14 19:11:45 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 19:11:45 [main] Log - Start Browser
+[INFO ] 2022-12-14 19:11:46 [main] Log - 1. Nhập username
+[INFO ] 2022-12-14 19:12:47 [main] Log - #######  Testcase is failed: Test #######
+[INFO ] 2022-12-14 19:12:47 [main] Log -   Screenshot taken: Test
+[INFO ] 2022-12-14 19:12:47 [main] Log - 
+[INFO ] 2022-12-14 19:12:47 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 19:51:40 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 19:51:40 [main] Log - Start Browser
+[INFO ] 2022-12-14 19:51:41 [main] Log - 1. Nhập username
+[INFO ] 2022-12-14 19:52:31 [main] Log - 2. Nhập password
+[INFO ] 2022-12-14 19:52:32 [main] Log - 3. Nhấn Login
+[INFO ] 2022-12-14 19:52:34 [main] Log - 4. Login thành công
+[INFO ] 2022-12-14 19:52:36 [main] Log - 5. Clicking checkbox
+[INFO ] 2022-12-14 19:52:36 [main] Log - #######  Testcase is passed: Test #######
+[INFO ] 2022-12-14 19:52:36 [main] Log - 
+[INFO ] 2022-12-14 19:52:36 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 20:37:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 20:38:30 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 20:38:41 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 20:38:41 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 20:38:41 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2022-12-14 20:38:41 [main] Log -   Screenshot taken: login
+[INFO ] 2022-12-14 20:38:41 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 20:38:41 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 20:39:16 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-12-14 20:39:16 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.99)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30ab858f6eac467da976d40915acf289, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:36332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:36332/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30ab858f6eac467da976d40915acf289
+[INFO ] 2022-12-14 20:39:16 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 20:39:16 [main] Log - 4. Adding New User!
+[INFO ] 2022-12-14 20:45:09 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 20:45:17 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 20:45:17 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 20:45:18 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 20:45:19 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 20:45:21 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 20:45:21 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 20:45:21 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 20:45:21 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 20:45:24 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 20:45:25 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 20:45:27 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 20:45:28 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 20:45:28 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 20:45:28 [main] Log - 4. Adding New User!
+[INFO ] 2022-12-14 20:48:30 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-12-14 20:48:30 [main] Log - 
+[INFO ] 2022-12-14 20:48:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 21:00:45 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 21:00:52 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 21:00:52 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 21:00:54 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 21:00:55 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 21:00:57 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 21:00:57 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 21:00:57 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 21:00:57 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 21:00:59 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 21:01:00 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 21:01:03 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 21:01:04 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 21:01:04 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 21:01:04 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 21:01:06 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 21:01:07 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 21:01:11 [main] Log - #######  Testcase is passed: adminPage #######
+[INFO ] 2022-12-14 21:01:11 [main] Log - 
+[INFO ] 2022-12-14 21:01:11 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 21:25:57 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 21:26:06 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 21:26:06 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 21:26:07 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 21:26:08 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 21:26:11 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 21:26:11 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 21:26:11 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 21:26:11 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 21:26:15 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 21:26:16 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 21:26:18 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 21:26:19 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 21:26:19 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 21:26:19 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 21:26:21 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 21:26:23 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 21:27:30 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 21:27:30 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 21:27:30 [main] Log - 
+[INFO ] 2022-12-14 21:27:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 21:38:14 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 21:38:20 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 21:38:20 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 21:38:21 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 21:38:22 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 21:38:24 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 21:38:24 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 21:38:24 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 21:38:24 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 21:38:26 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 21:38:28 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 21:38:30 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 21:38:31 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 21:38:31 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 21:38:31 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 21:38:33 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 21:38:35 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 21:38:38 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 21:38:38 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 21:38:38 [main] Log - 
+[INFO ] 2022-12-14 21:38:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 21:38:54 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 21:39:05 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 21:39:05 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 21:39:06 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 21:39:07 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 21:39:10 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 21:39:10 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 21:39:10 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 21:39:10 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 21:39:13 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 21:39:15 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 21:39:17 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 21:39:18 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 21:39:18 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 21:39:18 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 21:39:21 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 21:39:22 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 21:40:26 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 21:40:26 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 21:40:26 [main] Log - 
+[INFO ] 2022-12-14 21:40:26 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 21:59:46 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 21:59:52 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 21:59:52 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 21:59:53 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 21:59:54 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 21:59:56 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 21:59:56 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 21:59:56 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 21:59:56 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 21:59:58 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 22:00:00 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 22:00:02 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 22:00:03 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 22:00:03 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 22:00:03 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 22:00:05 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 22:00:06 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 22:00:09 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 22:00:09 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 22:00:09 [main] Log - 
+[INFO ] 2022-12-14 22:00:09 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 22:08:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 22:08:38 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 22:08:38 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 22:08:39 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 22:08:40 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 22:08:43 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 22:08:43 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 22:08:43 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 22:08:43 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 22:08:45 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 22:08:46 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 22:08:49 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 22:08:50 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 22:08:50 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 22:08:50 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 22:08:52 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 22:08:54 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 22:08:56 [main] Log -  - Sending Employee Name
+[INFO ] 2022-12-14 22:08:56 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 22:08:56 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 22:08:56 [main] Log - 
+[INFO ] 2022-12-14 22:08:56 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 22:10:30 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 22:10:42 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 22:10:42 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 22:10:43 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 22:10:44 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 22:10:46 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 22:10:46 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 22:10:46 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 22:10:46 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 22:10:48 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 22:10:50 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 22:10:52 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 22:10:53 [main] Log - #######  Testcase is passed: pimPage #######
+[INFO ] 2022-12-14 22:10:53 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 22:10:53 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 22:10:55 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 22:10:58 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 22:11:00 [main] Log -  - Sending Employee Name
+[INFO ] 2022-12-14 22:12:09 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 22:12:09 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 22:12:10 [main] Log - 
+[INFO ] 2022-12-14 22:12:10 [main] Log - ################### Running Completed! ###################
+[INFO ] 2022-12-14 22:12:53 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2022-12-14 22:12:58 [main] Log - 1. Running Login
+[INFO ] 2022-12-14 22:12:58 [main] Log -  - Nhập username
+[INFO ] 2022-12-14 22:13:00 [main] Log -  - Nhập password
+[INFO ] 2022-12-14 22:13:01 [main] Log -  - Nhấn Login
+[INFO ] 2022-12-14 22:13:03 [main] Log -  - Login thành công
+[INFO ] 2022-12-14 22:13:03 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2022-12-14 22:13:03 [main] Log - 2. Running pimPage
+[INFO ] 2022-12-14 22:13:03 [main] Log -  - Clicking to PIM
+[INFO ] 2022-12-14 22:13:05 [main] Log -  - Clicking to Add New User
+[INFO ] 2022-12-14 22:13:06 [main] Log -  - Adding New User
+[INFO ] 2022-12-14 22:13:09 [main] Log -  - Click Save Button!
+[INFO ] 2022-12-14 22:14:11 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2022-12-14 22:14:11 [main] Log -   Screenshot taken: pimPage
+[INFO ] 2022-12-14 22:14:11 [main] Log - 3. Running adminPage
+[INFO ] 2022-12-14 22:14:11 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2022-12-14 22:14:13 [main] Log -  - Clicking Add User Button!
+[INFO ] 2022-12-14 22:14:15 [main] Log -  - Adding User Button!
+[INFO ] 2022-12-14 22:14:17 [main] Log -  - Sending Employee Name
+[INFO ] 2022-12-14 22:14:22 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2022-12-14 22:14:22 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2022-12-14 22:14:22 [main] Log - 
+[INFO ] 2022-12-14 22:14:22 [main] Log - ################### Running Completed! ###################

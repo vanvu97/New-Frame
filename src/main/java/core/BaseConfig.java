@@ -17,7 +17,7 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BaseRemote {
+public class BaseConfig {
     private static WebDriver driver;
     private static WebDriverWait wait;
     protected static JavascriptExecutor js;

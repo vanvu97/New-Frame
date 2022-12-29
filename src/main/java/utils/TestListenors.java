@@ -1,6 +1,6 @@
-package BaseConfig;
+package utils;
 
-import core.BaseRemote;
+import core.BaseConfig;
 import management.CaptureManager;
 import management.Log;
 import org.testng.ITestContext;
@@ -25,7 +25,7 @@ public class TestListenors implements ITestListener{
         Log.info("#######  Testcase is failed: " + result.getName() + " #######");
         if (ITestResult.FAILURE == result.getStatus()) {
             try {
-                CaptureManager.getCapture(new BaseRemote().getDriver(), result.getName());
+                CaptureManager.getCapture(new BaseConfig().getDriver(), result.getName());
             } catch (Exception e) {
                 Log.info("Exception while taking screenshot: " + e.getMessage());
             }

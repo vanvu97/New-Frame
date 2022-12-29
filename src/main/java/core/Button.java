@@ -13,9 +13,15 @@ public class Button extends Handler {
     public void selectOptions(String a, String b) {
         selectOption(a, b);
     }
-
-    public void checkBoxs(String a) {
-        checkBox(a);
+    public void checkBox(String a) {
+        checkBoxs(a);
+    }
+    public String getTexts(String a){
+        getText(a);
+        return a;
+    }
+    public void sendkeyAndSelect(String a, String b, String c){
+        sendKeyAndSelect(a, b, c);
     }
 
 
