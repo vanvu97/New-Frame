@@ -6,23 +6,19 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class Elements {
+public class Elements{
     //    =================================================Admin Page===========================================================
     protected final String status = "Enabled";
     protected final String role = "Admin";
-    protected final String username = "Test@DS543fd@RDF";
-
+    protected final String username = "Test@DS543fd@RD23";
     protected final String EmployeeName = "";
 
-    @FindBy(xpath = "//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']/ancestor::div[@class='oxd-input-group oxd-input-field-bottom-space']/div[@class='oxd-input-group__label-wrapper']/following-sibling::div")
-    protected WebElement editErrorField;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']/div")
-    protected List<WebElement> listTotal;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '" + EmployeeName + "')]/preceding::div[@class='oxd-table-cell oxd-padding-cell']/div[contains(text(), '"+username+"')]")
-    protected List<WebElement> verifyUserTable;
-    @FindBy(xpath = "//div[@class='oxd-table-body']/div//div[2]")
+    @FindBy(xpath = "//h6")
+    protected WebElement pageTitle;
+
+    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '" + EmployeeName + "')]/preceding::div[@class='oxd-table-cell oxd-padding-cell']/div[contains(text(), '" + username + "')]")
     protected List<WebElement> listUserName;
-    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[3]")
+    @FindBy(xpath = "//div[@role = 'rowgroup']/div[@class='oxd-table-card']//div[contains(text(), '"+username+"')]")
     protected List<WebElement> listRole;
     @FindBy(xpath = "//label[normalize-space()='User Role']/ancestor::div[@class='oxd-input-group__label-wrapper']/following-sibling::div")
     protected WebElement clickRole;
@@ -35,7 +31,7 @@ public class Elements {
     protected By passwordField = By.xpath("//input[@type='password']");
 
     protected By employeeName = By.xpath("//input[@placeholder='Type for hints...']");
-    @FindBy(xpath = "//button[normalize-space()='Save']")
+    @FindBy(xpath = "//Button[normalize-space()='Save']")
     protected WebElement saveBtn;
 
     protected By errorMessages = By.xpath("//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']/ancestor::div[@class='oxd-input-group oxd-input-field-bottom-space']/div[@class='oxd-input-group__label-wrapper']");
@@ -50,7 +46,7 @@ public class Elements {
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     protected WebElement employeeseName;
 
-    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button")
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/Button")
     protected WebElement addUserBtn;
 
     @FindBy(xpath = "//div[@role = 'rowgroup']/div")
@@ -60,7 +56,7 @@ public class Elements {
     //    =================================================PIM Page===========================================================
     @FindBy(xpath = "//span[normalize-space()='PIM']")
     protected WebElement PIM;
-    @FindBy(xpath = "//button[normalize-space()='Add']")
+    @FindBy(xpath = "//Button[normalize-space()='Add']")
     protected WebElement addUserButton;
     @FindBy(name = "firstName")
     protected WebElement firstNames;
@@ -69,7 +65,7 @@ public class Elements {
     @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title' and normalize-space()='Personal Details']")
     protected WebElement header;
 
-    //    =========================================LoginPage===================================================================
+    //    =========================================TC1_CheckLogin===================================================================
     protected final String title = "User Management";
     @FindBy(name = "username")
     protected WebElement userNames;
@@ -77,7 +73,7 @@ public class Elements {
     protected WebElement password;
     @FindBy(xpath = "//h6[normalize-space()='Admin']/following-sibling::h6[normalize-space()='" + title + "']")
     protected WebElement pageHeader;
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//Button[@type='submit']")
     protected WebElement loginBtn;
 
     //    =========================================Performance Page===================================================================

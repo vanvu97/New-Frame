@@ -1,29 +1,24 @@
 package test;
 
-import BaseConfig.BaseConfig;
+
+import BaseConfig.StartBrowse;
 import management.ExcelManager;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import page.TC1_LoginPage;
+import utils.TestListenors;
+import management.Log;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import page.AdminPage;
-import page.LoginPage;
-import page.PIMPage;
-import management.Log;
-import utils.ValidateAction;
-import BaseConfig.TestListenors;
+import page.TC3_AdminPage;
+import page.TC2_PIMPage;
 
 import java.io.IOException;
 
 @Listeners(TestListenors.class)
-public class OrangeTest{
-    private WebDriver driver;
-    private LoginPage login;
-    private PIMPage pim;
-    private AdminPage adminPage;
+public class OrangeTest extends StartBrowse {
 
-    private ValidateAction ACTIONs;
+    private TC1_LoginPage login;
+    private TC2_PIMPage pim;
+    private TC3_AdminPage adminPage;
 
     private final String userName = "Admin";
     private final String passWord = "admin123";
@@ -33,34 +28,30 @@ public class OrangeTest{
 
     private ExcelManager excel;
 
+    @Test(priority = 1, testName = "TC1_Check Login")
+    public void login() throws InterruptedException, IOException {
+        Log.info("1. Running Login");
+        login = new TC1_LoginPage();
+        pim = login.login(userName, passWord);
+    }
 
-//    @BeforeClass
-//    public void setUp(){
-//        driver = new BaseConfig().setupBrowser("edge");
-//        excel = new ExcelManager();
-//    }
+    @Test(priority = 2, testName = "TC2_Check PIM - Add New Employees")
+    public void pimPage() throws InterruptedException {
+        pim = new TC2_PIMPage();
+        Log.info("2. Running pimPage");
+        pim.setFirstName(firstName);
+        pim.setLastName(lastName);
+        adminPage = pim.addNewEmployees();
+    }
 
-//    @Test (priority = 1)
-//    public void login() throws InterruptedException, IOException {
-//        Log.info("1. Running Login");
-//        login = new LoginPage(driver);
-//        driver.navigate().to("http://192.168.99.1:1080/WebTours/");
-//        pim = login.login(userName, passWord);
-//    }
-//    @Test(priority = 3)
-//    public void adminPage() throws InterruptedException {
-//        Log.info("3. Running adminPage");
-//        adminPage = new AdminPage(driver);
-//        adminPage.setFirstName(firstName);
+    @Test(priority = 3, testName = "TC3_Check AdminPage - Add New User")
+    public void adminPage() throws InterruptedException {
+        adminPage = new TC3_AdminPage();
+        Log.info("3. Running adminPage");
+        adminPage.setEmployName(firstName);
+        adminPage.addUser();
 //        adminPage.addUser();
-//
-//    }
-//    @Test(priority = 2)
-//    public void pimPage() throws InterruptedException {
-//        Log.info("2. Running pimPage");
-//        pim.setFirstName(firstName);
-//        pim.setLastName(lastName);
-//        adminPage = pim.addNewEmployees();
-//    }
+    }
+
 
 }

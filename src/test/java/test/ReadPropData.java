@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import page.LoginPage;
+import page.TC1_LoginPage;
 import management.PropertiesManager;
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class ReadPropData {
     private WebDriver driver;
-    private LoginPage login;
+    private TC1_LoginPage login;
 
     private ExcelManager excel;
 
@@ -31,7 +31,7 @@ public class ReadPropData {
 
     @Test
     public void readData() throws IOException, InterruptedException {
-        login = new LoginPage(driver);
+        login = new TC1_LoginPage();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
 
         login.login(PropertiesManager.getPropValue("email"), PropertiesManager.getPropValue("password"));

@@ -4,13 +4,10 @@ import BaseConfig.Base;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import page.AdminPage;
-import page.LoginPage;
-import page.PIMPage;
-import utils.ValidateAction;
+import page.TC1_LoginPage;
 
 public class RunXML extends Base{
-    private LoginPage login;
+    private TC1_LoginPage login;
 
     private final String userName = "Admin";
     private final String passWord = "admin123";
@@ -23,7 +20,7 @@ public class RunXML extends Base{
 
     @Test
     public void login() throws InterruptedException {
-        login = new LoginPage(driver);
+        login = new TC1_LoginPage();
         login.login(userName, passWord);
     }
 

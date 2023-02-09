@@ -1,14 +1,14 @@
 package test;
 
 import BaseConfig.BaseConfig;
-import BaseConfig.TestListenors;
+import page.TC1_LoginPage;
+import utils.TestListenors;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import page.LoginPage;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ import java.io.IOException;
 @Listeners(TestListenors.class)
 public class CaptureTest {
     private WebDriver driver;
-    private LoginPage login;
+    private TC1_LoginPage login;
     private final String userName = "Admin";
     private final String passWord = "admin123";
 
@@ -27,7 +27,7 @@ public class CaptureTest {
 
     @Test
     public void readData() throws IOException, InterruptedException {
-        login = new LoginPage(driver);
+        login = new TC1_LoginPage();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
         login.login(userName, passWord);
         Assert.assertEquals(driver.getTitle(), "Test");

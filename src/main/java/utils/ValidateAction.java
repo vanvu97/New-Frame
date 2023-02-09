@@ -17,6 +17,7 @@ public class ValidateAction {
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor js;
+    private String s;
     private final int timeOut = 30;
 
     public ValidateAction(WebDriver driver) {
@@ -69,6 +70,14 @@ public class ValidateAction {
 
     }
 
+    public void sendKeyString (String a, String b){
+        waitForPageLoad();
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(a))));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath(a))));
+        driver.findElement(By.xpath(a)).clear();
+        driver.findElement(By.xpath(a)).sendKeys(b);
+    }
+
     public void setTextWeb(WebElement element, String text) {
         waitForPageLoad();
         wait.until(ExpectedConditions.visibilityOf(element));
@@ -114,7 +123,7 @@ public class ValidateAction {
             for (int i = 0; i < setElementSize; i++) {
                 String allError = listError.get(i).getText();
                 String allFieldErorr = listErrorFields.get(i).getText();
-                System.out.println(allFieldErorr + ": " + allError);
+                System.out.println(" - " + allFieldErorr + ": " + allError);
             }
         } catch (Exception e) {
             System.out.println("No error messages found!");
@@ -124,14 +133,30 @@ public class ValidateAction {
 
     public String getPageTitle() {
         waitForPageLoad();
-        String title = driver.getTitle();
+        WebElement t = driver.findElement(By.xpath("//h6"));
+        String title = t.getText();
         return title;
     }
 
     public boolean verifyPageTitle(String pageTitle) {
         waitForPageLoad();
-        System.out.println("Current Page title: " + driver.getTitle());
+        WebElement t = driver.findElement(By.xpath("//h6"));
+        String title = t.getText();
+        System.out.println(" - Current Page title: " + title);
         return getPageTitle().equals(pageTitle);
+    }
+
+    public String message(){
+        waitForPageLoad();
+        WebElement t = driver.findElement(By.xpath("//p[@class='oxd-text oxd-text--p oxd-text--toast-title oxd-toast-content-text']"));
+        wait.until(ExpectedConditions.elementToBeClickable(t));
+        String s = t.getText();
+        return s;
+    }
+    public boolean verifySaveSuccess(String s){
+        waitForPageLoad();
+        System.out.println(" - Current Message: ");
+        return message().equals(s);
     }
 
     public boolean verifyPageHeader(WebElement el, String pageHeader) {
@@ -139,6 +164,20 @@ public class ValidateAction {
         String header = (" - Current Page Header: " + el.getText());
         System.out.println(header);
         return header.equals(pageHeader);
+    }
+
+    public boolean verifyUserInTable(String e, List<WebElement> e2){
+        waitForPageLoad();
+        List<WebElement> c = e2;
+        try{
+            for(WebElement w: c){
+                s = w.getText();
+                System.out.println(s);
+            }
+        }catch (Exception e1){
+            System.out.println(" - The User:" + this.s + "is not available!");
+        }
+        return e.equals(this.s);
     }
 
     public void waitForPageLoad() {

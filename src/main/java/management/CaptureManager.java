@@ -22,19 +22,20 @@ public class CaptureManager {
 
             Reporter.log("Driver for Screenshot " + driver);
 
-            TakesScreenshot ta = (TakesScreenshot) driver;
+            TakesScreenshot ts = (TakesScreenshot) driver;
 
-            File source = ta.getScreenshotAs(OutputType.FILE);
+            File source = ts.getScreenshotAs(OutputType.FILE);
 
-            File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
+//            File theDir = new File(projectPath + PropertiesManager.getPropValue("exportCapturePath"));
 
+            File theDir = new File("ExportData/Images");
             if (!theDir.exists()) {
 
                 theDir.mkdirs();
 
             }
 
-            FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName+ " " + dateFormat.format(new Date()) + ".png"));
+            FileHandler.copy(source, new File(projectPath + PropertiesManager.getPropValue("exportCapturePath") + "/" + screeName + " " + dateFormat.format(new Date()) + ".png"));
 
             Log.info("  Screenshot taken: " + screeName);
 
@@ -42,7 +43,7 @@ public class CaptureManager {
 
         } catch (Exception e) {
 
-            System.out.println("  Exception while taking screenshot: " + e.getMessage());
+            Log.info("  Exception while taking screenshot: " + e.getMessage());
 
         }
 
