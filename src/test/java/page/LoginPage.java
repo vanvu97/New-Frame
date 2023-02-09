@@ -1,6 +1,7 @@
 package page;
 
 import BaseConfig.Interface;
+import management.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
@@ -23,7 +24,9 @@ public class LoginPage extends Interface {
         ACTIONs.waitForPageLoad();
         ACTIONs.verifyPageURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         ACTIONs.setTextWeb(userNames, username);
+        Log.info("Username: " + userNames);
         ACTIONs.setTextWeb(this.password, password);
+        Log.info("Password: " + password);
         ACTIONs.clickElementWeb(loginBtn);
         Assert.assertTrue(ACTIONs.verifyPageTitle("OrangeHRM"), "Incorrect Page Title!");
         return new PIMPage(driver);

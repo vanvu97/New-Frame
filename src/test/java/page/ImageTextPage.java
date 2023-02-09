@@ -25,8 +25,7 @@ public class ImageTextPage {
 
     private GrayImage gray;
 
-    public ImageTextPage(WebDriver driver) {
-        this.driver = driver;
+    public ImageTextPage() {
         ACTIONs = new ValidateAction(driver);
         gray = new GrayImage();
         PageFactory.initElements(driver, Duration.ofSeconds(30));
@@ -60,9 +59,6 @@ public class ImageTextPage {
     }
 
     public void grayImage() throws IOException, InterruptedException {
-
-
-
         File imageFile = new File(imgPathCheck);
         if(!imageFile.exists()){
             imageFile.mkdirs();
@@ -76,6 +72,5 @@ public class ImageTextPage {
         writer.close();
 
     }
-
 
 }

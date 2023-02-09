@@ -34,38 +34,33 @@ public class OrangeTest{
     private ExcelManager excel;
 
 
-    @BeforeClass
-    public void setUp(){
-        driver = new BaseConfig().setupBrowser("edge");
-        excel = new ExcelManager();
-    }
+//    @BeforeClass
+//    public void setUp(){
+//        driver = new BaseConfig().setupBrowser("edge");
+//        excel = new ExcelManager();
+//    }
 
-    @Test (priority = 1)
-    public void login() throws InterruptedException, IOException {
-        Log.info("1. Running Login");
-        login = new LoginPage(driver);
-        driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
-        pim = login.login(userName, passWord);
-    }
-    @Test(priority = 3)
-    public void adminPage() throws InterruptedException {
-        Log.info("3. Running adminPage");
-        adminPage = new AdminPage(driver);
-        adminPage.setFirstName(firstName);
-        adminPage.addUser();
-
-    }
-    @Test(priority = 2)
-    public void pimPage() throws InterruptedException {
-        Log.info("2. Running pimPage");
-        pim.setFirstName(firstName);
-        pim.setLastName(lastName);
-        adminPage = pim.addNewEmployees();
-    }
-
-    @AfterClass
-    public void tearDown() {
-//        driver.quit();
-    }
+//    @Test (priority = 1)
+//    public void login() throws InterruptedException, IOException {
+//        Log.info("1. Running Login");
+//        login = new LoginPage(driver);
+//        driver.navigate().to("http://192.168.99.1:1080/WebTours/");
+//        pim = login.login(userName, passWord);
+//    }
+//    @Test(priority = 3)
+//    public void adminPage() throws InterruptedException {
+//        Log.info("3. Running adminPage");
+//        adminPage = new AdminPage(driver);
+//        adminPage.setFirstName(firstName);
+//        adminPage.addUser();
+//
+//    }
+//    @Test(priority = 2)
+//    public void pimPage() throws InterruptedException {
+//        Log.info("2. Running pimPage");
+//        pim.setFirstName(firstName);
+//        pim.setLastName(lastName);
+//        adminPage = pim.addNewEmployees();
+//    }
 
 }

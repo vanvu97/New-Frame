@@ -10,12 +10,12 @@ public class StartBrowse extends Elements{
 
     @BeforeClass
     public void setUp(){
-        driver = new BaseRemote().setupBrowser("chrome");
+        driver = new BaseConfig().setupBrowser("chrome");
     }
 
     @AfterClass
     public void tearDown(){
-//        driver.quit();
+        driver.quit();
     }
 
 }
