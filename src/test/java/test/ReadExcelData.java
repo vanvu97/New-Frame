@@ -39,6 +39,6 @@ public class ReadExcelData {
 
         login.login(excel.getCellData("username", 1), excel.getCellData("password", 1));
 
-        excel.setCellData("TestLG", 1, 2);
+        excel.setCellData("TestLG1", 1, 2);
     }
 }

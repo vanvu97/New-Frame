@@ -27,6 +27,16 @@ public class ValidateAction {
         PageFactory.initElements(this.driver, this);
     }
 
+    public boolean waitFor(WebElement element, int timeOutInSeconds) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
     public void clickElement(By element) {
         waitForPageLoad();
         wait.until(ExpectedConditions.elementToBeClickable(element));

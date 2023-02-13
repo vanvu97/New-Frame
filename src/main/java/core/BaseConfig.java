@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class BaseConfig {
@@ -22,7 +23,8 @@ public class BaseConfig {
     private static WebDriverWait wait;
     protected static JavascriptExecutor js;
     private static WebElement element;
-    private static int seconds = 60;
+    private static int seconds = 30;
+    private static int tryCatchTimes = 1;
 
     public static WebDriverWait getWait() {
         return wait;
@@ -58,15 +60,16 @@ public class BaseConfig {
         }
         return driver;
     }
-
+    public List<WebElement> listWebElement(String a){
+        List<WebElement> e = driver.findElements(By.xpath(a));
+        return e;
+    }
     public WebElement xpath(String a) {
         return driver.findElement(By.xpath(a));
     }
-
     public WebElement id(String a) {
         return driver.findElement(By.id(a));
     }
-
     public WebElement name(String a) {
         return driver.findElement(By.name(a));
     }
@@ -99,7 +102,7 @@ public class BaseConfig {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(seconds));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(tryCatchTimes));
         js = (JavascriptExecutor) driver;
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.prompt_for_download", false);
@@ -107,17 +110,17 @@ public class BaseConfig {
         return driver;
     }
 
-    private static WebDriver chromeRemote() {
+    private WebDriver chromeRemote() {
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
 //        driver.manage().deleteAllCookies();
 //        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(tryCatchTimes));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(seconds));
         js = (JavascriptExecutor) driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(tryCatchTimes));
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.prompt_for_download", false);
         options.setExperimentalOption("prefs", prefs);
@@ -135,4 +138,5 @@ public class BaseConfig {
         js = (JavascriptExecutor) driver;
         return driver;
     }
+
 }
