@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class ValidateAction {
+public class ValidateAction{
     private WebDriver driver;
     private WebDriverWait wait;
     private JavascriptExecutor js;
@@ -26,10 +26,17 @@ public class ValidateAction {
         js = (JavascriptExecutor) driver;
         PageFactory.initElements(this.driver, this);
     }
-
+    public void waitAndClick(WebElement element, int timeOutInSeconds){
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            element.click();
+        } catch (Exception e) {
+        }
+    }
     public boolean waitFor(WebElement element, int timeOutInSeconds) {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
             wait.until(ExpectedConditions.visibilityOfAllElements(element));
             return true;
         } catch (Exception e) {

@@ -3,7 +3,12 @@ package page;
 import BaseConfig.Interface;
 import newFramePackage.core.Button;
 import newFramePackage.Log;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
+import java.time.Duration;
 
 public class TC2_PIMPage extends Interface {
 
@@ -13,6 +18,9 @@ public class TC2_PIMPage extends Interface {
 
     String PIM = "xpath//span[normalize-space()='PIM']";
     String addUserButton = "xpath//Button[normalize-space()='Add']";
+
+    @FindBy (xpath = "//Button[normalize-space()='Add']")
+    WebElement c;
     String firstNames = "name//firstName";
     String lastNames = "name//lastName";
     String saveBtn = "xpath//Button[normalize-space()='Save']";
@@ -45,6 +53,7 @@ public class TC2_PIMPage extends Interface {
         btn.clickButton(PIM);
         Log.info(" - Clicking to Add New User");
         btn.clickButton(addUserButton);
+        ACTIONs.waitFor(c, 10);
         Log.info(" - Adding New User");
         btn.sendKey(firstNames, getFirstName());
         btn.sendKey(lastNames, getLastName());
