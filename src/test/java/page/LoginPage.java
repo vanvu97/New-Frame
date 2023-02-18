@@ -1,13 +1,13 @@
 package page;
 
 import BaseConfig.Interface;
-import management.Log;
+import newFramePackage.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import utils.ValidateAction;
+import newFramePackage.utils.ValidateAction;
 
 import java.time.Duration;
 
@@ -20,7 +20,7 @@ public class LoginPage extends Interface {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
     }
 
-    public PIMPage login(String username, String password) throws InterruptedException {
+    public TC2_PIMPage login(String username, String password) throws InterruptedException {
         ACTIONs.waitForPageLoad();
         ACTIONs.verifyPageURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         ACTIONs.setTextWeb(userNames, username);
@@ -29,7 +29,7 @@ public class LoginPage extends Interface {
         Log.info("Password: " + password);
         ACTIONs.clickElementWeb(loginBtn);
         Assert.assertTrue(ACTIONs.verifyPageTitle("OrangeHRM"), "Incorrect Page Title!");
-        return new PIMPage(driver);
+        return new TC2_PIMPage();
     }
 
 }

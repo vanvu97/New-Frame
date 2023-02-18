@@ -2,8 +2,8 @@ package test;
 
 import BaseConfig.BaseConfig;
 import page.TC1_LoginPage;
-import utils.TestListenors;
-import management.ExcelManager;
+import newFramePackage.utils.TestListenors;
+import newFramePackage.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;

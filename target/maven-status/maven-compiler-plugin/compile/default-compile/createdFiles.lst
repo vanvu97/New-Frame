@@ -1,9 +1,0 @@
-management\PropertiesManager.class
-management\CaptureManager.class
-utils\GrayImage.class
-management\ExcelManager$1.class
-management\ExcelManager.class
-management\Log.class
-utils\ValidateAction$1.class
-utils\ValidateAction.class
-utils\Waiter.class

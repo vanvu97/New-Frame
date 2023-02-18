@@ -2,8 +2,8 @@ package test;
 
 import BaseConfig.BaseConfig;
 import page.TC1_LoginPage;
-import utils.TestListenors;
-import management.PropertiesManager;
+import newFramePackage.utils.TestListenors;
+import newFramePackage.PropertiesManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

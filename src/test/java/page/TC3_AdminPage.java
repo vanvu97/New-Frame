@@ -1,8 +1,8 @@
 package page;
 
 import BaseConfig.Interface;
-import core.Button;
-import management.Log;
+import newFramePackage.core.Button;
+import newFramePackage.Log;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 

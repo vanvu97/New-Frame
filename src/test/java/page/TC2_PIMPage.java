@@ -1,8 +1,8 @@
 package page;
 
 import BaseConfig.Interface;
-import core.Button;
-import management.Log;
+import newFramePackage.core.Button;
+import newFramePackage.Log;
 import org.testng.Assert;
 
 public class TC2_PIMPage extends Interface {
