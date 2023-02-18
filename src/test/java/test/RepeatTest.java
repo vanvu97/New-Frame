@@ -3,7 +3,7 @@ package test;
 import BaseConfig.BaseConfig;
 import page.TC1_LoginPage;
 import newFramePackage.utils.TestListenors;
-import newFramePackage.PropertiesManager;
+import newFramePackage.management.PropertiesManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

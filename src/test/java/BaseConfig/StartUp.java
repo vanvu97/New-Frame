@@ -1,7 +1,7 @@
 package BaseConfig;
 
 import newFramePackage.core.BaseConfig;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;

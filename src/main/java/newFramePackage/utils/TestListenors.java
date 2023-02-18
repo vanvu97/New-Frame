@@ -2,7 +2,7 @@ package newFramePackage.utils;
 
 import newFramePackage.core.BaseConfig;
 import newFramePackage.management.CaptureManager;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;

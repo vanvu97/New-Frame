@@ -1,4 +1,4 @@
-package newFramePackage;
+package newFramePackage.management;
 
 import newFramePackage.core.BaseConfig;
 import org.openqa.selenium.JavascriptExecutor;

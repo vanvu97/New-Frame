@@ -2,7 +2,7 @@ package page;
 
 import BaseConfig.Interface;
 import newFramePackage.core.Button;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 

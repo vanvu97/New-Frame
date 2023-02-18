@@ -17290,3 +17290,30 @@ Which one of the following test tools is mostly suitable for developers rather t
 [INFO ] 2023-02-03 08:48:07 [main] Log - b) Configuration management tools
 [INFO ] 2023-02-03 08:48:07 [main] Log - c) Static analysis tools
 >>>>>>> 7035879f23aace3926fbd290f95a9226c297dea0
+[INFO ] 2023-02-19 01:11:46 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-19 01:15:36 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-19 01:15:38 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-19 01:15:38 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2023-02-19 01:15:38 [main] Log - #######  Testcase is skipped: adminPage #######
+[INFO ] 2023-02-19 01:15:38 [main] Log - 
+[INFO ] 2023-02-19 01:15:38 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-19 01:18:55 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-19 01:19:05 [main] Log -  - Nh?p username
+[INFO ] 2023-02-19 01:19:06 [main] Log - #######  Testcase is failed: readData #######
+[INFO ] 2023-02-19 01:19:06 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-19 01:19:09 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-19 01:19:09 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2023-02-19 01:19:09 [main] Log - #######  Testcase is skipped: adminPage #######
+[INFO ] 2023-02-19 01:19:19 [main] Log -  - Nh?p username
+[INFO ] 2023-02-19 01:19:50 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: login
+[INFO ] 2023-02-19 01:19:50 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: repeatTest
+[INFO ] 2023-02-19 01:19:50 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: repeatTest
+[INFO ] 2023-02-19 01:19:50 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: repeatTest
+[INFO ] 2023-02-19 01:19:50 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: repeatTest
+[INFO ] 2023-02-19 01:19:50 [main] Log - 
+[INFO ] 2023-02-19 01:19:50 [main] Log - ################### Running Completed! ###################

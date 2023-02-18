@@ -1,8 +1,8 @@
 package page;
 
 import BaseConfig.WriteExcel;
-import core.Button;
-import management.Log;
+import newFramePackage.core.Button;
+import newFramePackage.management.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

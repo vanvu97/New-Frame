@@ -2,13 +2,10 @@ package page;
 
 import BaseConfig.Interface;
 import newFramePackage.core.Button;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
-import java.time.Duration;
 
 public class TC2_PIMPage extends Interface {
 

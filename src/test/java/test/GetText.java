@@ -1,7 +1,7 @@
 package test;
 
 import BaseConfig.StartBrowse;
-import management.ExcelManager;
+import newFramePackage.management.ExcelManager;
 import org.testng.annotations.Test;
 import page.GetTextPage;
 

@@ -1,6 +1,6 @@
 package newFramePackage.core;
 
-import newFramePackage.Handler;
+import newFramePackage.management.Handler;
 
 public class Button extends Handler {
 

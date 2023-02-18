@@ -1,7 +1,7 @@
 package page;
 
 import BaseConfig.Interface;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;

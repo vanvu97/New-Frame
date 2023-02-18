@@ -2,10 +2,10 @@ package test;
 
 
 import BaseConfig.StartBrowse;
-import newFramePackage.ExcelManager;
+import newFramePackage.management.ExcelManager;
 import page.TC1_LoginPage;
 import newFramePackage.utils.TestListenors;
-import newFramePackage.Log;
+import newFramePackage.management.Log;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.TC3_AdminPage;

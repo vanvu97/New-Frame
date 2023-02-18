@@ -3,7 +3,7 @@ package test;
 import BaseConfig.BaseConfig;
 import page.TC1_LoginPage;
 import newFramePackage.utils.TestListenors;
-import newFramePackage.ExcelManager;
+import newFramePackage.management.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;

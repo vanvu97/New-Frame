@@ -1,7 +1,5 @@
 package newFramePackage.management;
 
-import newFramePackage.Log;
-import newFramePackage.PropertiesManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package newFramePackage;
+package newFramePackage.management;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
