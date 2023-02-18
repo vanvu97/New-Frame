@@ -12,8 +12,12 @@ public class StartBrowse extends BaseConfig {
 
     @BeforeClass
     public void setUp(){
+<<<<<<< HEAD
 
         driver = new BaseConfig().setupBrowser("chrome", URL);
+=======
+        driver = new BaseConfig().setupBrowser("remote", URL);
+>>>>>>> 7035879f23aace3926fbd290f95a9226c297dea0
 
     }
 
@@ -21,5 +25,14 @@ public class StartBrowse extends BaseConfig {
     public void tearDown(){
         driver.quit();
     }
+
+    //Remote
+    //cd C:\Program Files\Google\Chrome\Application
+    //chrome.exe --remote-debugging-port=9222 --user-data-dir=D:\chromedriver_\Remote
+
+
+    //Edge
+    //cd C:\Program Files (x86)\Microsoft\Edge\Application
+    //msedge.exe --remote-debugging-port=9222 --user-data-dir=D:\edge
 
 }

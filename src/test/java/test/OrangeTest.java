@@ -22,7 +22,6 @@ public class OrangeTest extends StartBrowse {
 
     private final String userName = "Admin";
     private final String passWord = "admin123";
-
     private final String firstName = "Corgi";
     private final String lastName = "Dog";
 

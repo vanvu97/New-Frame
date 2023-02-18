@@ -216,6 +216,38 @@ public class Handler extends BaseConfig {
         return getDriver();
     }
 
+    protected WebDriver verifyEle(String a) {
+        c = a.substring(0, a.indexOf("//"));
+        d = a.substring(a.indexOf("//") + 2);
+        waitForPageLoad();
+        switch (c.trim().toLowerCase()) {
+            case "xpath":
+                if(getWait().until(ExpectedConditions.visibilityOf(xpath("//" + d))).isDisplayed()){
+                    System.out.println("A");
+                    getWait().until(ExpectedConditions.elementToBeClickable(xpath("//" + d)));
+                }System.out.println("B");
+
+                break;
+            case "id":
+                getWait().until(ExpectedConditions.visibilityOf(id(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(id(d)));
+                break;
+            case "name":
+                getWait().until(ExpectedConditions.visibilityOf(name(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(name(d)));
+                break;
+            case "cssselector":
+                getWait().until(ExpectedConditions.visibilityOf(cssSelector(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(cssSelector(d)));
+                break;
+            case "classname":
+                getWait().until(ExpectedConditions.visibilityOf(className(d)));
+                getWait().until(ExpectedConditions.elementToBeClickable(className(d)));
+                break;
+        }
+        return getDriver();
+    }
+
     protected WebDriver sendKeyAndSelect(String a, String s, String k) {
         c = a.substring(0, a.indexOf("//"));
         d = a.substring(a.indexOf("//") + 2);

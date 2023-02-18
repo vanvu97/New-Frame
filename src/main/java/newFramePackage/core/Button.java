@@ -29,6 +29,9 @@ public class Button extends Handler {
     public void sendkeyAndSelect(String a, String b, String c){
         sendKeyAndSelect(a, b, c);
     }
-
+    public boolean elementIsDisplayed(String a){
+        verifyEle(a);
+        return false;
+    }
 
 }
