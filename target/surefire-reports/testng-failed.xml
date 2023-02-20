@@ -3,6 +3,15 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
+      <class name="test.OrangeTest">
+        <methods>
+          <include name="adminPage"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="pimPage"/>
+        </methods>
+      </class> <!-- test.OrangeTest -->
       <class name="test.CaptureTest">
         <methods>
           <include name="setUp"/>
@@ -10,15 +19,6 @@
           <include name="readData"/>
         </methods>
       </class> <!-- test.CaptureTest -->
-      <class name="test.OrangeTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="adminPage"/>
-          <include name="setUp"/>
-          <include name="login"/>
-          <include name="pimPage"/>
-        </methods>
-      </class> <!-- test.OrangeTest -->
       <class name="test.RepeatTest">
         <methods>
           <include name="repeatTest"/>

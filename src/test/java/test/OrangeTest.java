@@ -2,9 +2,10 @@ package test;
 
 
 import BaseConfig.StartBrowse;
+import newFramePackage.management.ExcelManager;
 import page.TC1_LoginPage;
-import utils.TestListenors;
-import management.Log;
+import newFramePackage.utils.TestListenors;
+import newFramePackage.management.Log;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.TC3_AdminPage;
@@ -23,6 +24,8 @@ public class OrangeTest extends StartBrowse {
     private final String passWord = "admin123";
     private final String firstName = "Corgi";
     private final String lastName = "Dog";
+
+    private ExcelManager excel;
 
     @Test(priority = 1, testName = "TC1_Check Login")
     public void login() throws InterruptedException, IOException {
@@ -48,7 +51,6 @@ public class OrangeTest extends StartBrowse {
         adminPage.addUser();
 //        adminPage.addUser();
     }
-
 
 
 }

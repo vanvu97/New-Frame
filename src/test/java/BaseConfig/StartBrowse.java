@@ -1,6 +1,6 @@
 package BaseConfig;
 
-import core.BaseConfig;
+import newFramePackage.core.BaseConfig;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +12,9 @@ public class StartBrowse extends BaseConfig {
 
     @BeforeClass
     public void setUp(){
-        driver = new BaseConfig().setupBrowser("remote", URL);
+
+        driver = new BaseConfig().setupBrowser("chrome", URL);
+//        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 

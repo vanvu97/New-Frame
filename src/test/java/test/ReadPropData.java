@@ -1,13 +1,13 @@
 package test;
 
 import BaseConfig.BaseConfig;
-import management.ExcelManager;
+import newFramePackage.management.ExcelManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import page.TC1_LoginPage;
-import management.PropertiesManager;
+import newFramePackage.management.PropertiesManager;
 
 import java.io.IOException;
 

@@ -1,7 +1,7 @@
 package page;
 
-import core.Button;
-import management.Log;
+import newFramePackage.core.Button;
+import newFramePackage.management.Log;
 import org.testng.Assert;
 
 public class TC1_LoginPage extends Button {

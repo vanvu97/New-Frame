@@ -2,7 +2,7 @@ package test;
 
 import BaseConfig.BaseConfig;
 import page.TC1_LoginPage;
-import utils.TestListenors;
+import newFramePackage.utils.TestListenors;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;

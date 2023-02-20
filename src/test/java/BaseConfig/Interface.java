@@ -1,9 +1,9 @@
 package BaseConfig;
 
-import core.Button;
+import newFramePackage.core.Button;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.ValidateAction;
+import newFramePackage.utils.ValidateAction;
 
 public class Interface extends Elements {
 

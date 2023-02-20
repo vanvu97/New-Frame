@@ -2,8 +2,8 @@ package page;
 
 import BaseConfig.ReadExcel;
 import BaseConfig.WriteExcel;
-import core.Button;
-import management.Log;
+import newFramePackage.core.Button;
+import newFramePackage.management.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import utils.ValidateAction;
+import newFramePackage.utils.ValidateAction;
 
 import java.io.IOException;
 import java.util.List;
