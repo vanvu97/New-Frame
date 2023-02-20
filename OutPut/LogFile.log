@@ -16801,3 +16801,7 @@ In what way can testing be part of Quality Assurance?
 [INFO ] 2023-02-20 18:14:11 [main] Log - Checking Lesson Title
 [INFO ] 2023-02-20 18:14:11 [main] Log - Checking Available of Resume, Start button
 [INFO ] 2023-02-20 18:14:21 [main] Log - Get Sheet
+[INFO ] 2023-02-20 18:27:42 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 18:27:45 [main] Log - Checking Lesson Title
+[INFO ] 2023-02-20 18:27:45 [main] Log - Checking Available of Resume, Start button
+[INFO ] 2023-02-20 18:27:47 [main] Log - Get Sheet
