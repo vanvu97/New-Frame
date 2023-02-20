@@ -18895,3 +18895,26 @@ Which of this information is most useful to include in the defect report?
 [INFO ] 2023-02-20 18:43:04 [main] Log - d) Evaluating the test basis for testability.
 [INFO ] 2023-02-20 18:43:04 [main] Log - 1. Degree of impact (severity) of the defect.
 [INFO ] 2023-02-20 18:43:04 [main] Log - a) 1, 2, 6
+[INFO ] 2023-02-20 23:13:43 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:16:00 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:16:01 [main] Log - 1. Running Login
+[INFO ] 2023-02-20 23:16:01 [main] Log -  - Nhập username
+[INFO ] 2023-02-20 23:16:02 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-20 23:16:03 [main] Log -   Screenshot taken: login
+[INFO ] 2023-02-20 23:16:03 [main] Log - 
+[INFO ] 2023-02-20 23:16:03 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 23:16:43 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:16:49 [main] Log - 1. Running Login
+[INFO ] 2023-02-20 23:16:49 [main] Log -  - Nhập username
+[INFO ] 2023-02-20 23:16:51 [main] Log -  - Nhập password
+[INFO ] 2023-02-20 23:16:52 [main] Log -  - Nhấn Login
+[INFO ] 2023-02-20 23:18:23 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:19:39 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:19:42 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 23:19:42 [main] Log - 
+[INFO ] 2023-02-20 23:19:42 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 23:20:01 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:20:54 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:21:55 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 23:21:55 [main] Log - 
+[INFO ] 2023-02-20 23:21:55 [main] Log - ################### Running Completed! ###################

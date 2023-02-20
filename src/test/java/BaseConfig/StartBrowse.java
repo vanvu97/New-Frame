@@ -7,14 +7,14 @@ import org.testng.annotations.BeforeClass;
 
 public class StartBrowse extends BaseConfig {
 
-    protected WebDriver driver;
+    public WebDriver driver;
     private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php";
 
     @BeforeClass
     public void setUp(){
 
-//        driver = new BaseConfig().setupBrowser("chrome", URL);
-        driver = new BaseConfig().setupBrowser("remote", URL);
+        driver = new BaseConfig().setupBrowser("chrome", URL);
+//        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 
