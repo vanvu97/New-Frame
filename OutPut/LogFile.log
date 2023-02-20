@@ -18860,3 +18860,38 @@ In what way can testing be part of Quality Assurance?
 [INFO ] 2023-02-20 18:41:42 [main] Log - ################### Starting automation Test! ###################
 [INFO ] 2023-02-20 18:41:46 [main] Log - Checking Lesson Title
 [INFO ] 2023-02-20 18:41:46 [main] Log - Checking Available of Resume, Start button
+[INFO ] 2023-02-20 18:42:46 [main] Log - Get Sheet
+[INFO ] 2023-02-20 18:42:48 [main] Log - 
+[INFO ] 2023-02-20 18:42:48 [main] Log - Question 7:
+[INFO ] 2023-02-20 18:42:48 [main] Log - Question #7
+Which of the following activities is part of the main activity "test analysis" in the test process?
+[INFO ] 2023-02-20 18:42:48 [main] Log - null
+[INFO ] 2023-02-20 18:42:48 [main] Log - a) Identifying any required infrastructure and tools.
+[INFO ] 2023-02-20 18:42:48 [main] Log - b) Creating test suites from test scripts.
+[INFO ] 2023-02-20 18:42:48 [main] Log - c) Analyzing lessons learned for process improvement.
+[INFO ] 2023-02-20 18:42:57 [main] Log - 
+[INFO ] 2023-02-20 18:42:57 [main] Log - Question 7:
+[INFO ] 2023-02-20 18:42:57 [main] Log - Question #7
+Which of the following activities is part of the main activity "test analysis" in the test process?
+[INFO ] 2023-02-20 18:42:57 [main] Log - d) Evaluating the test basis for testability.
+[INFO ] 2023-02-20 18:42:57 [main] Log - a) Identifying any required infrastructure and tools.
+[INFO ] 2023-02-20 18:42:58 [main] Log - b) Creating test suites from test scripts.
+[INFO ] 2023-02-20 18:42:58 [main] Log - c) Analyzing lessons learned for process improvement.
+[INFO ] 2023-02-20 18:43:02 [main] Log - Checking Lesson Title
+[INFO ] 2023-02-20 18:43:02 [main] Log - Checking Available of Resume, Start button
+[INFO ] 2023-02-20 18:43:04 [main] Log - Get Sheet
+[INFO ] 2023-02-20 18:43:04 [main] Log - 
+[INFO ] 2023-02-20 18:43:04 [main] Log - Question 38:
+[INFO ] 2023-02-20 18:43:04 [main] Log - Question #38
+You are performing system testing of a train reservation system. Based on the test cases performed, you have noticed that the system occasionally reports that no trains are available, although this should actually be the case. You have provided the developers with a summary of the defect and the version of the tested system. They recognize the urgency of the defect and are now waiting for you to provide further details.
+In addition to the information already provided, the following additional information is given:
+1. Degree of impact (severity) of the defect.
+2. Identification of the test item.
+3. Details of the test environment.
+4. Urgency/priority to fix.
+5. Actual results.
+6. Reference to test case specification.
+Which of this information is most useful to include in the defect report?
+[INFO ] 2023-02-20 18:43:04 [main] Log - d) Evaluating the test basis for testability.
+[INFO ] 2023-02-20 18:43:04 [main] Log - 1. Degree of impact (severity) of the defect.
+[INFO ] 2023-02-20 18:43:04 [main] Log - a) 1, 2, 6
