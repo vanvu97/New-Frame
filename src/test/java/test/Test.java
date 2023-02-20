@@ -109,6 +109,16 @@ public class Test {
 
         System.out.println(admins);
 
+//        String str = "Question 13 of 40";
+//        String numberStr = str.replaceAll("\\D+","");
+//        int number = Integer.parseInt(numberStr);
+//        System.out.println(number);
+
+        String str = "Question 13 of 40";
+        String[] parts = str.split(" ");
+        int questionNumber = Integer.parseInt(parts[1]);
+        int totalQuestions = Integer.parseInt(parts[3]);
+        System.out.println("Question " + questionNumber + " of " + totalQuestions);
 
     }
 
