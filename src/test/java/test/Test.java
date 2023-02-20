@@ -22,9 +22,6 @@ public class Test {
         return "User Name : " + name + ", Role :" + role;
     }
 
-
-
-<<<<<<< HEAD
     public static void main(String[] agrs) {
         Map<String, Integer> nameMap = new HashMap<>();
         Integer value = nameMap.computeIfAbsent("12", String::length);
@@ -125,7 +122,7 @@ public class Test {
         System.out.println("Question " + questionNumber + " of " + totalQuestions);
 
     }
-=======
+
 //    public static void main(String[] agrs) {
 //        Map<String, Integer> nameMap = new HashMap<>();
 //        Integer value = nameMap.computeIfAbsent("12", String::length);
@@ -216,7 +213,6 @@ public class Test {
 //
 //
 //    }
->>>>>>> refs/remotes/origin/main
 
 //    public static void main(String[] agrs) {
 //        Map<String, Integer> nameMap = new HashMap<>();

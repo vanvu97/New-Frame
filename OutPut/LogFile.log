@@ -18853,3 +18853,7 @@ In what way can testing be part of Quality Assurance?
 [INFO ] 2023-02-19 01:19:50 [main] Log - 
 [INFO ] 2023-02-19 01:19:50 [main] Log - ################### Running Completed! ###################
 >>>>>>> refs/remotes/origin/main
+[INFO ] 2023-02-20 18:40:35 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 18:40:41 [main] Log - #######  Testcase is skipped: getTexts #######
+[INFO ] 2023-02-20 18:40:41 [main] Log - 
+[INFO ] 2023-02-20 18:40:41 [main] Log - ################### Running Completed! ###################

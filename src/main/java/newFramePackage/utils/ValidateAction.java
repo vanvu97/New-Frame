@@ -45,7 +45,7 @@ public class ValidateAction{
     }
     public void waitAndClickCustom(WebElement element, int timeOutInSeconds){
         try {
-            WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
             wait.until(ExpectedConditions.visibilityOfAllElements(element));
             element.click();
         } catch (Exception e) {
