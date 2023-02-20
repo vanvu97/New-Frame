@@ -17317,3 +17317,7 @@ Which one of the following test tools is mostly suitable for developers rather t
 [INFO ] 2023-02-19 01:19:50 [main] Log -   Screenshot taken: repeatTest
 [INFO ] 2023-02-19 01:19:50 [main] Log - 
 [INFO ] 2023-02-19 01:19:50 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 23:04:07 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:04:10 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 23:04:10 [main] Log - 
+[INFO ] 2023-02-20 23:04:10 [main] Log - ################### Running Completed! ###################
