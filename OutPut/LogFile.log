@@ -18895,3 +18895,31 @@ Which of this information is most useful to include in the defect report?
 [INFO ] 2023-02-20 18:43:04 [main] Log - d) Evaluating the test basis for testability.
 [INFO ] 2023-02-20 18:43:04 [main] Log - 1. Degree of impact (severity) of the defect.
 [INFO ] 2023-02-20 18:43:04 [main] Log - a) 1, 2, 6
+[INFO ] 2023-02-20 22:26:40 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:26:59 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:27:02 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 22:27:02 [main] Log - 
+[INFO ] 2023-02-20 22:27:02 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 22:32:36 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:32:40 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 22:32:40 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2023-02-20 22:32:40 [main] Log - #######  Testcase is skipped: adminPage #######
+[INFO ] 2023-02-20 22:32:40 [main] Log - 
+[INFO ] 2023-02-20 22:32:40 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 22:35:19 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:35:19 [main] Log - Start Browser
+[INFO ] 2023-02-20 22:35:23 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 22:35:23 [main] Log - 
+[INFO ] 2023-02-20 22:35:23 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 22:38:51 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:38:51 [main] Log - Start Browser
+[INFO ] 2023-02-20 22:39:31 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 22:39:31 [main] Log - 
+[INFO ] 2023-02-20 22:39:31 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 22:39:44 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:39:44 [main] Log - Start Browser
+[INFO ] 2023-02-20 22:42:30 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 22:42:34 [main] Log - 
+[INFO ] 2023-02-20 22:42:34 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 22:46:34 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 22:55:02 [main] Log - ################### Starting automation Test! ###################

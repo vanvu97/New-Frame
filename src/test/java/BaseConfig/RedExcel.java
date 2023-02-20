@@ -9,25 +9,28 @@ import page.GetTextPage;
 
 import java.io.FileInputStream;
 
-public class ReadExcel {
+public class RedExcel {
 
     GetTextPage page;
-    WebDriver driver;
+    static WebDriver driver;
 
-    String pathExcel = "C:\\Users\\vuv1\\Desktop\\Test\\New-Frame\\src\\test\\resources\\Boo.xlsx";
+    static String pathExcel = "C:\\Users\\vuv1\\Desktop\\Test\\New-Frame\\src\\test\\resources\\Boo.xlsx";
 
-    public void read() {
+    public static void main(String[] args) {
         GetTextPage page = new GetTextPage(driver);
         try {
             // Load the Excel file
             FileInputStream file = new FileInputStream(pathExcel);
+
             // Create a Workbook object
             XSSFWorkbook workbook = new XSSFWorkbook(file);
+
             // Iterate through the sheets
             for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
                 XSSFSheet sheet = workbook.getSheetAt(i);
+
                 // Check if the sheet contains the text "Data"
-                if (sheet.getSheetName().contains(page.getQues())) {
+                if (sheet.getSheetName().contains(page.getTit())) {
                     // Iterate through the rows and cells
                     for (Row row : sheet) {
                         for (Cell cell : row) {

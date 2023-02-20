@@ -2,11 +2,8 @@ package BaseConfig;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.*;
-import java.time.Duration;
 
 public class WriteExcel {
 
@@ -14,7 +11,6 @@ public class WriteExcel {
     String b;
     String c;
     String pathExcel = "C:\\Users\\vuv1\\Desktop\\Test\\New-Frame\\src\\test\\resources\\Boo.xlsx";
-    WebDriver driver;
 
     public void create(String sheetName) throws FileNotFoundException {
         File xlsxFile = new File(pathExcel);
@@ -25,7 +21,7 @@ public class WriteExcel {
             Workbook workbook = WorkbookFactory.create(inputStream);
             Sheet sheet = workbook.createSheet(sheetName);
 
-            System.out.println("Created Sheet " + "'" + sheetName + "'");
+            System.out.println("Created Sheet "+"'"+sheetName+"'");
 
             //Close input stream
             inputStream.close();
@@ -45,30 +41,27 @@ public class WriteExcel {
     public String getSheet() throws IOException {
         String sheetName = null;
         File xlsxFile = new File(pathExcel);
-        try {
-            FileInputStream inputStream = new FileInputStream(xlsxFile);
 
-            //Creating workbook from input stream
-            Workbook workbook = WorkbookFactory.create(inputStream);
+        FileInputStream inputStream = new FileInputStream(xlsxFile);
 
-            for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
-                Sheet firstSheet = workbook.getSheetAt(i);
-                sheetName = firstSheet.getSheetName();
-                System.out.println(sheetName);
-            }
-            inputStream.close();
+        //Creating workbook from input stream
+        Workbook workbook = WorkbookFactory.create(inputStream);
 
-            //Crating output stream and writing the updated workbook
-            FileOutputStream os = new FileOutputStream(xlsxFile);
-            workbook.write(os);
-
-            //Close the workbook and output stream
-            workbook.close();
-            os.close();
-            return sheetName;
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
+            Sheet firstSheet = workbook.getSheetAt(i);
+            sheetName = firstSheet.getSheetName();
+            System.out.println(sheetName);
         }
+        inputStream.close();
+
+        //Crating output stream and writing the updated workbook
+        FileOutputStream os = new FileOutputStream(xlsxFile);
+        workbook.write(os);
+
+        //Close the workbook and output stream
+        workbook.close();
+        os.close();
+        return sheetName;
     }
 
     public void write(String a, String b, String c, String sheetN) {
