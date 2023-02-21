@@ -1,23 +1,14 @@
 package newFramePackage.utils;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import newFramePackage.core.BaseConfig;
 import newFramePackage.management.CaptureManager;
 import newFramePackage.management.Log;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-
-import java.lang.reflect.Method;
 
 public class TestListenors implements ITestListener{
+
 
     @Override
     public void onFinish(ITestContext result) {
