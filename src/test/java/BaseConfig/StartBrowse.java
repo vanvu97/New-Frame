@@ -2,6 +2,7 @@ package BaseConfig;
 
 import newFramePackage.core.BaseConfig;
 import newFramePackage.report.ExtentManager;
+import newFramePackage.utils.ValidateAction;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -9,16 +10,12 @@ import org.testng.annotations.BeforeClass;
 public class StartBrowse extends ExtentManager {
 
     protected WebDriver driver;
-
     private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php";
-
-
 
     @BeforeClass
     public void setUp(){
         driver = new BaseConfig().setupBrowser("firefox", URL);
 //        driver = new BaseConfig().setupBrowser("remote", URL);
-
     }
 
     @AfterClass

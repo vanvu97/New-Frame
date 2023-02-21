@@ -43,26 +43,23 @@ public class BaseConfig {
         switch (browserType.trim().toLowerCase()) {
             case "edge":
                 driver = edgeBrowser();
+                wait = new WebDriverWait(driver, Duration.ofSeconds(500));
                 driver.navigate().to(URL);
-                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "remote":
                 driver = chromeRemote();
 //                driver.navigate().to(URL);
-                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "firefox":
                 driver = firefoxBrowser();
                 driver.navigate().to(URL);
-                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "chrome":
                 driver = chromeBrowser();
                 driver.navigate().to(URL);
-                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "remoteNoURL":

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import page.LoginPage;
 import page.TC1_LoginPage;
 
-public class RunXML extends StartBrowse {
+public class RunXML extends Base {
     private LoginPage login;
 
     private final String userName = "Admin";

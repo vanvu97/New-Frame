@@ -2,11 +2,13 @@ package BaseConfig;
 
 import newFramePackage.core.BaseConfig;
 import newFramePackage.management.Log;
+import newFramePackage.management.PropertiesManager;
+import newFramePackage.report.ExtentManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class StartUp {
+public class StartUp extends ExtentManager {
 
     protected WebDriver driver;
 
@@ -15,7 +17,6 @@ public class StartUp {
     @BeforeClass
     public void setUp() {
         Log.info("Start Browser");
-        driver = new BaseConfig().setupBrowser("chrome", URL);
 
     }
 

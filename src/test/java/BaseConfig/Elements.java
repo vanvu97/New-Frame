@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class Elements{
+public class Elements extends Base{
     //    =================================================Admin Page===========================================================
     protected final String status = "Enabled";
     protected final String role = "Admin";

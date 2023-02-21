@@ -75,7 +75,7 @@ public class BaseConfig {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
         js = (JavascriptExecutor) driver;
         return driver;
     }
@@ -86,7 +86,7 @@ public class BaseConfig {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
         js = (JavascriptExecutor) driver;
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.prompt_for_download", false);
@@ -100,7 +100,7 @@ public class BaseConfig {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
         js = (JavascriptExecutor) driver;
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.prompt_for_download", false);
@@ -114,7 +114,7 @@ public class BaseConfig {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
         js = (JavascriptExecutor) driver;
         return driver;
     }

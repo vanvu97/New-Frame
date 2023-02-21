@@ -10,7 +10,7 @@
 
     <test thread-count="5" name="New-Frame">
         <classes>
-            <class name="test.OrangeTest">
+            <class name="test.RunXML">
                 <methods>
 <!--                    <include name="login"/>-->
 <!--                    <include name="addNewEmployee"/>-->

@@ -42,3 +42,30 @@
 [INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -#######  Testcase is skipped: login #######
 [INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -
 [INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -################### Running Completed! ###################
+[INFO ] 2023-02-21 22:23:49 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:24:23 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:24:23 [main] Log - 
+[INFO ] 2023-02-21 22:24:23 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:26:40 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:27:14 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:27:14 [main] Log - 
+[INFO ] 2023-02-21 22:27:14 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:28:36 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:29:10 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:29:10 [main] Log - 
+[INFO ] 2023-02-21 22:29:10 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:30:20 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:30:54 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:30:54 [main] Log - 
+[INFO ] 2023-02-21 22:30:54 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:32:22 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:32:56 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:32:56 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2023-02-21 22:32:56 [main] Log - #######  Testcase is skipped: adminPage #######
+[INFO ] 2023-02-21 22:32:56 [main] Log - 
+[INFO ] 2023-02-21 22:32:56 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:35:25 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:35:46 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:36:20 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:36:20 [main] Log - 
+[INFO ] 2023-02-21 22:36:20 [main] Log - ################### Running Completed! ###################
