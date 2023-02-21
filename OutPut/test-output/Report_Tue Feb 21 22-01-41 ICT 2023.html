@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Feb 21, 2023 10:12:18 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Feb 21, 2023 10:01:42 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -67,8 +67,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -111,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -132,52 +131,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>login</span>
-						<span class='test-time'>Feb 21, 2023 10:12:33 AM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Feb 21, 2023 10:12:33 AM</span>
-	<span class='label end-time'>Feb 21, 2023 10:12:37 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+653ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:12:37 AM</td>
-				<td class='step-details'>
-						Test Case Passed is login
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>pimPage</span>
-						<span class='test-time'>Feb 21, 2023 10:12:37 AM</span>
+						<span class='test-time'>Feb 21, 2023 10:01:53 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 21, 2023 10:12:37 AM</span>
-	<span class='label end-time'>Feb 21, 2023 10:12:41 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+833ms</span>
+	<span class='label start-time'>Feb 21, 2023 10:01:53 PM</span>
+	<span class='label end-time'>Feb 21, 2023 10:02:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 31s+115ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -191,60 +155,24 @@
 		<tbody>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:12:41 AM</td>
+				<td class='timestamp'>10:02:25 PM</td>
 				<td class='step-details'>
-						Test Case Failed is pimPage
+						Test Case Failed is login
 					
 				</td>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:12:41 AM</td>
+				<td class='timestamp'>10:02:25 PM</td>
 				<td class='step-details'>
-						Test Case Failed is java.lang.NullPointerException
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>adminPage</span>
-						<span class='test-time'>Feb 21, 2023 10:12:41 AM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Feb 21, 2023 10:12:41 AM</span>
-	<span class='label end-time'>Feb 21, 2023 10:12:47 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+935ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:12:47 AM</td>
-				<td class='step-details'>
-						Test Case Failed is adminPage
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>10:12:47 AM</td>
-				<td class='step-details'>
-						Test Case Failed is java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 5
+						Test Case Failed is org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ca09e59a-3282-47cf-92c7-4509cd5468b2, findElement {using=xpath, value=//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230105190654, moz:debuggerAddress: 127.0.0.1:61591, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22808, moz:profile: C:\Users\mozil\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61591/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca09e59a-3282-47cf-92c7-4509cd5468b2
 					
 				</td>
 			</tr>
@@ -281,7 +209,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -293,19 +221,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 21, 2023 10:12:18 AM</div>
+					<div class='panel-lead'>Feb 21, 2023 10:01:42 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 21, 2023 10:12:48 AM</div>
+			 		<div class='panel-lead'>Feb 21, 2023 10:02:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 29s+364ms</div>
+					<div class='panel-lead'>0h 0m 43s+504ms</div>
 				</div>
 			</div>
 		</div>
@@ -316,14 +244,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 3,
-				passParent: 1,
-				failParent: 2,
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 2,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -348,7 +276,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "login":4.653,"pimPage":3.833,"adminPage":5.935
+			        "login":31.115
 			};
 		</script>
 	

@@ -10,14 +10,14 @@ public class StartBrowse extends ExtentManager {
 
     protected WebDriver driver;
 
-    private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php";
+    private final String URL = "https://google.com";
 
 
 
     @BeforeClass
     public void setUp(){
 
-        driver = new BaseConfig().setupBrowser("edge", URL);
+        driver = new BaseConfig().setupBrowser("firefox", URL);
 //        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
