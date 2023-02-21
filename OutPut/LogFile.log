@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [INFO ] 2023-02-04 21:19:16 [main] Log - ################### Starting automation Test! ###################
 [INFO ] 2023-02-04 21:19:19 [main] Log - 1. Running Login
 [INFO ] 2023-02-04 21:19:45 [main] Log -   Testcase is passed: login
@@ -18962,3 +18963,5 @@ Which of this information is most useful to include in the defect report?
 [INFO ] 2023-02-21 08:00:06 [main] Log - a) 1, 2, 6
 [INFO ] 2023-02-21 08:00:06 [main] Log - b) 1, 4, 5, 6
 [INFO ] 2023-02-21 08:00:06 [main] Log - c) 2, 3, 4, 5
+=======
+>>>>>>> cf2f071421db133bfac102685dfd0cecb16a3353
