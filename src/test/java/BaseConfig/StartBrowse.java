@@ -13,8 +13,8 @@ public class StartBrowse extends BaseConfig {
     @BeforeClass
     public void setUp(){
 
-//        driver = new BaseConfig().setupBrowser("chrome", URL);
-        driver = new BaseConfig().setupBrowser("remote", URL);
+        driver = new BaseConfig().setupBrowser("firefox", URL);
+//        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 

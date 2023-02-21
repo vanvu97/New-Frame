@@ -18895,3 +18895,70 @@ Which of this information is most useful to include in the defect report?
 [INFO ] 2023-02-20 18:43:04 [main] Log - d) Evaluating the test basis for testability.
 [INFO ] 2023-02-20 18:43:04 [main] Log - 1. Degree of impact (severity) of the defect.
 [INFO ] 2023-02-20 18:43:04 [main] Log - a) 1, 2, 6
+[INFO ] 2023-02-21 07:55:02 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:55:07 [main] Log - #######  Testcase is skipped: getTexts #######
+[INFO ] 2023-02-21 07:55:07 [main] Log - 
+[INFO ] 2023-02-21 07:55:07 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 07:56:23 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:56:26 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 07:56:26 [main] Log - 
+[INFO ] 2023-02-21 07:56:26 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 07:57:13 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:57:34 [main] Log - 1. Running Login
+[INFO ] 2023-02-21 07:57:34 [main] Log -  - Nhập username
+[INFO ] 2023-02-21 07:57:35 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 07:57:35 [main] Log -   Screenshot taken: login
+[INFO ] 2023-02-21 07:57:36 [main] Log - 
+[INFO ] 2023-02-21 07:57:36 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 07:58:51 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:58:54 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 07:58:54 [main] Log - 
+[INFO ] 2023-02-21 07:58:54 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 07:59:27 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:59:28 [main] Log - 1. Running Login
+[INFO ] 2023-02-21 07:59:28 [main] Log -  - Nhập username
+[INFO ] 2023-02-21 07:59:29 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 07:59:29 [main] Log -   Screenshot taken: login
+[INFO ] 2023-02-21 07:59:30 [main] Log - 
+[INFO ] 2023-02-21 07:59:30 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 07:59:45 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 07:59:48 [main] Log - Checking Lesson Title
+[INFO ] 2023-02-21 07:59:48 [main] Log - Checking Available of Resume, Start button
+[INFO ] 2023-02-21 07:59:49 [main] Log - Get Sheet
+[INFO ] 2023-02-21 07:59:50 [main] Log - 
+[INFO ] 2023-02-21 07:59:50 [main] Log - Question 8:
+[INFO ] 2023-02-21 07:59:50 [main] Log - Question #8
+Match the following test work products (1-4) with the right description (A-D).
+1. Test suite.
+2. Test case.
+3. Test script.
+4. Test charter.
+A. A set of test scripts to be executed in a specific test run.
+B. A set of instructions for the execution of a test.
+C. Contains expected results.
+D. Documentation of test activities in session-based exploratory testing.
+[INFO ] 2023-02-21 07:59:50 [main] Log - null
+[INFO ] 2023-02-21 07:59:50 [main] Log - Match the following test work products (1-4) with the right description (A-D).
+[INFO ] 2023-02-21 07:59:50 [main] Log - a) 1A, 2C, 3B, 4D.
+[INFO ] 2023-02-21 07:59:50 [main] Log - b) 1D, 2B, 3A, 4C.
+[INFO ] 2023-02-21 07:59:50 [main] Log - c) 1A, 2C, 3D, 4B.
+[INFO ] 2023-02-21 08:00:04 [main] Log - Checking Lesson Title
+[INFO ] 2023-02-21 08:00:04 [main] Log - Checking Available of Resume, Start button
+[INFO ] 2023-02-21 08:00:05 [main] Log - Get Sheet
+[INFO ] 2023-02-21 08:00:05 [main] Log - 
+[INFO ] 2023-02-21 08:00:05 [main] Log - Question 38:
+[INFO ] 2023-02-21 08:00:05 [main] Log - Question #38
+You are performing system testing of a train reservation system. Based on the test cases performed, you have noticed that the system occasionally reports that no trains are available, although this should actually be the case. You have provided the developers with a summary of the defect and the version of the tested system. They recognize the urgency of the defect and are now waiting for you to provide further details.
+In addition to the information already provided, the following additional information is given:
+1. Degree of impact (severity) of the defect.
+2. Identification of the test item.
+3. Details of the test environment.
+4. Urgency/priority to fix.
+5. Actual results.
+6. Reference to test case specification.
+Which of this information is most useful to include in the defect report?
+[INFO ] 2023-02-21 08:00:05 [main] Log - d) 1D, 2C, 3B, 4A.
+[INFO ] 2023-02-21 08:00:05 [main] Log - 1. Degree of impact (severity) of the defect.
+[INFO ] 2023-02-21 08:00:06 [main] Log - a) 1, 2, 6
+[INFO ] 2023-02-21 08:00:06 [main] Log - b) 1, 4, 5, 6
+[INFO ] 2023-02-21 08:00:06 [main] Log - c) 2, 3, 4, 5
