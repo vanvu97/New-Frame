@@ -5,62 +5,47 @@
       <![CDATA[Driver for Screenshot null]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
+      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
     </line>
     <line>
-      <![CDATA[  Screenshot taken current URL: data:,]]>
+      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
+      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
     </line>
     <line>
-      <![CDATA[  Screenshot taken current URL: data:,]]>
+      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
     </line>
     <line>
-      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-    </line>
-    <line>
-      <![CDATA[  Screenshot taken current URL: data:,]]>
-    </line>
-    <line>
-      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-    </line>
-    <line>
-      <![CDATA[  Screenshot taken current URL: data:,]]>
-    </line>
-    <line>
-      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-    </line>
-    <line>
-      <![CDATA[  Screenshot taken current URL: data:,]]>
+      <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-19T01:18:55 ICT" name="Command line suite" finished-at="2023-02-19T01:19:50 ICT" duration-ms="55245">
+  <suite started-at="2023-02-20T23:25:23 ICT" name="Command line suite" finished-at="2023-02-20T23:26:22 ICT" duration-ms="58720">
     <groups>
     </groups>
-    <test started-at="2023-02-19T01:18:55 ICT" name="Command line test" finished-at="2023-02-19T01:19:50 ICT" duration-ms="55245">
+    <test started-at="2023-02-20T23:25:23 ICT" name="Command line test" finished-at="2023-02-20T23:26:22 ICT" duration-ms="58720">
       <class name="test.OrangeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OrangeTest@16610890]" started-at="2023-02-19T01:19:07 ICT" name="setUp" finished-at="2023-02-19T01:19:09 ICT" duration-ms="1844" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OrangeTest@383bfa16]" started-at="2023-02-20T23:25:38 ICT" name="setUp" finished-at="2023-02-20T23:25:40 ICT" duration-ms="1993" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c]]>
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -118,27 +103,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:test.OrangeTest@16610890]" started-at="2023-02-19T01:19:09 ICT" name="login" finished-at="2023-02-19T01:19:09 ICT" duration-ms="0" status="SKIP">
+        <test-method signature="login()[pri:1, instance:test.OrangeTest@383bfa16]" started-at="2023-02-20T23:25:40 ICT" name="login" finished-at="2023-02-20T23:25:40 ICT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c]]>
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -196,27 +181,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="pimPage()[pri:2, instance:test.OrangeTest@16610890]" started-at="2023-02-19T01:19:09 ICT" name="pimPage" finished-at="2023-02-19T01:19:09 ICT" duration-ms="0" status="SKIP">
+        <test-method signature="pimPage()[pri:2, instance:test.OrangeTest@383bfa16]" started-at="2023-02-20T23:25:40 ICT" name="pimPage" finished-at="2023-02-20T23:25:40 ICT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c]]>
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -274,27 +259,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pimPage -->
-        <test-method signature="adminPage()[pri:3, instance:test.OrangeTest@16610890]" started-at="2023-02-19T01:19:09 ICT" name="adminPage" finished-at="2023-02-19T01:19:09 ICT" duration-ms="0" status="SKIP">
+        <test-method signature="adminPage()[pri:3, instance:test.OrangeTest@383bfa16]" started-at="2023-02-20T23:25:40 ICT" name="adminPage" finished-at="2023-02-20T23:25:40 ICT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c]]>
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.009
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.008
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, get {url=https://opensource-demo.orangehrmlive.com/web/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -352,51 +337,32 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeTest@16610890]" started-at="2023-02-19T01:19:09 ICT" name="tearDown" finished-at="2023-02-19T01:19:09 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeTest@383bfa16]" started-at="2023-02-20T23:25:40 ICT" name="tearDown" finished-at="2023-02-20T23:25:40 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.OrangeTest -->
       <class name="test.RepeatTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:09 ICT" name="setUp" finished-at="2023-02-19T01:19:11 ICT" duration-ms="2436" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:25:40 ICT" name="setUp" finished-at="2023-02-20T23:25:43 ICT" duration-ms="3583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:1, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:11 ICT" name="login" finished-at="2023-02-19T01:19:50 ICT" duration-ms="38226" status="FAIL">
+        <test-method signature="login()[pri:1, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:25:43 ICT" name="login" finished-at="2023-02-20T23:26:22 ICT" duration-ms="38415" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']"}
-  (Session info: chrome=109.0.5414.120)
+              <![CDATA[Unable to find element with locator By.xpath: //div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, findElement {using=xpath, value=//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c]]>
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']"}
-  (Session info: chrome=109.0.5414.120)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8088ee9ecf20e15b8fa775370c2f160c, findElement {using=xpath, value=//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50812/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8088ee9ecf20e15b8fa775370c2f160c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
@@ -448,14 +414,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-            </line>
-            <line>
-              <![CDATA[  Screenshot taken current URL: data:,]]>
+              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:50 ICT" name="repeatTest" finished-at="2023-02-19T01:19:50 ICT" duration-ms="5" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:26:22 ICT" name="repeatTest" finished-at="2023-02-20T23:26:22 ICT" duration-ms="20" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -510,14 +473,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-            </line>
-            <line>
-              <![CDATA[  Screenshot taken current URL: data:,]]>
+              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:50 ICT" name="repeatTest" finished-at="2023-02-19T01:19:50 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:26:22 ICT" name="repeatTest" finished-at="2023-02-20T23:26:22 ICT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -572,14 +532,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-            </line>
-            <line>
-              <![CDATA[  Screenshot taken current URL: data:,]]>
+              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:50 ICT" name="repeatTest" finished-at="2023-02-19T01:19:50 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:26:22 ICT" name="repeatTest" finished-at="2023-02-20T23:26:22 ICT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -634,14 +591,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-            </line>
-            <line>
-              <![CDATA[  Screenshot taken current URL: data:,]]>
+              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
-        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@71def8f8]" started-at="2023-02-19T01:19:50 ICT" name="repeatTest" finished-at="2023-02-19T01:19:50 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="repeatTest()[pri:2, instance:test.RepeatTest@4d465b11]" started-at="2023-02-20T23:26:22 ICT" name="repeatTest" finished-at="2023-02-20T23:26:22 ICT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -696,20 +650,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (8088ee9ecf20e15b8fa775370c2f160c)]]>
-            </line>
-            <line>
-              <![CDATA[  Screenshot taken current URL: data:,]]>
+              <![CDATA[Driver for Screenshot ChromeDriver: chrome on WINDOWS (6a7afd85b5069c1fe0aeab9d7afa9fed)]]>
             </line>
           </reporter-output>
         </test-method> <!-- repeatTest -->
       </class> <!-- test.RepeatTest -->
       <class name="test.CaptureTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaptureTest@16a0ee18]" started-at="2023-02-19T01:18:55 ICT" name="setUp" finished-at="2023-02-19T01:19:00 ICT" duration-ms="5402" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CaptureTest@505fc5a4]" started-at="2023-02-20T23:25:24 ICT" name="setUp" finished-at="2023-02-20T23:25:30 ICT" duration-ms="5763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="readData()[pri:0, instance:test.CaptureTest@16a0ee18]" started-at="2023-02-19T01:19:00 ICT" name="readData" finished-at="2023-02-19T01:19:06 ICT" duration-ms="5927" status="FAIL">
+        <test-method signature="readData()[pri:0, instance:test.CaptureTest@505fc5a4]" started-at="2023-02-20T23:25:30 ICT" name="readData" finished-at="2023-02-20T23:25:37 ICT" duration-ms="7342" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Timeout! Page still loading...]]>
@@ -769,7 +720,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </line>
           </reporter-output>
         </test-method> <!-- readData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CaptureTest@16a0ee18]" started-at="2023-02-19T01:19:06 ICT" name="tearDown" finished-at="2023-02-19T01:19:07 ICT" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CaptureTest@505fc5a4]" started-at="2023-02-20T23:25:37 ICT" name="tearDown" finished-at="2023-02-20T23:25:38 ICT" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -18918,3 +18918,67 @@ Which of this information is most useful to include in the defect report?
 [INFO ] 2023-02-20 23:21:55 [main] Log - #######  Testcase is skipped: login #######
 [INFO ] 2023-02-20 23:21:55 [main] Log - 
 [INFO ] 2023-02-20 23:21:55 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 23:24:33 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:24:36 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 23:24:36 [main] Log - 
+[INFO ] 2023-02-20 23:24:36 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-20 23:25:24 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-20 23:25:36 [main] Log -  - Nh?p username
+[INFO ] 2023-02-20 23:25:37 [main] Log - #######  Testcase is failed: readData #######
+[INFO ] 2023-02-20 23:25:37 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-20 23:25:40 [main] Log - #######  Testcase is skipped: login #######
+[INFO ] 2023-02-20 23:25:40 [main] Log - #######  Testcase is skipped: pimPage #######
+[INFO ] 2023-02-20 23:25:40 [main] Log - #######  Testcase is skipped: adminPage #######
+[INFO ] 2023-02-20 23:26:05 [main] Log -  - Nh?p username
+[INFO ] 2023-02-20 23:26:22 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-20 23:26:22 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
+[INFO ] 2023-02-20 23:26:22 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-20 23:26:22 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
+[INFO ] 2023-02-20 23:26:22 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-20 23:26:22 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
+[INFO ] 2023-02-20 23:26:22 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-20 23:26:22 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
+[INFO ] 2023-02-20 23:26:22 [main] Log - #######  Testcase is failed: repeatTest #######
+[INFO ] 2023-02-20 23:26:22 [main] Log -   Exception while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ANONYMOUS', ip: '192.168.99.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a7afd85b5069c1fe0aeab9d7afa9fed, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\mozil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11352/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a7afd85b5069c1fe0aeab9d7afa9fed
+[INFO ] 2023-02-20 23:26:22 [main] Log - 
+[INFO ] 2023-02-20 23:26:22 [main] Log - ################### Running Completed! ###################

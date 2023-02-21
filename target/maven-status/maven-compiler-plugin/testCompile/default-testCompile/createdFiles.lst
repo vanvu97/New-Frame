@@ -2,6 +2,7 @@ test\ReadPropData.class
 test\RepeatTest.class
 BaseConfig\Interface.class
 test\OrangeTest.class
+BaseConfig\ReadExcel.class
 BaseConfig\BaseConfig.class
 page\GetTextPage.class
 page\TC3_AdminPage.class
@@ -10,7 +11,6 @@ BaseConfig\WriteExcel.class
 page\ImageTextPage.class
 BaseConfig\Elements.class
 page\TC2_PIMPage.class
-BaseConfig\RedExcel.class
 test\RunXML.class
 test\Test.class
 page\LoginPage.class

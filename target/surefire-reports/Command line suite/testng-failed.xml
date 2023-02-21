@@ -7,8 +7,8 @@
         <methods>
           <include name="adminPage"/>
           <include name="setUp"/>
-          <include name="login"/>
           <include name="tearDown"/>
+          <include name="login"/>
           <include name="pimPage"/>
         </methods>
       </class> <!-- test.OrangeTest -->
