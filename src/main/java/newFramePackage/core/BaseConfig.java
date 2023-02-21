@@ -38,18 +38,22 @@ public class BaseConfig {
             case "edge":
                 driver = edgeBrowser();
                 driver.navigate().to(URL);
+                System.out.println("Navigate to " + URL);
                 break;
             case "remote":
                 driver = chromeRemote();
 //                driver.navigate().to(URL);
+                System.out.println("Navigate to " + URL);
                 break;
             case "firefox":
                 driver = firefoxBrowser();
                 driver.navigate().to(URL);
+                System.out.println("Navigate to " + URL);
                 break;
             case "chrome":
                 driver = chromeBrowser();
                 driver.navigate().to(URL);
+                System.out.println("Navigate to " + URL);
                 break;
             case "remoteNoURL":
                 driver = chromeBrowser();
@@ -57,6 +61,7 @@ public class BaseConfig {
             default:
                 System.out.println("Browser: " + browserType + " is not config, starting default Browser...!");
                 driver = edgeBrowser();
+                System.out.println("Navigate to " + URL);
         }
         return driver;
     }

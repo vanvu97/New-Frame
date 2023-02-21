@@ -10,7 +10,7 @@ public class StartBrowse extends ExtentManager {
 
     protected WebDriver driver;
 
-    private final String URL = "https://google.com";
+    private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php";
 
 
 
