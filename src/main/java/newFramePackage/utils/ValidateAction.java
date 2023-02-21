@@ -26,12 +26,14 @@ public class ValidateAction{
         js = (JavascriptExecutor) driver;
         PageFactory.initElements(this.driver, this);
     }
-    public void waitAndClick(WebElement element, int timeOutInSeconds){
+    public void waitAndClickCustom(WebElement element, int timeOutInSeconds){
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSeconds));
             wait.until(ExpectedConditions.visibilityOfAllElements(element));
             element.click();
         } catch (Exception e) {
+            System.out.println("Element: "+element +" is not available!");
+            System.out.println("Error element: " + e);
         }
     }
     public boolean waitFor(WebElement element, int timeOutInSeconds) {
@@ -216,5 +218,6 @@ public class ValidateAction{
             Assert.fail("Timeout! Page still loading...");
         }
     }
+
 
 }

@@ -16,8 +16,8 @@ public class StartBrowse extends ExtentManager {
 
     @BeforeClass
     public void setUp(){
-        driver = new BaseConfig().setupBrowser("edge", URL);
-//        driver = new BaseConfig().setupBrowser("remote", URL);
+//        driver = new BaseConfig().setupBrowser("edge", URL);
+        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 
