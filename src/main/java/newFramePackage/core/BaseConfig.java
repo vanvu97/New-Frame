@@ -1,6 +1,7 @@
 package newFramePackage.core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import newFramePackage.utils.ValidateAction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -22,9 +23,10 @@ public class BaseConfig {
     private static WebDriver driver;
     private static WebDriverWait wait;
     protected static JavascriptExecutor js;
-    private static WebElement element;
+    private ValidateAction ACTION;
     private static int seconds = 30;
     private static int tryCatchTimes = 1;
+
 
     public static WebDriverWait getWait() {
         return wait;
@@ -33,26 +35,34 @@ public class BaseConfig {
     public WebDriver getDriver() {
         return driver;
     }
+
+    public void waitForPageLoad (){
+        ACTION.waitForPageLoad();
+    }
     public WebDriver setupBrowser(String browserType, String URL) {
         switch (browserType.trim().toLowerCase()) {
             case "edge":
                 driver = edgeBrowser();
                 driver.navigate().to(URL);
+                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "remote":
                 driver = chromeRemote();
 //                driver.navigate().to(URL);
+                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "firefox":
                 driver = firefoxBrowser();
                 driver.navigate().to(URL);
+                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "chrome":
                 driver = chromeBrowser();
                 driver.navigate().to(URL);
+                waitForPageLoad();
                 System.out.println("Navigate to " + URL);
                 break;
             case "remoteNoURL":

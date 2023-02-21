@@ -38,3 +38,7 @@
 [INFO ] 2023-02-21 22:02:25 [main] Log -   Screenshot taken: login
 [INFO ] 2023-02-21 22:02:25 [main] Log - 
 [INFO ] 2023-02-21 22:02:25 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:15:34 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -#######  Testcase is skipped: login #######
+[INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -
+[INFO ] 2023-02-21 22:16:08 [main] Log - [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} -################### Running Completed! ###################
