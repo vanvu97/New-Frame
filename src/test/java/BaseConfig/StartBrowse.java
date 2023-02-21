@@ -1,17 +1,10 @@
 package BaseConfig;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import newFramePackage.core.BaseConfig;
 import newFramePackage.report.ExtentManager;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
-import org.testng.annotations.*;
-
-import java.lang.reflect.Method;
-import java.util.Date;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class StartBrowse extends ExtentManager {
 
