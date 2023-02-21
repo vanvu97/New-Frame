@@ -82,10 +82,21 @@ public class BaseConfig {
 
     private static WebDriver edgeBrowser() {
         EdgeOptions options = new EdgeOptions();
-        options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+        driver.manage().deleteAllCookies();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(seconds));
+        js = (JavascriptExecutor) driver;
+        return driver;
+    }
+
+    private static WebDriver firefoxBrowser() {
+        FirefoxOptions options = new FirefoxOptions();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver(options);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
@@ -127,16 +138,6 @@ public class BaseConfig {
         return driver;
     }
 
-    private static WebDriver firefoxBrowser() {
-        FirefoxOptions options = new FirefoxOptions();
-        WebDriverManager.firefoxdriver().setup();
-        driver = new FirefoxDriver(options);
-        driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(seconds));
-        js = (JavascriptExecutor) driver;
-        return driver;
-    }
+
 
 }

@@ -1,27 +1,33 @@
 package BaseConfig;
 
 import newFramePackage.core.BaseConfig;
+import newFramePackage.report.ExtentManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class StartBrowse extends BaseConfig {
+public class StartBrowse extends ExtentManager {
 
-    public WebDriver driver;
+    protected WebDriver driver;
+
     private final String URL = "https://opensource-demo.orangehrmlive.com/web/index.php";
+
+
 
     @BeforeClass
     public void setUp(){
 
-        driver = new BaseConfig().setupBrowser("chrome", URL);
+        driver = new BaseConfig().setupBrowser("edge", URL);
 //        driver = new BaseConfig().setupBrowser("remote", URL);
 
     }
 
     @AfterClass
     public void tearDown(){
+
         driver.quit();
     }
+
 
     //Remote
     //cd C:\Program Files\Google\Chrome\Application

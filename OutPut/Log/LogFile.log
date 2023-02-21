@@ -1,0 +1,21 @@
+[INFO ] 2023-02-21 10:12:19 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 10:12:33 [main] Log - 1. Running Login
+[INFO ] 2023-02-21 10:12:33 [main] Log -  - Nhập username
+[INFO ] 2023-02-21 10:12:34 [main] Log -  - Nhập password
+[INFO ] 2023-02-21 10:12:35 [main] Log -  - Nhấn Login
+[INFO ] 2023-02-21 10:12:37 [main] Log -  - Login thành công
+[INFO ] 2023-02-21 10:12:37 [main] Log - #######  Testcase is passed: login #######
+[INFO ] 2023-02-21 10:12:37 [main] Log - 2. Running pimPage
+[INFO ] 2023-02-21 10:12:37 [main] Log -  - Clicking to PIM
+[INFO ] 2023-02-21 10:12:39 [main] Log -  - Clicking to Add New User
+[INFO ] 2023-02-21 10:12:41 [main] Log - #######  Testcase is failed: pimPage #######
+[INFO ] 2023-02-21 10:12:41 [main] Log -   Screenshot taken: pimPage
+[INFO ] 2023-02-21 10:12:41 [main] Log - 3. Running adminPage
+[INFO ] 2023-02-21 10:12:41 [main] Log -  - Navigate to Admin Page!
+[INFO ] 2023-02-21 10:12:43 [main] Log -  - Clicking Add User Button!
+[INFO ] 2023-02-21 10:12:45 [main] Log -  - Adding User Button!
+[INFO ] 2023-02-21 10:12:47 [main] Log -  - Sending Employee Name
+[INFO ] 2023-02-21 10:12:47 [main] Log - #######  Testcase is failed: adminPage #######
+[INFO ] 2023-02-21 10:12:47 [main] Log -   Screenshot taken: adminPage
+[INFO ] 2023-02-21 10:12:48 [main] Log - 
+[INFO ] 2023-02-21 10:12:48 [main] Log - ################### Running Completed! ###################

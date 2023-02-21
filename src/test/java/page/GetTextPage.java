@@ -1,17 +1,15 @@
 package page;
 
-import BaseConfig.ReadExcel;
 import BaseConfig.WriteExcel;
 import newFramePackage.core.Button;
 import newFramePackage.management.Log;
+import newFramePackage.utils.ValidateAction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import newFramePackage.utils.ValidateAction;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,7 +18,6 @@ public class GetTextPage extends Button {
 
     WebDriver driver;
     private WriteExcel writeExcel;
-    private ReadExcel readExcel;
     private String Ans;
     ValidateAction ACTIONs;
     private String sheet;
@@ -117,7 +114,7 @@ public class GetTextPage extends Button {
                 int lastNum = Integer.parseInt(parts[3]);
                 int total = lastNum - fistNum;
                 System.out.println("Totals questions: " + total);
-                for (int i = 0; i < total; i++) {
+                for (int i = 0; i <= total; i++) {
                     System.out.println(i);
                     Log.info("");
                     Log.info(question.getText());

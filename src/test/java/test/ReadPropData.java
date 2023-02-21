@@ -23,13 +23,13 @@ public class ReadPropData {
         PropertiesManager.setPropertiesFile();
         //Set up new value to run Properties rather than use an existing value in properties file
         PropertiesManager.setPropValue("browser", "firefox");
-//        PropertiesManager.setPropValue("email", "text email");
-//        PropertiesManager.setPropValue("password", "text password");
+        PropertiesManager.setPropValue("email", "text email");
+        PropertiesManager.setPropValue("password", "text password");
 
         driver = new BaseConfig().setupBrowser(PropertiesManager.getPropValue("browser"));
     }
 
-    @Test
+    @Test(invocationCount = 4, successPercentage = 100, priority = 2)
     public void readData() throws IOException, InterruptedException {
         login = new TC1_LoginPage();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
