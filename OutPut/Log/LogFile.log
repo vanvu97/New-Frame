@@ -69,3 +69,31 @@
 [INFO ] 2023-02-21 22:36:20 [main] Log - #######  Testcase is skipped: login #######
 [INFO ] 2023-02-21 22:36:20 [main] Log - 
 [INFO ] 2023-02-21 22:36:20 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:36:52 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:41:13 [main] Log - Username: [[ChromeDriver: chrome on WINDOWS (982f9769a226efbcfe26477e02f967c1)] -> name: username]
+[INFO ] 2023-02-21 22:41:14 [main] Log - Password: admin123
+[INFO ] 2023-02-21 22:41:19 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 22:41:19 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-21 22:41:19 [main] Log - 
+[INFO ] 2023-02-21 22:41:19 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:48:48 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:52:00 [main] Log - Username: [[ChromeDriver: chrome on WINDOWS (01b0b5f4576ceb188ab46ec6275abe77)] -> name: username]
+[INFO ] 2023-02-21 22:52:01 [main] Log - Password: admin123
+[INFO ] 2023-02-21 22:52:05 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 22:52:05 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-21 22:52:05 [main] Log - 
+[INFO ] 2023-02-21 22:52:05 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:53:17 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:54:21 [main] Log - Username: [[ChromeDriver: chrome on WINDOWS (067d8d0e38da04408c6d2666e77030a7)] -> name: username]
+[INFO ] 2023-02-21 22:54:22 [main] Log - Password: admin123
+[INFO ] 2023-02-21 22:54:26 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 22:54:26 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-21 22:54:26 [main] Log - 
+[INFO ] 2023-02-21 22:54:26 [main] Log - ################### Running Completed! ###################
+[INFO ] 2023-02-21 22:56:39 [main] Log - ################### Starting automation Test! ###################
+[INFO ] 2023-02-21 22:57:00 [main] Log - Username: [[ChromeDriver: chrome on WINDOWS (d9b725316bb4910605cad0d63e744fde)] -> name: username]
+[INFO ] 2023-02-21 22:57:02 [main] Log - Password: admin123
+[INFO ] 2023-02-21 22:57:06 [main] Log - #######  Testcase is failed: login #######
+[INFO ] 2023-02-21 22:57:06 [main] Log -   Exception while taking screenshot: null
+[INFO ] 2023-02-21 22:57:06 [main] Log - 
+[INFO ] 2023-02-21 22:57:06 [main] Log - ################### Running Completed! ###################

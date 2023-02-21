@@ -17,6 +17,7 @@
 <!--                    <include name="addNewUser"/>-->
                 </methods>
             </class>
+            <class name="newFramePackage.report.ExtentManager"/>
         </classes>
 
 <!--        Run all Test in the Packages-->

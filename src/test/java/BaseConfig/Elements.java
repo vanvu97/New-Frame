@@ -1,12 +1,13 @@
 package BaseConfig;
 
+import newFramePackage.report.ExtentManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class Elements extends Base{
+public class Elements{
     //    =================================================Admin Page===========================================================
     protected final String status = "Enabled";
     protected final String role = "Admin";

@@ -1,6 +1,7 @@
 package BaseConfig;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import newFramePackage.report.ExtentManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +14,7 @@ import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
-public class Base {
+public class Bases extends ExtentManager {
     protected static WebDriver driver;
     protected static JavascriptExecutor js;
 
