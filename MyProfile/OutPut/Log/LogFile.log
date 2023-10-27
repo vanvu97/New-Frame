@@ -1,0 +1,514 @@
+[WARN ] 2023-10-27 18:46:05 [main] Logs - [27-10-2023 18:46:05] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 18:46:27 [main] Logs - [27-10-2023 18:46:27] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 18:46:27 [main] Logs - [27-10-2023 18:46:27] 4 - Input Username: admin
+[INFO ] 2023-10-27 18:46:32 [main] Logs - [27-10-2023 18:46:32] 6 - Input password: admin
+[INFO ] 2023-10-27 18:46:34 [main] Logs - [27-10-2023 18:46:34] 8 - Click Login
+[INFO ] 2023-10-27 18:46:36 [main] Logs - [27-10-2023 18:46:36] 10 - Verify page title
+[WARN ] 2023-10-27 18:46:43 [main] Logs - [27-10-2023 18:46:43] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 18:46:43 [main] Logs - [27-10-2023 18:46:43] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 18-46-42.png
+[WARN ] 2023-10-27 18:46:47 [main] Logs - [27-10-2023 18:46:47] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 18:46:47 [main] Logs - [27-10-2023 18:46:47] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 18:46:47 [main] Logs - [27-10-2023 18:46:47] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 18:46:47 [main] Logs - [27-10-2023 18:46:47] 22 - Open left side panel
+[INFO ] 2023-10-27 18:46:50 [main] Logs - [27-10-2023 18:46:50] 23 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 18:46:51 [main] Logs - [27-10-2023 18:46:51] 24 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 25 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 26 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 18-46-52.png
+[WARN ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 27 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 28 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 29 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 18:46:52 [main] Logs - [27-10-2023 18:46:52] 30 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 18:46:53 [main] Logs - [27-10-2023 18:46:53] 31 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 18:46:54 [main] Logs - [27-10-2023 18:46:54] 32 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 33 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 34 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 18-46-55.png
+[WARN ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 35 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 36 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 37 - Verify title of template list!
+[INFO ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 38 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 18:46:55 [main] Logs - [27-10-2023 18:46:55] 39 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 18:46:56 [main] Logs - [27-10-2023 18:46:56] 40 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 18:46:56 [main] Logs - [27-10-2023 18:46:56] 41 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 42 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 43 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 18-46-58.png
+[WARN ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 44 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 45 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 46 - Verify list widget name is correct!
+[INFO ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 47 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 18:46:58 [main] Logs - [27-10-2023 18:46:58] 48 - Click on line button
+[INFO ] 2023-10-27 18:46:59 [main] Logs - [27-10-2023 18:46:59] 49 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 18:47:00 [main] Logs - [27-10-2023 18:47:00] 50 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 18:47:00 [main] Logs - [27-10-2023 18:47:00] 51 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 18-47-00.png
+[WARN ] 2023-10-27 18:47:00 [main] Logs - [27-10-2023 18:47:00] 52 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:47:00 [main] Logs - [27-10-2023 18:47:00] 53 - Text title is: Line Widget
+[INFO ] 2023-10-27 18:47:00 [main] Logs - [27-10-2023 18:47:00] 54 - Verify the Data Type of line
+[ERROR] 2023-10-27 18:47:01 [main] Logs - [27-10-2023 18:47:01] 55 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 18:47:02 [main] Logs - [27-10-2023 18:47:02] 56 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 18:47:02 [main] Logs - [27-10-2023 18:47:02] 57 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 18-47-02.png
+[WARN ] 2023-10-27 18:47:02 [main] Logs - [27-10-2023 18:47:02] 58 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 18:47:02 [main] Logs - [27-10-2023 18:47:02] 59 - ##### FINISHED! #####
+[WARN ] 2023-10-27 18:53:39 [main] Logs - [27-10-2023 18:53:39] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 18:54:02 [main] Logs - [27-10-2023 18:54:02] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 18:54:02 [main] Logs - [27-10-2023 18:54:02] 4 - Input Username: admin
+[INFO ] 2023-10-27 18:54:11 [main] Logs - [27-10-2023 18:54:11] 6 - Input password: admin
+[INFO ] 2023-10-27 18:54:12 [main] Logs - [27-10-2023 18:54:12] 8 - Click Login
+[INFO ] 2023-10-27 18:54:14 [main] Logs - [27-10-2023 18:54:14] 10 - Verify page title
+[WARN ] 2023-10-27 18:54:21 [main] Logs - [27-10-2023 18:54:21] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 18:54:21 [main] Logs - [27-10-2023 18:54:21] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 18-54-20.png
+[WARN ] 2023-10-27 18:54:23 [main] Logs - [27-10-2023 18:54:23] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 18:54:23 [main] Logs - [27-10-2023 18:54:23] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 18:54:23 [main] Logs - [27-10-2023 18:54:23] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 18:54:23 [main] Logs - [27-10-2023 18:54:23] 22 - Open left side panel
+[INFO ] 2023-10-27 18:54:34 [main] Logs - [27-10-2023 18:54:34] 23 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 18:54:39 [main] Logs - [27-10-2023 18:54:39] 24 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 25 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 26 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 18-54-41.png
+[WARN ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 27 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 28 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 29 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 18:54:41 [main] Logs - [27-10-2023 18:54:41] 30 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 18:54:43 [main] Logs - [27-10-2023 18:54:43] 31 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 18:54:43 [main] Logs - [27-10-2023 18:54:43] 32 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 33 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 34 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 18-54-45.png
+[WARN ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 35 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 36 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 37 - Verify title of template list!
+[INFO ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 38 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 18:54:45 [main] Logs - [27-10-2023 18:54:45] 39 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 18:54:46 [main] Logs - [27-10-2023 18:54:46] 40 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 18:54:46 [main] Logs - [27-10-2023 18:54:46] 41 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 42 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 43 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 18-54-48.png
+[WARN ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 44 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 45 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 46 - Verify list widget name is correct!
+[INFO ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 47 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 18:54:48 [main] Logs - [27-10-2023 18:54:48] 48 - Click on line button
+[INFO ] 2023-10-27 18:54:49 [main] Logs - [27-10-2023 18:54:49] 49 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 18:54:51 [main] Logs - [27-10-2023 18:54:51] 50 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 18:54:51 [main] Logs - [27-10-2023 18:54:51] 51 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 18-54-51.png
+[WARN ] 2023-10-27 18:54:51 [main] Logs - [27-10-2023 18:54:51] 52 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 18:54:51 [main] Logs - [27-10-2023 18:54:51] 53 - Text title is: Line Widget
+[INFO ] 2023-10-27 18:54:51 [main] Logs - [27-10-2023 18:54:51] 54 - Verify the Data Type of line
+[ERROR] 2023-10-27 18:54:52 [main] Logs - [27-10-2023 18:54:52] 55 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 18:54:52 [main] Logs - [27-10-2023 18:54:52] 56 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 18:54:52 [main] Logs - [27-10-2023 18:54:52] 57 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 18-54-52.png
+[WARN ] 2023-10-27 18:54:52 [main] Logs - [27-10-2023 18:54:52] 58 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 18:54:55 [main] Logs - [27-10-2023 18:54:55] 59 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:04:00 [main] Logs - [27-10-2023 19:04:00] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:04:23 [main] Logs - [27-10-2023 19:04:23] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:04:23 [main] Logs - [27-10-2023 19:04:23] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:04:41 [main] Logs - [27-10-2023 19:04:41] 6 - Input password: admin
+[INFO ] 2023-10-27 19:04:43 [main] Logs - [27-10-2023 19:04:43] 8 - Click Login
+[INFO ] 2023-10-27 19:04:44 [main] Logs - [27-10-2023 19:04:44] 10 - Verify page title
+[WARN ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-04-47.png
+[WARN ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:04:47 [main] Logs - [27-10-2023 19:04:47] 21 - Open left side panel
+[INFO ] 2023-10-27 19:04:48 [main] Logs - [27-10-2023 19:04:48] 22 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:04:49 [main] Logs - [27-10-2023 19:04:49] 23 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 24 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 25 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-04-50.png
+[WARN ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 26 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 27 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 28 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:04:50 [main] Logs - [27-10-2023 19:04:50] 29 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:04:52 [main] Logs - [27-10-2023 19:04:52] 30 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:04:52 [main] Logs - [27-10-2023 19:04:52] 31 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 32 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 33 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-04-53.png
+[WARN ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 34 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 35 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 36 - Verify title of template list!
+[INFO ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 37 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:04:53 [main] Logs - [27-10-2023 19:04:53] 38 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:04:54 [main] Logs - [27-10-2023 19:04:54] 39 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:04:54 [main] Logs - [27-10-2023 19:04:54] 40 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:04:55 [main] Logs - [27-10-2023 19:04:55] 41 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:04:55 [main] Logs - [27-10-2023 19:04:55] 42 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-04-55.png
+[WARN ] 2023-10-27 19:04:55 [main] Logs - [27-10-2023 19:04:55] 43 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:04:55 [main] Logs - [27-10-2023 19:04:55] 44 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:04:55 [main] Logs - [27-10-2023 19:04:55] 45 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:04:56 [main] Logs - [27-10-2023 19:04:56] 46 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:04:56 [main] Logs - [27-10-2023 19:04:56] 47 - Click on line button
+[INFO ] 2023-10-27 19:04:57 [main] Logs - [27-10-2023 19:04:57] 48 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:04:58 [main] Logs - [27-10-2023 19:04:58] 49 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:04:58 [main] Logs - [27-10-2023 19:04:58] 50 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-04-58.png
+[WARN ] 2023-10-27 19:04:58 [main] Logs - [27-10-2023 19:04:58] 51 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:04:58 [main] Logs - [27-10-2023 19:04:58] 52 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:04:58 [main] Logs - [27-10-2023 19:04:58] 53 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:05:00 [main] Logs - [27-10-2023 19:05:00] 54 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:05:00 [main] Logs - [27-10-2023 19:05:00] 55 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:05:00 [main] Logs - [27-10-2023 19:05:00] 56 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-05-00.png
+[WARN ] 2023-10-27 19:05:00 [main] Logs - [27-10-2023 19:05:00] 57 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:05:01 [main] Logs - [27-10-2023 19:05:01] 58 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:05:58 [main] Logs - [27-10-2023 19:05:58] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:06:22 [main] Logs - [27-10-2023 19:06:22] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:06:22 [main] Logs - [27-10-2023 19:06:22] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:06:35 [main] Logs - [27-10-2023 19:06:35] 6 - Input password: admin
+[INFO ] 2023-10-27 19:06:36 [main] Logs - [27-10-2023 19:06:36] 8 - Click Login
+[INFO ] 2023-10-27 19:06:37 [main] Logs - [27-10-2023 19:06:37] 10 - Verify page title
+[WARN ] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-06-39.png
+[WARN ] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 20 - ##### PASSED TCs: loginTest #####
+[ERROR] 2023-10-27 19:06:39 [main] Logs - [27-10-2023 19:06:39] 22 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:06:40 [main] Logs - [27-10-2023 19:06:40] 24 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:06:40 [main] Logs - [27-10-2023 19:06:40] 26 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-06-40.png
+[WARN ] 2023-10-27 19:06:40 [main] Logs - [27-10-2023 19:06:40] 28 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[WARN ] 2023-10-27 19:06:40 [main] Logs - [27-10-2023 19:06:40] 30 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:20:31 [main] Logs - [27-10-2023 19:20:31] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:20:55 [main] Logs - [27-10-2023 19:20:55] 3 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:20:55 [main] Logs - [27-10-2023 19:20:55] 5 - Input Username: admin
+[INFO ] 2023-10-27 19:21:00 [main] Logs - [27-10-2023 19:21:00] 7 - Input password: admin
+[INFO ] 2023-10-27 19:21:01 [main] Logs - [27-10-2023 19:21:01] 9 - Click Login
+[INFO ] 2023-10-27 19:21:03 [main] Logs - [27-10-2023 19:21:03] 11 - Verify page title
+[WARN ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 13 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 15 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-21-06.png
+[WARN ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 17 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 19 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 21 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:21:06 [main] Logs - [27-10-2023 19:21:06] 23 - Open left side panel
+[INFO ] 2023-10-27 19:21:08 [main] Logs - [27-10-2023 19:21:08] 25 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:21:10 [main] Logs - [27-10-2023 19:21:10] 27 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:21:12 [main] Logs - [27-10-2023 19:21:12] 29 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:21:12 [main] Logs - [27-10-2023 19:21:12] 31 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-21-12.png
+[WARN ] 2023-10-27 19:21:12 [main] Logs - [27-10-2023 19:21:12] 33 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:21:12 [main] Logs - [27-10-2023 19:21:12] 35 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:21:12 [main] Logs - [27-10-2023 19:21:12] 37 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:21:13 [main] Logs - [27-10-2023 19:21:13] 39 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:21:17 [main] Logs - [27-10-2023 19:21:17] 41 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:21:18 [main] Logs - [27-10-2023 19:21:18] 43 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:21:21 [main] Logs - [27-10-2023 19:21:21] 45 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:21:21 [main] Logs - [27-10-2023 19:21:21] 47 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-21-21.png
+[WARN ] 2023-10-27 19:21:21 [main] Logs - [27-10-2023 19:21:21] 49 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:21:21 [main] Logs - [27-10-2023 19:21:21] 51 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:21:21 [main] Logs - [27-10-2023 19:21:21] 53 - Verify title of template list!
+[INFO ] 2023-10-27 19:21:23 [main] Logs - [27-10-2023 19:21:23] 55 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:21:23 [main] Logs - [27-10-2023 19:21:23] 57 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:21:25 [main] Logs - [27-10-2023 19:21:25] 59 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:21:26 [main] Logs - [27-10-2023 19:21:26] 61 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:21:29 [main] Logs - [27-10-2023 19:21:29] 63 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:21:29 [main] Logs - [27-10-2023 19:21:29] 65 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-21-29.png
+[WARN ] 2023-10-27 19:21:30 [main] Logs - [27-10-2023 19:21:30] 67 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:21:30 [main] Logs - [27-10-2023 19:21:30] 69 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:21:30 [main] Logs - [27-10-2023 19:21:30] 71 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:21:34 [main] Logs - [27-10-2023 19:21:34] 73 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:21:34 [main] Logs - [27-10-2023 19:21:34] 75 - Click on line button
+[INFO ] 2023-10-27 19:21:35 [main] Logs - [27-10-2023 19:21:35] 77 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:21:37 [main] Logs - [27-10-2023 19:21:37] 79 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:21:37 [main] Logs - [27-10-2023 19:21:37] 81 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-21-37.png
+[WARN ] 2023-10-27 19:21:37 [main] Logs - [27-10-2023 19:21:37] 83 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:21:37 [main] Logs - [27-10-2023 19:21:37] 85 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:21:37 [main] Logs - [27-10-2023 19:21:37] 87 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:21:38 [main] Logs - [27-10-2023 19:21:38] 89 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:21:38 [main] Logs - [27-10-2023 19:21:38] 91 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:21:38 [main] Logs - [27-10-2023 19:21:38] 93 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-21-38.png
+[WARN ] 2023-10-27 19:21:38 [main] Logs - [27-10-2023 19:21:38] 95 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:21:40 [main] Logs - [27-10-2023 19:21:40] 97 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:22:39 [main] Logs - [27-10-2023 19:22:39] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:23:02 [main] Logs - [27-10-2023 19:23:02] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:23:02 [main] Logs - [27-10-2023 19:23:02] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:23:07 [main] Logs - [27-10-2023 19:23:07] 6 - Input password: admin
+[INFO ] 2023-10-27 19:23:09 [main] Logs - [27-10-2023 19:23:09] 8 - Click Login
+[INFO ] 2023-10-27 19:23:11 [main] Logs - [27-10-2023 19:23:11] 10 - Verify page title
+[WARN ] 2023-10-27 19:23:17 [main] Logs - [27-10-2023 19:23:17] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:23:17 [main] Logs - [27-10-2023 19:23:17] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-23-17.png
+[WARN ] 2023-10-27 19:23:17 [main] Logs - [27-10-2023 19:23:17] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:23:17 [main] Logs - [27-10-2023 19:23:17] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:23:17 [main] Logs - [27-10-2023 19:23:17] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:23:19 [main] Logs - [27-10-2023 19:23:19] 22 - Open left side panel
+[INFO ] 2023-10-27 19:23:26 [main] Logs - [27-10-2023 19:23:26] 24 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:23:27 [main] Logs - [27-10-2023 19:23:27] 26 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 28 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 30 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-23-29.png
+[WARN ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 32 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 34 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 36 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:23:29 [main] Logs - [27-10-2023 19:23:29] 38 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:23:30 [main] Logs - [27-10-2023 19:23:30] 40 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:23:30 [main] Logs - [27-10-2023 19:23:30] 42 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:23:31 [main] Logs - [27-10-2023 19:23:31] 44 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:23:31 [main] Logs - [27-10-2023 19:23:31] 46 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-23-31.png
+[WARN ] 2023-10-27 19:23:31 [main] Logs - [27-10-2023 19:23:31] 48 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:23:31 [main] Logs - [27-10-2023 19:23:31] 50 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:23:31 [main] Logs - [27-10-2023 19:23:31] 52 - Verify title of template list!
+[INFO ] 2023-10-27 19:23:32 [main] Logs - [27-10-2023 19:23:32] 54 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:23:32 [main] Logs - [27-10-2023 19:23:32] 56 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:23:33 [main] Logs - [27-10-2023 19:23:33] 58 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:23:33 [main] Logs - [27-10-2023 19:23:33] 60 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 62 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 64 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-23-34.png
+[WARN ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 66 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 68 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 70 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 72 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:23:34 [main] Logs - [27-10-2023 19:23:34] 74 - Click on line button
+[INFO ] 2023-10-27 19:23:36 [main] Logs - [27-10-2023 19:23:36] 76 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:23:37 [main] Logs - [27-10-2023 19:23:37] 78 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:23:37 [main] Logs - [27-10-2023 19:23:37] 80 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-23-37.png
+[WARN ] 2023-10-27 19:23:37 [main] Logs - [27-10-2023 19:23:37] 82 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:23:37 [main] Logs - [27-10-2023 19:23:37] 84 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:23:37 [main] Logs - [27-10-2023 19:23:37] 86 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:23:38 [main] Logs - [27-10-2023 19:23:38] 88 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:23:38 [main] Logs - [27-10-2023 19:23:38] 90 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:23:38 [main] Logs - [27-10-2023 19:23:38] 92 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-23-38.png
+[WARN ] 2023-10-27 19:23:38 [main] Logs - [27-10-2023 19:23:38] 94 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:23:39 [main] Logs - [27-10-2023 19:23:39] 96 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:24:52 [main] Logs - [27-10-2023 19:24:52] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:25:14 [main] Logs - [27-10-2023 19:25:14] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:25:14 [main] Logs - [27-10-2023 19:25:14] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:25:18 [main] Logs - [27-10-2023 19:25:18] 6 - Input password: admin
+[INFO ] 2023-10-27 19:25:20 [main] Logs - [27-10-2023 19:25:20] 8 - Click Login
+[INFO ] 2023-10-27 19:25:23 [main] Logs - [27-10-2023 19:25:23] 10 - Verify page title
+[WARN ] 2023-10-27 19:25:27 [main] Logs - [27-10-2023 19:25:27] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:25:27 [main] Logs - [27-10-2023 19:25:27] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-25-27.png
+[WARN ] 2023-10-27 19:25:28 [main] Logs - [27-10-2023 19:25:28] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:25:28 [main] Logs - [27-10-2023 19:25:28] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:25:28 [main] Logs - [27-10-2023 19:25:28] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:25:30 [main] Logs - [27-10-2023 19:25:30] 22 - Open left side panel
+[INFO ] 2023-10-27 19:25:38 [main] Logs - [27-10-2023 19:25:38] 24 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:25:40 [main] Logs - [27-10-2023 19:25:40] 26 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 28 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 30 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-25-42.png
+[WARN ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 32 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 34 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 36 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:25:42 [main] Logs - [27-10-2023 19:25:42] 38 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:25:43 [main] Logs - [27-10-2023 19:25:43] 40 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:25:43 [main] Logs - [27-10-2023 19:25:43] 42 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 44 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 46 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-25-45.png
+[WARN ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 48 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 50 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 52 - Verify title of template list!
+[INFO ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 54 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:25:45 [main] Logs - [27-10-2023 19:25:45] 56 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:25:46 [main] Logs - [27-10-2023 19:25:46] 58 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:25:46 [main] Logs - [27-10-2023 19:25:46] 60 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:25:47 [main] Logs - [27-10-2023 19:25:47] 62 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:25:47 [main] Logs - [27-10-2023 19:25:47] 64 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-25-47.png
+[WARN ] 2023-10-27 19:25:47 [main] Logs - [27-10-2023 19:25:47] 66 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:25:47 [main] Logs - [27-10-2023 19:25:47] 68 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:25:47 [main] Logs - [27-10-2023 19:25:47] 70 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:25:48 [main] Logs - [27-10-2023 19:25:48] 72 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:25:48 [main] Logs - [27-10-2023 19:25:48] 74 - Click on line button
+[INFO ] 2023-10-27 19:25:49 [main] Logs - [27-10-2023 19:25:49] 76 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:25:51 [main] Logs - [27-10-2023 19:25:51] 78 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:25:51 [main] Logs - [27-10-2023 19:25:51] 80 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-25-51.png
+[WARN ] 2023-10-27 19:25:51 [main] Logs - [27-10-2023 19:25:51] 82 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:25:51 [main] Logs - [27-10-2023 19:25:51] 84 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:25:51 [main] Logs - [27-10-2023 19:25:51] 86 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:25:52 [main] Logs - [27-10-2023 19:25:52] 88 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:25:52 [main] Logs - [27-10-2023 19:25:52] 90 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:25:52 [main] Logs - [27-10-2023 19:25:52] 92 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-25-52.png
+[WARN ] 2023-10-27 19:25:52 [main] Logs - [27-10-2023 19:25:52] 94 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:25:53 [main] Logs - [27-10-2023 19:25:53] 96 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:29:13 [main] Logs - [27-10-2023 19:29:13] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:29:31 [main] Logs - [27-10-2023 19:29:31] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:29:31 [main] Logs - [27-10-2023 19:29:31] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:29:35 [main] Logs - [27-10-2023 19:29:35] 6 - Input password: admin
+[INFO ] 2023-10-27 19:29:38 [main] Logs - [27-10-2023 19:29:38] 8 - Click Login
+[INFO ] 2023-10-27 19:29:40 [main] Logs - [27-10-2023 19:29:40] 10 - Verify page title
+[WARN ] 2023-10-27 19:29:47 [main] Logs - [27-10-2023 19:29:47] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:29:47 [main] Logs - [27-10-2023 19:29:47] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-29-47.png
+[WARN ] 2023-10-27 19:29:48 [main] Logs - [27-10-2023 19:29:48] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:29:48 [main] Logs - [27-10-2023 19:29:48] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:29:48 [main] Logs - [27-10-2023 19:29:48] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:29:48 [main] Logs - [27-10-2023 19:29:48] 22 - Open left side panel
+[INFO ] 2023-10-27 19:29:56 [main] Logs - [27-10-2023 19:29:56] 24 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:29:58 [main] Logs - [27-10-2023 19:29:58] 26 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 28 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 30 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-30-00.png
+[WARN ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 32 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 34 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 36 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:30:00 [main] Logs - [27-10-2023 19:30:00] 38 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:30:01 [main] Logs - [27-10-2023 19:30:01] 40 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:30:02 [main] Logs - [27-10-2023 19:30:02] 42 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:30:03 [main] Logs - [27-10-2023 19:30:03] 44 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:30:03 [main] Logs - [27-10-2023 19:30:03] 46 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-30-03.png
+[WARN ] 2023-10-27 19:30:03 [main] Logs - [27-10-2023 19:30:03] 48 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:30:03 [main] Logs - [27-10-2023 19:30:03] 50 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:30:03 [main] Logs - [27-10-2023 19:30:03] 52 - Verify title of template list!
+[INFO ] 2023-10-27 19:30:04 [main] Logs - [27-10-2023 19:30:04] 54 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:30:04 [main] Logs - [27-10-2023 19:30:04] 56 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:30:06 [main] Logs - [27-10-2023 19:30:06] 58 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:30:07 [main] Logs - [27-10-2023 19:30:07] 60 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:30:12 [main] Logs - [27-10-2023 19:30:12] 62 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:30:12 [main] Logs - [27-10-2023 19:30:12] 64 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-30-11.png
+[WARN ] 2023-10-27 19:30:12 [main] Logs - [27-10-2023 19:30:12] 66 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:30:12 [main] Logs - [27-10-2023 19:30:12] 68 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:30:12 [main] Logs - [27-10-2023 19:30:12] 70 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:30:14 [main] Logs - [27-10-2023 19:30:14] 72 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:30:14 [main] Logs - [27-10-2023 19:30:14] 74 - Click on line button
+[INFO ] 2023-10-27 19:30:17 [main] Logs - [27-10-2023 19:30:17] 76 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:30:21 [main] Logs - [27-10-2023 19:30:21] 78 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:30:21 [main] Logs - [27-10-2023 19:30:21] 80 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-30-20.png
+[WARN ] 2023-10-27 19:30:21 [main] Logs - [27-10-2023 19:30:21] 82 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:30:21 [main] Logs - [27-10-2023 19:30:21] 84 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:30:21 [main] Logs - [27-10-2023 19:30:21] 86 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:30:23 [main] Logs - [27-10-2023 19:30:23] 88 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:30:24 [main] Logs - [27-10-2023 19:30:24] 90 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:30:24 [main] Logs - [27-10-2023 19:30:24] 92 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-30-24.png
+[WARN ] 2023-10-27 19:30:24 [main] Logs - [27-10-2023 19:30:24] 94 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:30:27 [main] Logs - [27-10-2023 19:30:27] 96 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:32:02 [main] Logs - [27-10-2023 19:32:02] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:32:20 [main] Logs - [27-10-2023 19:32:20] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:32:20 [main] Logs - [27-10-2023 19:32:20] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:32:23 [main] Logs - [27-10-2023 19:32:23] 6 - Input password: admin
+[INFO ] 2023-10-27 19:32:25 [main] Logs - [27-10-2023 19:32:25] 8 - Click Login
+[INFO ] 2023-10-27 19:32:27 [main] Logs - [27-10-2023 19:32:27] 10 - Verify page title
+[WARN ] 2023-10-27 19:32:31 [main] Logs - [27-10-2023 19:32:31] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:32:31 [main] Logs - [27-10-2023 19:32:31] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-32-31.png
+[WARN ] 2023-10-27 19:32:32 [main] Logs - [27-10-2023 19:32:32] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:32:32 [main] Logs - [27-10-2023 19:32:32] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:32:32 [main] Logs - [27-10-2023 19:32:32] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:32:33 [main] Logs - [27-10-2023 19:32:33] 22 - Open left side panel
+[INFO ] 2023-10-27 19:32:43 [main] Logs - [27-10-2023 19:32:43] 24 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:32:50 [main] Logs - [27-10-2023 19:32:50] 26 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 28 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 30 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-32-51.png
+[WARN ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 32 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 34 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 36 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:32:51 [main] Logs - [27-10-2023 19:32:51] 38 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:32:53 [main] Logs - [27-10-2023 19:32:53] 40 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:32:53 [main] Logs - [27-10-2023 19:32:53] 42 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 44 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 46 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-32-55.png
+[WARN ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 48 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 50 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 52 - Verify title of template list!
+[INFO ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 54 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:32:55 [main] Logs - [27-10-2023 19:32:55] 56 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:32:56 [main] Logs - [27-10-2023 19:32:56] 58 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:32:56 [main] Logs - [27-10-2023 19:32:56] 60 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:32:57 [main] Logs - [27-10-2023 19:32:57] 62 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:32:57 [main] Logs - [27-10-2023 19:32:57] 64 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-32-57.png
+[WARN ] 2023-10-27 19:32:57 [main] Logs - [27-10-2023 19:32:57] 66 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:32:57 [main] Logs - [27-10-2023 19:32:57] 68 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:32:57 [main] Logs - [27-10-2023 19:32:57] 70 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:32:58 [main] Logs - [27-10-2023 19:32:58] 72 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:32:58 [main] Logs - [27-10-2023 19:32:58] 74 - Click on line button
+[INFO ] 2023-10-27 19:33:00 [main] Logs - [27-10-2023 19:33:00] 76 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:33:01 [main] Logs - [27-10-2023 19:33:01] 78 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:33:01 [main] Logs - [27-10-2023 19:33:01] 80 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-33-01.png
+[WARN ] 2023-10-27 19:33:01 [main] Logs - [27-10-2023 19:33:01] 82 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:33:01 [main] Logs - [27-10-2023 19:33:01] 84 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:33:01 [main] Logs - [27-10-2023 19:33:01] 86 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:33:02 [main] Logs - [27-10-2023 19:33:02] 88 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:33:03 [main] Logs - [27-10-2023 19:33:03] 90 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:33:03 [main] Logs - [27-10-2023 19:33:03] 92 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-33-03.png
+[WARN ] 2023-10-27 19:33:03 [main] Logs - [27-10-2023 19:33:03] 94 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:33:03 [main] Logs - [27-10-2023 19:33:03] 96 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:34:26 [main] Logs - [27-10-2023 19:34:26] 1 - ##### STARTING! #####
+[WARN ] 2023-10-27 19:34:26 [main] Logs - [27-10-2023 19:34:26] 2 - ##### SKIPPED TCs: loginTest #####
+[WARN ] 2023-10-27 19:34:26 [main] Logs - [27-10-2023 19:34:26] 3 - ##### SKIPPED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:34:26 [main] Logs - [27-10-2023 19:34:26] 4 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:36:41 [main] Logs - [27-10-2023 19:36:41] 1 - ##### STARTING! #####
+[WARN ] 2023-10-27 19:36:53 [main] Logs - [27-10-2023 19:36:53] 2 - ##### SKIPPED TCs: loginTest #####
+[WARN ] 2023-10-27 19:36:53 [main] Logs - [27-10-2023 19:36:53] 3 - ##### SKIPPED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:37:04 [main] Logs - [27-10-2023 19:37:04] 4 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:37:44 [main] Logs - [27-10-2023 19:37:44] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:38:03 [main] Logs - [27-10-2023 19:38:03] 2 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:38:03 [main] Logs - [27-10-2023 19:38:03] 4 - Input Username: admin
+[INFO ] 2023-10-27 19:38:07 [main] Logs - [27-10-2023 19:38:07] 6 - Input password: admin
+[INFO ] 2023-10-27 19:38:09 [main] Logs - [27-10-2023 19:38:09] 8 - Click Login
+[INFO ] 2023-10-27 19:38:12 [main] Logs - [27-10-2023 19:38:12] 10 - Verify page title
+[WARN ] 2023-10-27 19:38:16 [main] Logs - [27-10-2023 19:38:16] 12 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:38:16 [main] Logs - [27-10-2023 19:38:16] 14 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-38-16.png
+[WARN ] 2023-10-27 19:38:17 [main] Logs - [27-10-2023 19:38:17] 16 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:38:17 [main] Logs - [27-10-2023 19:38:17] 18 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:38:17 [main] Logs - [27-10-2023 19:38:17] 20 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:38:18 [main] Logs - [27-10-2023 19:38:18] 22 - Open left side panel
+[INFO ] 2023-10-27 19:38:24 [main] Logs - [27-10-2023 19:38:24] 24 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:38:30 [main] Logs - [27-10-2023 19:38:30] 26 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 28 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 30 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-38-31.png
+[WARN ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 32 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 34 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 36 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:38:31 [main] Logs - [27-10-2023 19:38:31] 38 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:38:33 [main] Logs - [27-10-2023 19:38:33] 40 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:38:33 [main] Logs - [27-10-2023 19:38:33] 42 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 44 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 46 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-38-35.png
+[WARN ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 48 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 50 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 52 - Verify title of template list!
+[INFO ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 54 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:38:35 [main] Logs - [27-10-2023 19:38:35] 56 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:38:36 [main] Logs - [27-10-2023 19:38:36] 58 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:38:36 [main] Logs - [27-10-2023 19:38:36] 60 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:38:37 [main] Logs - [27-10-2023 19:38:37] 62 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:38:37 [main] Logs - [27-10-2023 19:38:37] 64 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-38-37.png
+[WARN ] 2023-10-27 19:38:37 [main] Logs - [27-10-2023 19:38:37] 66 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:38:37 [main] Logs - [27-10-2023 19:38:37] 68 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:38:37 [main] Logs - [27-10-2023 19:38:37] 70 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:38:38 [main] Logs - [27-10-2023 19:38:38] 72 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:38:38 [main] Logs - [27-10-2023 19:38:38] 74 - Click on line button
+[INFO ] 2023-10-27 19:38:39 [main] Logs - [27-10-2023 19:38:39] 76 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:38:40 [main] Logs - [27-10-2023 19:38:40] 78 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:38:40 [main] Logs - [27-10-2023 19:38:40] 80 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-38-40.png
+[WARN ] 2023-10-27 19:38:40 [main] Logs - [27-10-2023 19:38:40] 82 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:38:40 [main] Logs - [27-10-2023 19:38:40] 84 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:38:40 [main] Logs - [27-10-2023 19:38:40] 86 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:38:42 [main] Logs - [27-10-2023 19:38:42] 88 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:38:42 [main] Logs - [27-10-2023 19:38:42] 90 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:38:42 [main] Logs - [27-10-2023 19:38:42] 92 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-38-42.png
+[WARN ] 2023-10-27 19:38:42 [main] Logs - [27-10-2023 19:38:42] 94 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:38:43 [main] Logs - [27-10-2023 19:38:43] 96 - ##### FINISHED! #####
+[WARN ] 2023-10-27 19:42:19 [main] Logs - [27-10-2023 19:42:19] 1 - ##### STARTING! #####
+[INFO ] 2023-10-27 19:42:37 [main] Logs - [27-10-2023 19:42:37] 3 - Opening URL: http://dev.tuna-apm.xyz:8080/#/login
+[INFO ] 2023-10-27 19:42:37 [main] Logs - [27-10-2023 19:42:37] 5 - Input Username: admin
+[INFO ] 2023-10-27 19:42:41 [main] Logs - [27-10-2023 19:42:41] 7 - Input password: admin
+[INFO ] 2023-10-27 19:42:44 [main] Logs - [27-10-2023 19:42:44] 9 - Click Login
+[INFO ] 2023-10-27 19:42:46 [main] Logs - [27-10-2023 19:42:46] 11 - Verify page title
+[WARN ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 13 - Screenshot taken: Single System - Dashboard
+[WARN ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 15 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Single System - Dashboard 27-10-2023 19-42-50.png
+[WARN ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 17 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/dashboard/single
+[INFO ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 19 - Text title is: Single System - Dashboard
+[INFO ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 21 - ##### PASSED TCs: loginTest #####
+[INFO ] 2023-10-27 19:42:51 [main] Logs - [27-10-2023 19:42:51] 23 - Open left side panel
+[INFO ] 2023-10-27 19:42:59 [main] Logs - [27-10-2023 19:42:59] 25 - Navigate to Custom Dashboard page!
+[INFO ] 2023-10-27 19:43:07 [main] Logs - [27-10-2023 19:43:07] 27 - Verify the Custom Dashboard page is opened
+[WARN ] 2023-10-27 19:43:11 [main] Logs - [27-10-2023 19:43:11] 29 - Screenshot taken: Custom Dashboard
+[WARN ] 2023-10-27 19:43:11 [main] Logs - [27-10-2023 19:43:11] 31 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Custom Dashboard 27-10-2023 19-43-11.png
+[WARN ] 2023-10-27 19:43:12 [main] Logs - [27-10-2023 19:43:12] 33 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:43:12 [main] Logs - [27-10-2023 19:43:12] 35 - Text title is: Custom Dashboard
+[INFO ] 2023-10-27 19:43:12 [main] Logs - [27-10-2023 19:43:12] 37 - Is the Create Dashboard button is displayed?
+[INFO ] 2023-10-27 19:43:12 [main] Logs - [27-10-2023 19:43:12] 39 - No, Create Dashboard button is displayed, Click Create Dashboard button
+[INFO ] 2023-10-27 19:43:15 [main] Logs - [27-10-2023 19:43:15] 41 - Verify Choose Dashboard Template pop-up is displayed?
+[INFO ] 2023-10-27 19:43:15 [main] Logs - [27-10-2023 19:43:15] 43 - Verify Choose Dashboard Template pop-up title!
+[WARN ] 2023-10-27 19:43:17 [main] Logs - [27-10-2023 19:43:17] 45 - Screenshot taken: Choose Dashboard Template
+[WARN ] 2023-10-27 19:43:17 [main] Logs - [27-10-2023 19:43:17] 47 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Choose Dashboard Template 27-10-2023 19-43-17.png
+[WARN ] 2023-10-27 19:43:18 [main] Logs - [27-10-2023 19:43:18] 49 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:43:18 [main] Logs - [27-10-2023 19:43:18] 51 - Text title is: Choose Dashboard Template
+[INFO ] 2023-10-27 19:43:18 [main] Logs - [27-10-2023 19:43:18] 53 - Verify title of template list!
+[INFO ] 2023-10-27 19:43:18 [main] Logs - [27-10-2023 19:43:18] 55 - List text: [Application, Custom Default, Dashboard, Dashboard-lld2oe8b, EndUser, Host, New Dashboard]
+[INFO ] 2023-10-27 19:43:18 [main] Logs - [27-10-2023 19:43:18] 57 - Select Custom Dashboard: New Dashboard
+[INFO ] 2023-10-27 19:43:20 [main] Logs - [27-10-2023 19:43:20] 59 - Is Widget of Custom Dashboard is empty when select New Dashboard
+[INFO ] 2023-10-27 19:43:20 [main] Logs - [27-10-2023 19:43:20] 61 - Yes, Widget of Custom Dashboard is empty
+[WARN ] 2023-10-27 19:43:21 [main] Logs - [27-10-2023 19:43:21] 63 - Screenshot taken: Click to place widget!
+[WARN ] 2023-10-27 19:43:21 [main] Logs - [27-10-2023 19:43:21] 65 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Click to place widget! 27-10-2023 19-43-21.png
+[WARN ] 2023-10-27 19:43:21 [main] Logs - [27-10-2023 19:43:21] 67 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:43:21 [main] Logs - [27-10-2023 19:43:21] 69 - Text title is: Click to place widget!
+[INFO ] 2023-10-27 19:43:21 [main] Logs - [27-10-2023 19:43:21] 71 - Verify list widget name is correct!
+[INFO ] 2023-10-27 19:43:22 [main] Logs - [27-10-2023 19:43:22] 73 - List text: [Active Service Histogram, Active Services, Alerts, Application, DB Connection Pool, EndUser Xlog, Flow, Host, Navigation Timing, Page Performance, Performance, Script Error Count, Service, User Sessions, Worldwide Response Time, Xlog, bar, dataTable, line, list, number, textBox]
+[INFO ] 2023-10-27 19:43:22 [main] Logs - [27-10-2023 19:43:22] 75 - Click on line button
+[INFO ] 2023-10-27 19:43:23 [main] Logs - [27-10-2023 19:43:23] 77 - Verify the Line Widget pop-up is displayed
+[WARN ] 2023-10-27 19:43:24 [main] Logs - [27-10-2023 19:43:24] 79 - Screenshot taken: Line Widget
+[WARN ] 2023-10-27 19:43:24 [main] Logs - [27-10-2023 19:43:24] 81 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\Line Widget 27-10-2023 19-43-24.png
+[WARN ] 2023-10-27 19:43:24 [main] Logs - [27-10-2023 19:43:24] 83 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[INFO ] 2023-10-27 19:43:24 [main] Logs - [27-10-2023 19:43:24] 85 - Text title is: Line Widget
+[INFO ] 2023-10-27 19:43:24 [main] Logs - [27-10-2023 19:43:24] 87 - Verify the Data Type of line
+[ERROR] 2023-10-27 19:43:26 [main] Logs - [27-10-2023 19:43:26] 89 - ##### FAILED TCs: CustomDashboardPage #####
+[WARN ] 2023-10-27 19:43:26 [main] Logs - [27-10-2023 19:43:26] 91 - Screenshot taken: CustomDashboardPage
+[WARN ] 2023-10-27 19:43:26 [main] Logs - [27-10-2023 19:43:26] 93 - Screenshot path: C:\Users\A85773\Desktop\TunA\ExportData\Images\CustomDashboardPage 27-10-2023 19-43-26.png
+[WARN ] 2023-10-27 19:43:26 [main] Logs - [27-10-2023 19:43:26] 95 - Screenshot taken current URL: http://dev.tuna-apm.xyz:8080/#/custom
+[WARN ] 2023-10-27 19:43:26 [main] Logs - [27-10-2023 19:43:26] 97 - ##### FINISHED! #####
